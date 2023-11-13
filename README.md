@@ -1,6 +1,13 @@
-# IPA
-粵語國際音標輸入法
----
+# rime-ipa-liujgoj
+粵語所用國際音標輸入法（數字法）
 
-# 本輸入法係使用溜歌粵語拼音嚟進行國際音標嘅輸入。
-# 可以按音標、音節、單詞或者句子輸入。
+## 本輸入法使用溜歌粵語拼音方案 https://www.liujgoj.com
+用於粵語所用到嘅國際音標嘅輸入（數字標記聲調）
+
+-使用方法：
+
+1. 安裝“Rime 粵語拼音方案” https://github.com/rime/rime-cantonese
+2. 將文件（1）default.custom.yaml；（2）liujgoj-ipa.schema.yaml；（3）liujgoj-ipa.dict.yaml 複製保存到“用戶文件夾”（或者“用戶設定”）入便
+3. 重新部署
+4. 重啓電腦（手機無需呢步）
+5. 選擇“溜歌粵語國際音標輸入法”
