@@ -1,10 +1,15 @@
 # rime-ipa-liujgoj
-粵語所用國際音標輸入法（數字法）
+---
 
-## 本輸入法使用溜歌粵語拼音方案 https://www.liujgoj.com
-用於粵語所用到嘅國際音標嘅輸入（數字標記聲調）
+- 粵語所用國際音標輸入法（數字法）
 
--使用方法：
+- 本輸入法循「共享創意-署名-4.0 國際」協議發佈
+
+- 本輸入法使用溜歌粵語拼音方案 https://www.liujgoj.com
+
+- 用於粵語所用到嘅國際音標嘅輸入（數字標記聲調）
+
+- 使用方法：
 
 1. 安裝“Rime 粵語拼音方案” https://github.com/rime/rime-cantonese
 2. 將文件（1）default.custom.yaml；（2）liujgoj-ipa.schema.yaml；（3）liujgoj-ipa.dict.yaml 複製保存到“用戶文件夾”（或者“用戶設定”）入便
