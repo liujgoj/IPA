@@ -1,0 +1,9821 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Liujgoj - 粵語拼音單字同字組合
+#
+# 字音數據來源
+# UNICODE HAN DATABASE (UNIHAN)
+# Version: Unicode 12.0.0
+# Date: 2019-02-15
+# http://www.unicode.org/reports/tr38/
+#
+# 字音校對參考資料
+# 1. LSHK 字表 https://github.com/laubonghaudoi/cantonese_orthography/blob/master/LSHK%20Jyutping%20-%20Char%20-%20JP.csv
+# 2. 粵音小鏡
+# 3. 廣州話正音字典
+# 4. 常用字廣州話讀音表
+# 5. 粵語審音配詞字庫 https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/
+# 6. 電腦用漢字粵語拼音表 https://github.com/lshk-org/jyutping-table
+# 7. 香港增補字符集 https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/hkscs/
+#
+# 詞條數據參考
+# LSHK Jyutping Word List https://corpus.eduhk.hk/JPwordlist/
+# Cantonese dictionary https://words.hk/
+# open Cantonese dictionary http://kaifangcidian.com/han/yue
+# open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
+# Kingsley Bolton, Christopher Hutton. A Dictionary of Cantonese Slang.
+#
+# 碼表製作與校對人員
+# sgalal <sgalal.me@outlook.com>
+# chaaklau <chaakming@gmail.com>
+# LeiMaau <leimaau@qq.com>
+# laubonghaudoi <laubonghaudoi@icloud.com>
+# tanxpyox <tanxpyox@gmail.com>
+# William915 <William915@gmail.com>
+# szc126 (@szc126)
+# Bing Jeung <bing@ososo.io>
+# Ayaka Mikazuki <ayaka@mail.shn.hk>
+# Liujgoj Cantonese <liujgoj@gmail.com>
+
+
+---
+name: liujgoj-ipa
+version: "2022.04.01"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  #- jyut6ping3.phrase
+  #- jyut6ping3.lettered
+  #- jyut6ping3.maps
+...
+a 1	aaj
+ɐ 1	aj
+i 1	ij
+ɛ 1	ej
+u 1	uj
+ɔ 1	oj
+y 1	vj
+œ 1	oej
+ɵ 1	eoj
+aɪ 1	aaij
+ɐɪ 1	aij
+iɪ 1	iij
+eɪ 1	eij
+uɪ 1	uij
+ɔɪ 1	oij
+yɪ 1	vij
+œɪ 1	oeij
+ɵɪ 1	eoij
+aʊ 1	aauj
+ɐʊ 1	auj
+iʊ 1	iuj
+ɛʊ 1	euj
+uʊ 1	uuj
+oʊ 1	ouj
+yʊ 1	vuj
+œʊ 1	oeuj
+ɵʊ 1	eouj
+am 1	aamj
+ɐm 1	amj
+im 1	imj
+ɛm 1	emj
+um 1	umj
+ɔm 1	omj
+ym 1	vmj
+œm 1	oemj
+ɵm 1	eomj
+an 1	aanj
+ɐn 1	anj
+in 1	inj
+ɛn 1	enj
+un 1	unj
+ɔn 1	onj
+yn 1	vnj
+œn 1	oenj
+ɵn 1	eonj
+aŋ 1	aangj
+ɐŋ 1	angj
+ɪŋ 1	ingj
+ɛŋ 1	engj
+ʊŋ 1	ungj
+ɔŋ 1	ongj
+yŋ 1	vngj
+œŋ 1	oengj
+ɵŋ 1	eongj
+ap ̚ 1	aapj
+ɐp ̚ 1	apj
+ip ̚ 1	ipj
+ɛp ̚ 1	epj
+up ̚ 1	upj
+ɔp ̚ 1	opj
+yp ̚ 1	vpj
+œp ̚ 1	oepj
+ɵp ̚ 1	eopj
+at ̚ 1	aatj
+ɐt ̚ 1	atj
+it ̚ 1	itj
+ɛt ̚ 1	etj
+ut ̚ 1	utj
+ɔt ̚ 1	otj
+yt ̚ 1	vtj
+œt ̚ 1	oetj
+ɵt ̚ 1	eotj
+ak ̚ 1	aakj
+ɐk ̚ 1	akj
+ɪk ̚ 1	ikj
+ɛk ̚ 1	ekj
+ʊk ̚ 1	ukj
+ɔk ̚ 1	okj
+yk ̚ 1	vkj
+œk ̚ 1	oekj
+ɵk ̚ 1	eokj
+pa 1	baaj
+pɐ 1	baj
+pi 1	bij
+pɛ 1	bej
+pu 1	buj
+pɔ 1	boj
+py 1	bvj
+pœ 1	boej
+pɵ 1	beoj
+paɪ 1	baaij
+pɐɪ 1	baij
+piɪ 1	biij
+peɪ 1	beij
+puɪ 1	buij
+pɔɪ 1	boij
+pyɪ 1	bvij
+pœɪ 1	boeij
+pɵɪ 1	beoij
+paʊ 1	baauj
+pɐʊ 1	bauj
+piʊ 1	biuj
+pɛʊ 1	beuj
+puʊ 1	buuj
+poʊ 1	bouj
+pyʊ 1	bvuj
+pœʊ 1	boeuj
+pɵʊ 1	beouj
+pam 1	baamj
+pɐm 1	bamj
+pim 1	bimj
+pɛm 1	bemj
+pum 1	bumj
+pɔm 1	bomj
+pym 1	bvmj
+pœm 1	boemj
+pɵm 1	beomj
+pan 1	baanj
+pɐn 1	banj
+pin 1	binj
+pɛn 1	benj
+pun 1	bunj
+pɔn 1	bonj
+pyn 1	bvnj
+pœn 1	boenj
+pɵn 1	beonj
+paŋ 1	baangj
+pɐŋ 1	bangj
+pɪŋ 1	bingj
+pɛŋ 1	bengj
+pʊŋ 1	bungj
+pɔŋ 1	bongj
+pyŋ 1	bvngj
+pœŋ 1	boengj
+pɵŋ 1	beongj
+pap ̚ 1	baapj
+pɐp ̚ 1	bapj
+pip ̚ 1	bipj
+pɛp ̚ 1	bepj
+pup ̚ 1	bupj
+pɔp ̚ 1	bopj
+pyp ̚ 1	bvpj
+pœp ̚ 1	boepj
+pɵp ̚ 1	beopj
+pat ̚ 1	baatj
+pɐt ̚ 1	batj
+pit ̚ 1	bitj
+pɛt ̚ 1	betj
+put ̚ 1	butj
+pɔt ̚ 1	botj
+pyt ̚ 1	bvtj
+pœt ̚ 1	boetj
+pɵt ̚ 1	beotj
+pak ̚ 1	baakj
+pɐk ̚ 1	bakj
+pɪk ̚ 1	bikj
+pɛk ̚ 1	bekj
+pʊk ̚ 1	bukj
+pɔk ̚ 1	bokj
+pyk ̚ 1	bvkj
+pœk ̚ 1	boekj
+pɵk ̚ 1	beokj
+pʰa 1	paaj
+pʰɐ 1	paj
+pʰi 1	pij
+pʰɛ 1	pej
+pʰu 1	puj
+pʰɔ 1	poj
+pʰy 1	pvj
+pʰœ 1	poej
+pʰɵ 1	peoj
+pʰaɪ 1	paaij
+pʰɐɪ 1	paij
+pʰiɪ 1	piij
+pʰeɪ 1	peij
+pʰuɪ 1	puij
+pʰɔɪ 1	poij
+pʰyɪ 1	pvij
+pʰœɪ 1	poeij
+pʰɵɪ 1	peoij
+pʰaʊ 1	paauj
+pʰɐʊ 1	pauj
+pʰiʊ 1	piuj
+pʰɛʊ 1	peuj
+pʰuʊ 1	puuj
+pʰoʊ 1	pouj
+pʰyʊ 1	pvuj
+pʰœʊ 1	poeuj
+pʰɵʊ 1	peouj
+pʰam 1	paamj
+pʰɐm 1	pamj
+pʰim 1	pimj
+pʰɛm 1	pemj
+pʰum 1	pumj
+pʰɔm 1	pomj
+pʰym 1	pvmj
+pʰœm 1	poemj
+pʰɵm 1	peomj
+pʰan 1	paanj
+pʰɐn 1	panj
+pʰin 1	pinj
+pʰɛn 1	penj
+pʰun 1	punj
+pʰɔn 1	ponj
+pʰyn 1	pvnj
+pʰœn 1	poenj
+pʰɵn 1	peonj
+pʰaŋ 1	paangj
+pʰɐŋ 1	pangj
+pʰɪŋ 1	pingj
+pʰɛŋ 1	pengj
+pʰʊŋ 1	pungj
+pʰɔŋ 1	pongj
+pʰyŋ 1	pvngj
+pʰœŋ 1	poengj
+pʰɵŋ 1	peongj
+pʰap ̚ 1	paapj
+pʰɐp ̚ 1	papj
+pʰip ̚ 1	pipj
+pʰɛp ̚ 1	pepj
+pʰup ̚ 1	pupj
+pʰɔp ̚ 1	popj
+pʰyp ̚ 1	pvpj
+pʰœp ̚ 1	poepj
+pʰɵp ̚ 1	peopj
+pʰat ̚ 1	paatj
+pʰɐt ̚ 1	patj
+pʰit ̚ 1	pitj
+pʰɛt ̚ 1	petj
+pʰut ̚ 1	putj
+pʰɔt ̚ 1	potj
+pʰyt ̚ 1	pvtj
+pʰœt ̚ 1	poetj
+pʰɵt ̚ 1	peotj
+pʰak ̚ 1	paakj
+pʰɐk ̚ 1	pakj
+pʰɪk ̚ 1	pikj
+pʰɛk ̚ 1	pekj
+pʰʊk ̚ 1	pukj
+pʰɔk ̚ 1	pokj
+pʰyk ̚ 1	pvkj
+pʰœk ̚ 1	poekj
+pʰɵk ̚ 1	peokj
+ma 1	maaj
+mɐ 1	maj
+mi 1	mij
+mɛ 1	mej
+mu 1	muj
+mɔ 1	moj
+my 1	mvj
+mœ 1	moej
+mɵ 1	meoj
+maɪ 1	maaij
+mɐɪ 1	maij
+miɪ 1	miij
+meɪ 1	meij
+muɪ 1	muij
+mɔɪ 1	moij
+myɪ 1	mvij
+mœɪ 1	moeij
+mɵɪ 1	meoij
+maʊ 1	maauj
+mɐʊ 1	mauj
+miʊ 1	miuj
+mɛʊ 1	meuj
+muʊ 1	muuj
+moʊ 1	mouj
+myʊ 1	mvuj
+mœʊ 1	moeuj
+mɵʊ 1	meouj
+mam 1	maamj
+mɐm 1	mamj
+mim 1	mimj
+mɛm 1	memj
+mum 1	mumj
+mɔm 1	momj
+mym 1	mvmj
+mœm 1	moemj
+mɵm 1	meomj
+man 1	maanj
+mɐn 1	manj
+min 1	minj
+mɛn 1	menj
+mun 1	munj
+mɔn 1	monj
+myn 1	mvnj
+mœn 1	moenj
+mɵn 1	meonj
+maŋ 1	maangj
+mɐŋ 1	mangj
+mɪŋ 1	mingj
+mɛŋ 1	mengj
+mʊŋ 1	mungj
+mɔŋ 1	mongj
+myŋ 1	mvngj
+mœŋ 1	moengj
+mɵŋ 1	meongj
+map ̚ 1	maapj
+mɐp ̚ 1	mapj
+mip ̚ 1	mipj
+mɛp ̚ 1	mepj
+mup ̚ 1	mupj
+mɔp ̚ 1	mopj
+myp ̚ 1	mvpj
+mœp ̚ 1	moepj
+mɵp ̚ 1	meopj
+mat ̚ 1	maatj
+mɐt ̚ 1	matj
+mit ̚ 1	mitj
+mɛt ̚ 1	metj
+mut ̚ 1	mutj
+mɔt ̚ 1	motj
+myt ̚ 1	mvtj
+mœt ̚ 1	moetj
+mɵt ̚ 1	meotj
+mak ̚ 1	maakj
+mɐk ̚ 1	makj
+mɪk ̚ 1	mikj
+mɛk ̚ 1	mekj
+mʊk ̚ 1	mukj
+mɔk ̚ 1	mokj
+myk ̚ 1	mvkj
+mœk ̚ 1	moekj
+mɵk ̚ 1	meokj
+fa 1	faaj
+fɐ 1	faj
+fi 1	fij
+fɛ 1	fej
+fu 1	fuj
+fɔ 1	foj
+fy 1	fvj
+fœ 1	foej
+fɵ 1	feoj
+faɪ 1	faaij
+fɐɪ 1	faij
+fiɪ 1	fiij
+feɪ 1	feij
+fuɪ 1	fuij
+fɔɪ 1	foij
+fyɪ 1	fvij
+fœɪ 1	foeij
+fɵɪ 1	feoij
+faʊ 1	faauj
+fɐʊ 1	fauj
+fiʊ 1	fiuj
+fɛʊ 1	feuj
+fuʊ 1	fuuj
+foʊ 1	fouj
+fyʊ 1	fvuj
+fœʊ 1	foeuj
+fɵʊ 1	feouj
+fam 1	faamj
+fɐm 1	famj
+fim 1	fimj
+fɛm 1	femj
+fum 1	fumj
+fɔm 1	fomj
+fym 1	fvmj
+fœm 1	foemj
+fɵm 1	feomj
+fan 1	faanj
+fɐn 1	fanj
+fin 1	finj
+fɛn 1	fenj
+fun 1	funj
+fɔn 1	fonj
+fyn 1	fvnj
+fœn 1	foenj
+fɵn 1	feonj
+faŋ 1	faangj
+fɐŋ 1	fangj
+fɪŋ 1	fingj
+fɛŋ 1	fengj
+fʊŋ 1	fungj
+fɔŋ 1	fongj
+fyŋ 1	fvngj
+fœŋ 1	foengj
+fɵŋ 1	feongj
+fap ̚ 1	faapj
+fɐp ̚ 1	fapj
+fip ̚ 1	fipj
+fɛp ̚ 1	fepj
+fup ̚ 1	fupj
+fɔp ̚ 1	fopj
+fyp ̚ 1	fvpj
+fœp ̚ 1	foepj
+fɵp ̚ 1	feopj
+fat ̚ 1	faatj
+fɐt ̚ 1	fatj
+fit ̚ 1	fitj
+fɛt ̚ 1	fetj
+fut ̚ 1	futj
+fɔt ̚ 1	fotj
+fyt ̚ 1	fvtj
+fœt ̚ 1	foetj
+fɵt ̚ 1	feotj
+fak ̚ 1	faakj
+fɐk ̚ 1	fakj
+fɪk ̚ 1	fikj
+fɛk ̚ 1	fekj
+fʊk ̚ 1	fukj
+fɔk ̚ 1	fokj
+fyk ̚ 1	fvkj
+fœk ̚ 1	foekj
+fɵk ̚ 1	feokj
+ta 1	daaj
+tɐ 1	daj
+ti 1	dij
+tɛ 1	dej
+tu 1	duj
+tɔ 1	doj
+ty 1	dvj
+tœ 1	doej
+tɵ 1	deoj
+taɪ 1	daaij
+tɐɪ 1	daij
+tiɪ 1	diij
+teɪ 1	deij
+tuɪ 1	duij
+tɔɪ 1	doij
+tyɪ 1	dvij
+tœɪ 1	doeij
+tɵɪ 1	deoij
+taʊ 1	daauj
+tɐʊ 1	dauj
+tiʊ 1	diuj
+tɛʊ 1	deuj
+tuʊ 1	duuj
+toʊ 1	douj
+tyʊ 1	dvuj
+tœʊ 1	doeuj
+tɵʊ 1	deouj
+tam 1	daamj
+tɐm 1	damj
+tim 1	dimj
+tɛm 1	demj
+tum 1	dumj
+tɔm 1	domj
+tym 1	dvmj
+tœm 1	doemj
+tɵm 1	deomj
+tan 1	daanj
+tɐn 1	danj
+tin 1	dinj
+tɛn 1	denj
+tun 1	dunj
+tɔn 1	donj
+tyn 1	dvnj
+tœn 1	doenj
+tɵn 1	deonj
+taŋ 1	daangj
+tɐŋ 1	dangj
+tɪŋ 1	dingj
+tɛŋ 1	dengj
+tʊŋ 1	dungj
+tɔŋ 1	dongj
+tyŋ 1	dvngj
+tœŋ 1	doengj
+tɵŋ 1	deongj
+tap ̚ 1	daapj
+tɐp ̚ 1	dapj
+tip ̚ 1	dipj
+tɛp ̚ 1	depj
+tup ̚ 1	dupj
+tɔp ̚ 1	dopj
+typ ̚ 1	dvpj
+tœp ̚ 1	doepj
+tɵp ̚ 1	deopj
+tat ̚ 1	daatj
+tɐt ̚ 1	datj
+tit ̚ 1	ditj
+tɛt ̚ 1	detj
+tut ̚ 1	dutj
+tɔt ̚ 1	dotj
+tyt ̚ 1	dvtj
+tœt ̚ 1	doetj
+tɵt ̚ 1	deotj
+tak ̚ 1	daakj
+tɐk ̚ 1	dakj
+tɪk ̚ 1	dikj
+tɛk ̚ 1	dekj
+tʊk ̚ 1	dukj
+tɔk ̚ 1	dokj
+tyk ̚ 1	dvkj
+tœk ̚ 1	doekj
+tɵk ̚ 1	deokj
+tʰa 1	taaj
+tʰɐ 1	taj
+tʰi 1	tij
+tʰɛ 1	tej
+tʰu 1	tuj
+tʰɔ 1	toj
+tʰy 1	tvj
+tʰœ 1	toej
+tʰɵ 1	teoj
+tʰaɪ 1	taaij
+tʰɐɪ 1	taij
+tʰiɪ 1	tiij
+tʰeɪ 1	teij
+tʰuɪ 1	tuij
+tʰɔɪ 1	toij
+tʰyɪ 1	tvij
+tʰœɪ 1	toeij
+tʰɵɪ 1	teoij
+tʰaʊ 1	taauj
+tʰɐʊ 1	tauj
+tʰiʊ 1	tiuj
+tʰɛʊ 1	teuj
+tʰuʊ 1	tuuj
+tʰoʊ 1	touj
+tʰyʊ 1	tvuj
+tʰœʊ 1	toeuj
+tʰɵʊ 1	teouj
+tʰam 1	taamj
+tʰɐm 1	tamj
+tʰim 1	timj
+tʰɛm 1	temj
+tʰum 1	tumj
+tʰɔm 1	tomj
+tʰym 1	tvmj
+tʰœm 1	toemj
+tʰɵm 1	teomj
+tʰan 1	taanj
+tʰɐn 1	tanj
+tʰin 1	tinj
+tʰɛn 1	tenj
+tʰun 1	tunj
+tʰɔn 1	tonj
+tʰyn 1	tvnj
+tʰœn 1	toenj
+tʰɵn 1	teonj
+tʰaŋ 1	taangj
+tʰɐŋ 1	tangj
+tʰɪŋ 1	tingj
+tʰɛŋ 1	tengj
+tʰʊŋ 1	tungj
+tʰɔŋ 1	tongj
+tʰyŋ 1	tvngj
+tʰœŋ 1	toengj
+tʰɵŋ 1	teongj
+tʰap ̚ 1	taapj
+tʰɐp ̚ 1	tapj
+tʰip ̚ 1	tipj
+tʰɛp ̚ 1	tepj
+tʰup ̚ 1	tupj
+tʰɔp ̚ 1	topj
+tʰyp ̚ 1	tvpj
+tʰœp ̚ 1	toepj
+tʰɵp ̚ 1	teopj
+tʰat ̚ 1	taatj
+tʰɐt ̚ 1	tatj
+tʰit ̚ 1	titj
+tʰɛt ̚ 1	tetj
+tʰut ̚ 1	tutj
+tʰɔt ̚ 1	totj
+tʰyt ̚ 1	tvtj
+tʰœt ̚ 1	toetj
+tʰɵt ̚ 1	teotj
+tʰak ̚ 1	taakj
+tʰɐk ̚ 1	takj
+tʰɪk ̚ 1	tikj
+tʰɛk ̚ 1	tekj
+tʰʊk ̚ 1	tukj
+tʰɔk ̚ 1	tokj
+tʰyk ̚ 1	tvkj
+tʰœk ̚ 1	toekj
+tʰɵk ̚ 1	teokj
+na 1	naaj
+nɐ 1	naj
+ni 1	nij
+nɛ 1	nej
+nu 1	nuj
+nɔ 1	noj
+ny 1	nvj
+nœ 1	noej
+nɵ 1	neoj
+naɪ 1	naaij
+nɐɪ 1	naij
+niɪ 1	niij
+neɪ 1	neij
+nuɪ 1	nuij
+nɔɪ 1	noij
+nyɪ 1	nvij
+nœɪ 1	noeij
+nɵɪ 1	neoij
+naʊ 1	naauj
+nɐʊ 1	nauj
+niʊ 1	niuj
+nɛʊ 1	neuj
+nuʊ 1	nuuj
+noʊ 1	nouj
+nyʊ 1	nvuj
+nœʊ 1	noeuj
+nɵʊ 1	neouj
+nam 1	naamj
+nɐm 1	namj
+nim 1	nimj
+nɛm 1	nemj
+num 1	numj
+nɔm 1	nomj
+nym 1	nvmj
+nœm 1	noemj
+nɵm 1	neomj
+nan 1	naanj
+nɐn 1	nanj
+nin 1	ninj
+nɛn 1	nenj
+nun 1	nunj
+nɔn 1	nonj
+nyn 1	nvnj
+nœn 1	noenj
+nɵn 1	neonj
+naŋ 1	naangj
+nɐŋ 1	nangj
+nɪŋ 1	ningj
+nɛŋ 1	nengj
+nʊŋ 1	nungj
+nɔŋ 1	nongj
+nyŋ 1	nvngj
+nœŋ 1	noengj
+nɵŋ 1	neongj
+nap ̚ 1	naapj
+nɐp ̚ 1	napj
+nip ̚ 1	nipj
+nɛp ̚ 1	nepj
+nup ̚ 1	nupj
+nɔp ̚ 1	nopj
+nyp ̚ 1	nvpj
+nœp ̚ 1	noepj
+nɵp ̚ 1	neopj
+nat ̚ 1	naatj
+nɐt ̚ 1	natj
+nit ̚ 1	nitj
+nɛt ̚ 1	netj
+nut ̚ 1	nutj
+nɔt ̚ 1	notj
+nyt ̚ 1	nvtj
+nœt ̚ 1	noetj
+nɵt ̚ 1	neotj
+nak ̚ 1	naakj
+nɐk ̚ 1	nakj
+nɪk ̚ 1	nikj
+nɛk ̚ 1	nekj
+nʊk ̚ 1	nukj
+nɔk ̚ 1	nokj
+nyk ̚ 1	nvkj
+nœk ̚ 1	noekj
+nɵk ̚ 1	neokj
+la 1	laaj
+lɐ 1	laj
+li 1	lij
+lɛ 1	lej
+lu 1	luj
+lɔ 1	loj
+ly 1	lvj
+lœ 1	loej
+lɵ 1	leoj
+laɪ 1	laaij
+lɐɪ 1	laij
+liɪ 1	liij
+leɪ 1	leij
+luɪ 1	luij
+lɔɪ 1	loij
+lyɪ 1	lvij
+lœɪ 1	loeij
+lɵɪ 1	leoij
+laʊ 1	laauj
+lɐʊ 1	lauj
+liʊ 1	liuj
+lɛʊ 1	leuj
+luʊ 1	luuj
+loʊ 1	louj
+lyʊ 1	lvuj
+lœʊ 1	loeuj
+lɵʊ 1	leouj
+lam 1	laamj
+lɐm 1	lamj
+lim 1	limj
+lɛm 1	lemj
+lum 1	lumj
+lɔm 1	lomj
+lym 1	lvmj
+lœm 1	loemj
+lɵm 1	leomj
+lan 1	laanj
+lɐn 1	lanj
+lin 1	linj
+lɛn 1	lenj
+lun 1	lunj
+lɔn 1	lonj
+lyn 1	lvnj
+lœn 1	loenj
+lɵn 1	leonj
+laŋ 1	laangj
+lɐŋ 1	langj
+lɪŋ 1	lingj
+lɛŋ 1	lengj
+lʊŋ 1	lungj
+lɔŋ 1	longj
+lyŋ 1	lvngj
+lœŋ 1	loengj
+lɵŋ 1	leongj
+lap ̚ 1	laapj
+lɐp ̚ 1	lapj
+lip ̚ 1	lipj
+lɛp ̚ 1	lepj
+lup ̚ 1	lupj
+lɔp ̚ 1	lopj
+lyp ̚ 1	lvpj
+lœp ̚ 1	loepj
+lɵp ̚ 1	leopj
+lat ̚ 1	laatj
+lɐt ̚ 1	latj
+lit ̚ 1	litj
+lɛt ̚ 1	letj
+lut ̚ 1	lutj
+lɔt ̚ 1	lotj
+lyt ̚ 1	lvtj
+lœt ̚ 1	loetj
+lɵt ̚ 1	leotj
+lak ̚ 1	laakj
+lɐk ̚ 1	lakj
+lɪk ̚ 1	likj
+lɛk ̚ 1	lekj
+lʊk ̚ 1	lukj
+lɔk ̚ 1	lokj
+lyk ̚ 1	lvkj
+lœk ̚ 1	loekj
+lɵk ̚ 1	leokj
+ka 1	gaaj
+kɐ 1	gaj
+ki 1	gij
+kɛ 1	gej
+ku 1	guj
+kɔ 1	goj
+ky 1	gvj
+kœ 1	goej
+kɵ 1	geoj
+kaɪ 1	gaaij
+kɐɪ 1	gaij
+kiɪ 1	giij
+keɪ 1	geij
+kuɪ 1	guij
+kɔɪ 1	goij
+kyɪ 1	gvij
+kœɪ 1	goeij
+kɵɪ 1	geoij
+kaʊ 1	gaauj
+kɐʊ 1	gauj
+kiʊ 1	giuj
+kɛʊ 1	geuj
+kuʊ 1	guuj
+koʊ 1	gouj
+kyʊ 1	gvuj
+kœʊ 1	goeuj
+kɵʊ 1	geouj
+kam 1	gaamj
+kɐm 1	gamj
+kim 1	gimj
+kɛm 1	gemj
+kum 1	gumj
+kɔm 1	gomj
+kym 1	gvmj
+kœm 1	goemj
+kɵm 1	geomj
+kan 1	gaanj
+kɐn 1	ganj
+kin 1	ginj
+kɛn 1	genj
+kun 1	gunj
+kɔn 1	gonj
+kyn 1	gvnj
+kœn 1	goenj
+kɵn 1	geonj
+kaŋ 1	gaangj
+kɐŋ 1	gangj
+kɪŋ 1	gingj
+kɛŋ 1	gengj
+kʊŋ 1	gungj
+kɔŋ 1	gongj
+kyŋ 1	gvngj
+kœŋ 1	goengj
+kɵŋ 1	geongj
+kap ̚ 1	gaapj
+kɐp ̚ 1	gapj
+kip ̚ 1	gipj
+kɛp ̚ 1	gepj
+kup ̚ 1	gupj
+kɔp ̚ 1	gopj
+kyp ̚ 1	gvpj
+kœp ̚ 1	goepj
+kɵp ̚ 1	geopj
+kat ̚ 1	gaatj
+kɐt ̚ 1	gatj
+kit ̚ 1	gitj
+kɛt ̚ 1	getj
+kut ̚ 1	gutj
+kɔt ̚ 1	gotj
+kyt ̚ 1	gvtj
+kœt ̚ 1	goetj
+kɵt ̚ 1	geotj
+kak ̚ 1	gaakj
+kɐk ̚ 1	gakj
+kɪk ̚ 1	gikj
+kɛk ̚ 1	gekj
+kʊk ̚ 1	gukj
+kɔk ̚ 1	gokj
+kyk ̚ 1	gvkj
+kœk ̚ 1	goekj
+kɵk ̚ 1	geokj
+kʰa 1	kaaj
+kʰɐ 1	kaj
+kʰi 1	kij
+kʰɛ 1	kej
+kʰu 1	kuj
+kʰɔ 1	koj
+kʰy 1	kvj
+kʰœ 1	koej
+kʰɵ 1	keoj
+kʰaɪ 1	kaaij
+kʰɐɪ 1	kaij
+kʰiɪ 1	kiij
+kʰeɪ 1	keij
+kʰuɪ 1	kuij
+kʰɔɪ 1	koij
+kʰyɪ 1	kvij
+kʰœɪ 1	koeij
+kʰɵɪ 1	keoij
+kʰaʊ 1	kaauj
+kʰɐʊ 1	kauj
+kʰiʊ 1	kiuj
+kʰɛʊ 1	keuj
+kʰuʊ 1	kuuj
+kʰoʊ 1	kouj
+kʰyʊ 1	kvuj
+kʰœʊ 1	koeuj
+kʰɵʊ 1	keouj
+kʰam 1	kaamj
+kʰɐm 1	kamj
+kʰim 1	kimj
+kʰɛm 1	kemj
+kʰum 1	kumj
+kʰɔm 1	komj
+kʰym 1	kvmj
+kʰœm 1	koemj
+kʰɵm 1	keomj
+kʰan 1	kaanj
+kʰɐn 1	kanj
+kʰin 1	kinj
+kʰɛn 1	kenj
+kʰun 1	kunj
+kʰɔn 1	konj
+kʰyn 1	kvnj
+kʰœn 1	koenj
+kʰɵn 1	keonj
+kʰaŋ 1	kaangj
+kʰɐŋ 1	kangj
+kʰɪŋ 1	kingj
+kʰɛŋ 1	kengj
+kʰʊŋ 1	kungj
+kʰɔŋ 1	kongj
+kʰyŋ 1	kvngj
+kʰœŋ 1	koengj
+kʰɵŋ 1	keongj
+kʰap ̚ 1	kaapj
+kʰɐp ̚ 1	kapj
+kʰip ̚ 1	kipj
+kʰɛp ̚ 1	kepj
+kʰup ̚ 1	kupj
+kʰɔp ̚ 1	kopj
+kʰyp ̚ 1	kvpj
+kʰœp ̚ 1	koepj
+kʰɵp ̚ 1	keopj
+kʰat ̚ 1	kaatj
+kʰɐt ̚ 1	katj
+kʰit ̚ 1	kitj
+kʰɛt ̚ 1	ketj
+kʰut ̚ 1	kutj
+kʰɔt ̚ 1	kotj
+kʰyt ̚ 1	kvtj
+kʰœt ̚ 1	koetj
+kʰɵt ̚ 1	keotj
+kʰak ̚ 1	kaakj
+kʰɐk ̚ 1	kakj
+kʰɪk ̚ 1	kikj
+kʰɛk ̚ 1	kekj
+kʰʊk ̚ 1	kukj
+kʰɔk ̚ 1	kokj
+kʰyk ̚ 1	kvkj
+kʰœk ̚ 1	koekj
+kʰɵk ̚ 1	keokj
+ŋa 1	ngaaj
+ŋɐ 1	ngaj
+ŋi 1	ngij
+ŋɛ 1	ngej
+ŋu 1	nguj
+ŋɔ 1	ngoj
+ŋy 1	ngvj
+ŋœ 1	ngoej
+ŋɵ 1	ngeoj
+ŋaɪ 1	ngaaij
+ŋɐɪ 1	ngaij
+ŋiɪ 1	ngiij
+ŋeɪ 1	ngeij
+ŋuɪ 1	nguij
+ŋɔɪ 1	ngoij
+ŋyɪ 1	ngvij
+ŋœɪ 1	ngoeij
+ŋɵɪ 1	ngeoij
+ŋaʊ 1	ngaauj
+ŋɐʊ 1	ngauj
+ŋiʊ 1	ngiuj
+ŋɛʊ 1	ngeuj
+ŋuʊ 1	nguuj
+ŋoʊ 1	ngouj
+ŋyʊ 1	ngvuj
+ŋœʊ 1	ngoeuj
+ŋɵʊ 1	ngeouj
+ŋam 1	ngaamj
+ŋɐm 1	ngamj
+ŋim 1	ngimj
+ŋɛm 1	ngemj
+ŋum 1	ngumj
+ŋɔm 1	ngomj
+ŋym 1	ngvmj
+ŋœm 1	ngoemj
+ŋɵm 1	ngeomj
+ŋan 1	ngaanj
+ŋɐn 1	nganj
+ŋin 1	nginj
+ŋɛn 1	ngenj
+ŋun 1	ngunj
+ŋɔn 1	ngonj
+ŋyn 1	ngvnj
+ŋœn 1	ngoenj
+ŋɵn 1	ngeonj
+ŋaŋ 1	ngaangj
+ŋɐŋ 1	ngangj
+ŋɪŋ 1	ngingj
+ŋɛŋ 1	ngengj
+ŋʊŋ 1	ngungj
+ŋɔŋ 1	ngongj
+ŋyŋ 1	ngvngj
+ŋœŋ 1	ngoengj
+ŋɵŋ 1	ngeongj
+ŋap ̚ 1	ngaapj
+ŋɐp ̚ 1	ngapj
+ŋip ̚ 1	ngipj
+ŋɛp ̚ 1	ngepj
+ŋup ̚ 1	ngupj
+ŋɔp ̚ 1	ngopj
+ŋyp ̚ 1	ngvpj
+ŋœp ̚ 1	ngoepj
+ŋɵp ̚ 1	ngeopj
+ŋat ̚ 1	ngaatj
+ŋɐt ̚ 1	ngatj
+ŋit ̚ 1	ngitj
+ŋɛt ̚ 1	ngetj
+ŋut ̚ 1	ngutj
+ŋɔt ̚ 1	ngotj
+ŋyt ̚ 1	ngvtj
+ŋœt ̚ 1	ngoetj
+ŋɵt ̚ 1	ngeotj
+ŋak ̚ 1	ngaakj
+ŋɐk ̚ 1	ngakj
+ŋɪk ̚ 1	ngikj
+ŋɛk ̚ 1	ngekj
+ŋʊk ̚ 1	ngukj
+ŋɔk ̚ 1	ngokj
+ŋyk ̚ 1	ngvkj
+ŋœk ̚ 1	ngoekj
+ŋɵk ̚ 1	ngeokj
+ha 1	haaj
+hɐ 1	haj
+hi 1	hij
+hɛ 1	hej
+hu 1	huj
+hɔ 1	hoj
+hy 1	hvj
+hœ 1	hoej
+hɵ 1	heoj
+haɪ 1	haaij
+hɐɪ 1	haij
+hiɪ 1	hiij
+heɪ 1	heij
+huɪ 1	huij
+hɔɪ 1	hoij
+hyɪ 1	hvij
+hœɪ 1	hoeij
+hɵɪ 1	heoij
+haʊ 1	haauj
+hɐʊ 1	hauj
+hiʊ 1	hiuj
+hɛʊ 1	heuj
+huʊ 1	huuj
+hoʊ 1	houj
+hyʊ 1	hvuj
+hœʊ 1	hoeuj
+hɵʊ 1	heouj
+ham 1	haamj
+hɐm 1	hamj
+him 1	himj
+hɛm 1	hemj
+hum 1	humj
+hɔm 1	homj
+hym 1	hvmj
+hœm 1	hoemj
+hɵm 1	heomj
+han 1	haanj
+hɐn 1	hanj
+hin 1	hinj
+hɛn 1	henj
+hun 1	hunj
+hɔn 1	honj
+hyn 1	hvnj
+hœn 1	hoenj
+hɵn 1	heonj
+haŋ 1	haangj
+hɐŋ 1	hangj
+hɪŋ 1	hingj
+hɛŋ 1	hengj
+hʊŋ 1	hungj
+hɔŋ 1	hongj
+hyŋ 1	hvngj
+hœŋ 1	hoengj
+hɵŋ 1	heongj
+hap ̚ 1	haapj
+hɐp ̚ 1	hapj
+hip ̚ 1	hipj
+hɛp ̚ 1	hepj
+hup ̚ 1	hupj
+hɔp ̚ 1	hopj
+hyp ̚ 1	hvpj
+hœp ̚ 1	hoepj
+hɵp ̚ 1	heopj
+hat ̚ 1	haatj
+hɐt ̚ 1	hatj
+hit ̚ 1	hitj
+hɛt ̚ 1	hetj
+hut ̚ 1	hutj
+hɔt ̚ 1	hotj
+hyt ̚ 1	hvtj
+hœt ̚ 1	hoetj
+hɵt ̚ 1	heotj
+hak ̚ 1	haakj
+hɐk ̚ 1	hakj
+hɪk ̚ 1	hikj
+hɛk ̚ 1	hekj
+hʊk ̚ 1	hukj
+hɔk ̚ 1	hokj
+hyk ̚ 1	hvkj
+hœk ̚ 1	hoekj
+hɵk ̚ 1	heokj
+kʷa 1	gwaaj
+kʷɐ 1	gwaj
+kʷi 1	gwij
+kʷɛ 1	gwej
+kʷu 1	gwuj
+kʷɔ 1	gwoj
+kʷy 1	gwvj
+kʷœ 1	gwoej
+kʷɵ 1	gweoj
+kʷaɪ 1	gwaaij
+kʷɐɪ 1	gwaij
+kʷiɪ 1	gwiij
+kʷeɪ 1	gweij
+kʷuɪ 1	gwuij
+kʷɔɪ 1	gwoij
+kʷyɪ 1	gwvij
+kʷœɪ 1	gwoeij
+kʷɵɪ 1	gweoij
+kʷaʊ 1	gwaauj
+kʷɐʊ 1	gwauj
+kʷiʊ 1	gwiuj
+kʷɛʊ 1	gweuj
+kʷuʊ 1	gwuuj
+kʷoʊ 1	gwouj
+kʷyʊ 1	gwvuj
+kʷœʊ 1	gwoeuj
+kʷɵʊ 1	gweouj
+kʷam 1	gwaamj
+kʷɐm 1	gwamj
+kʷim 1	gwimj
+kʷɛm 1	gwemj
+kʷum 1	gwumj
+kʷɔm 1	gwomj
+kʷym 1	gwvmj
+kʷœm 1	gwoemj
+kʷɵm 1	gweomj
+kʷan 1	gwaanj
+kʷɐn 1	gwanj
+kʷin 1	gwinj
+kʷɛn 1	gwenj
+kʷun 1	gwunj
+kʷɔn 1	gwonj
+kʷyn 1	gwvnj
+kʷœn 1	gwoenj
+kʷɵn 1	gweonj
+kʷaŋ 1	gwaangj
+kʷɐŋ 1	gwangj
+kʷɪŋ 1	gwingj
+kʷɛŋ 1	gwengj
+kʷʊŋ 1	gwungj
+kʷɔŋ 1	gwongj
+kʷyŋ 1	gwvngj
+kʷœŋ 1	gwoengj
+kʷɵŋ 1	gweongj
+kʷap ̚ 1	gwaapj
+kʷɐp ̚ 1	gwapj
+kʷip ̚ 1	gwipj
+kʷɛp ̚ 1	gwepj
+kʷup ̚ 1	gwupj
+kʷɔp ̚ 1	gwopj
+kʷyp ̚ 1	gwvpj
+kʷœp ̚ 1	gwoepj
+kʷɵp ̚ 1	gweopj
+kʷat ̚ 1	gwaatj
+kʷɐt ̚ 1	gwatj
+kʷit ̚ 1	gwitj
+kʷɛt ̚ 1	gwetj
+kʷut ̚ 1	gwutj
+kʷɔt ̚ 1	gwotj
+kʷyt ̚ 1	gwvtj
+kʷœt ̚ 1	gwoetj
+kʷɵt ̚ 1	gweotj
+kʷak ̚ 1	gwaakj
+kʷɐk ̚ 1	gwakj
+kʷɪk ̚ 1	gwikj
+kʷɛk ̚ 1	gwekj
+kʷʊk ̚ 1	gwukj
+kʷɔk ̚ 1	gwokj
+kʷyk ̚ 1	gwvkj
+kʷœk ̚ 1	gwoekj
+kʷɵk ̚ 1	gweokj
+kʷʰa 1	kwaaj
+kʷʰɐ 1	kwaj
+kʷʰi 1	kwij
+kʷʰɛ 1	kwej
+kʷʰu 1	kwuj
+kʷʰɔ 1	kwoj
+kʷʰy 1	kwvj
+kʷʰœ 1	kwoej
+kʷʰɵ 1	kweoj
+kʷʰaɪ 1	kwaaij
+kʷʰɐɪ 1	kwaij
+kʷʰiɪ 1	kwiij
+kʷʰeɪ 1	kweij
+kʷʰuɪ 1	kwuij
+kʷʰɔɪ 1	kwoij
+kʷʰyɪ 1	kwvij
+kʷʰœɪ 1	kwoeij
+kʷʰɵɪ 1	kweoij
+kʷʰaʊ 1	kwaauj
+kʷʰɐʊ 1	kwauj
+kʷʰiʊ 1	kwiuj
+kʷʰɛʊ 1	kweuj
+kʷʰuʊ 1	kwuuj
+kʷʰoʊ 1	kwouj
+kʷʰyʊ 1	kwvuj
+kʷʰœʊ 1	kwoeuj
+kʷʰɵʊ 1	kweouj
+kʷʰam 1	kwaamj
+kʷʰɐm 1	kwamj
+kʷʰim 1	kwimj
+kʷʰɛm 1	kwemj
+kʷʰum 1	kwumj
+kʷʰɔm 1	kwomj
+kʷʰym 1	kwvmj
+kʷʰœm 1	kwoemj
+kʷʰɵm 1	kweomj
+kʷʰan 1	kwaanj
+kʷʰɐn 1	kwanj
+kʷʰin 1	kwinj
+kʷʰɛn 1	kwenj
+kʷʰun 1	kwunj
+kʷʰɔn 1	kwonj
+kʷʰyn 1	kwvnj
+kʷʰœn 1	kwoenj
+kʷʰɵn 1	kweonj
+kʷʰaŋ 1	kwaangj
+kʷʰɐŋ 1	kwangj
+kʷʰɪŋ 1	kwingj
+kʷʰɛŋ 1	kwengj
+kʷʰʊŋ 1	kwungj
+kʷʰɔŋ 1	kwongj
+kʷʰyŋ 1	kwvngj
+kʷʰœŋ 1	kwoengj
+kʷʰɵŋ 1	kweongj
+kʷʰap ̚ 1	kwaapj
+kʷʰɐp ̚ 1	kwapj
+kʷʰip ̚ 1	kwipj
+kʷʰɛp ̚ 1	kwepj
+kʷʰup ̚ 1	kwupj
+kʷʰɔp ̚ 1	kwopj
+kʷʰyp ̚ 1	kwvpj
+kʷʰœp ̚ 1	kwoepj
+kʷʰɵp ̚ 1	kweopj
+kʷʰat ̚ 1	kwaatj
+kʷʰɐt ̚ 1	kwatj
+kʷʰit ̚ 1	kwitj
+kʷʰɛt ̚ 1	kwetj
+kʷʰut ̚ 1	kwutj
+kʷʰɔt ̚ 1	kwotj
+kʷʰyt ̚ 1	kwvtj
+kʷʰœt ̚ 1	kwoetj
+kʷʰɵt ̚ 1	kweotj
+kʷʰak ̚ 1	kwaakj
+kʷʰɐk ̚ 1	kwakj
+kʷʰɪk ̚ 1	kwikj
+kʷʰɛk ̚ 1	kwekj
+kʷʰʊk ̚ 1	kwukj
+kʷʰɔk ̚ 1	kwokj
+kʷʰyk ̚ 1	kwvkj
+kʷʰœk ̚ 1	kwoekj
+kʷʰɵk ̚ 1	kweokj
+wa 1	waaj
+wɐ 1	waj
+wi 1	wij
+wɛ 1	wej
+wu 1	wuj
+wɔ 1	woj
+wy 1	wvj
+wœ 1	woej
+wɵ 1	weoj
+waɪ 1	waaij
+wɐɪ 1	waij
+wiɪ 1	wiij
+weɪ 1	weij
+wuɪ 1	wuij
+wɔɪ 1	woij
+wyɪ 1	wvij
+wœɪ 1	woeij
+wɵɪ 1	weoij
+waʊ 1	waauj
+wɐʊ 1	wauj
+wiʊ 1	wiuj
+wɛʊ 1	weuj
+wuʊ 1	wuuj
+woʊ 1	wouj
+wyʊ 1	wvuj
+wœʊ 1	woeuj
+wɵʊ 1	weouj
+wam 1	waamj
+wɐm 1	wamj
+wim 1	wimj
+wɛm 1	wemj
+wum 1	wumj
+wɔm 1	womj
+wym 1	wvmj
+wœm 1	woemj
+wɵm 1	weomj
+wan 1	waanj
+wɐn 1	wanj
+win 1	winj
+wɛn 1	wenj
+wun 1	wunj
+wɔn 1	wonj
+wyn 1	wvnj
+wœn 1	woenj
+wɵn 1	weonj
+waŋ 1	waangj
+wɐŋ 1	wangj
+wɪŋ 1	wingj
+wɛŋ 1	wengj
+wʊŋ 1	wungj
+wɔŋ 1	wongj
+wyŋ 1	wvngj
+wœŋ 1	woengj
+wɵŋ 1	weongj
+wap ̚ 1	waapj
+wɐp ̚ 1	wapj
+wip ̚ 1	wipj
+wɛp ̚ 1	wepj
+wup ̚ 1	wupj
+wɔp ̚ 1	wopj
+wyp ̚ 1	wvpj
+wœp ̚ 1	woepj
+wɵp ̚ 1	weopj
+wat ̚ 1	waatj
+wɐt ̚ 1	watj
+wit ̚ 1	witj
+wɛt ̚ 1	wetj
+wut ̚ 1	wutj
+wɔt ̚ 1	wotj
+wyt ̚ 1	wvtj
+wœt ̚ 1	woetj
+wɵt ̚ 1	weotj
+wak ̚ 1	waakj
+wɐk ̚ 1	wakj
+wɪk ̚ 1	wikj
+wɛk ̚ 1	wekj
+wʊk ̚ 1	wukj
+wɔk ̚ 1	wokj
+wyk ̚ 1	wvkj
+wœk ̚ 1	woekj
+wɵk ̚ 1	weokj
+t͡sa 1	zaaj
+t͡sɐ 1	zaj
+t͡si 1	zij
+t͡sɛ 1	zej
+t͡su 1	zuj
+t͡sɔ 1	zoj
+t͡sy 1	zvj
+t͡sœ 1	zoej
+t͡sɵ 1	zeoj
+t͡saɪ 1	zaaij
+t͡sɐɪ 1	zaij
+t͡siɪ 1	ziij
+t͡seɪ 1	zeij
+t͡suɪ 1	zuij
+t͡sɔɪ 1	zoij
+t͡syɪ 1	zvij
+t͡sœɪ 1	zoeij
+t͡sɵɪ 1	zeoij
+t͡saʊ 1	zaauj
+t͡sɐʊ 1	zauj
+t͡siʊ 1	ziuj
+t͡sɛʊ 1	zeuj
+t͡suʊ 1	zuuj
+t͡soʊ 1	zouj
+t͡syʊ 1	zvuj
+t͡sœʊ 1	zoeuj
+t͡sɵʊ 1	zeouj
+t͡sam 1	zaamj
+t͡sɐm 1	zamj
+t͡sim 1	zimj
+t͡sɛm 1	zemj
+t͡sum 1	zumj
+t͡sɔm 1	zomj
+t͡sym 1	zvmj
+t͡sœm 1	zoemj
+t͡sɵm 1	zeomj
+t͡san 1	zaanj
+t͡sɐn 1	zanj
+t͡sin 1	zinj
+t͡sɛn 1	zenj
+t͡sun 1	zunj
+t͡sɔn 1	zonj
+t͡syn 1	zvnj
+t͡sœn 1	zoenj
+t͡sɵn 1	zeonj
+t͡saŋ 1	zaangj
+t͡sɐŋ 1	zangj
+t͡sɪŋ 1	zingj
+t͡sɛŋ 1	zengj
+t͡sʊŋ 1	zungj
+t͡sɔŋ 1	zongj
+t͡syŋ 1	zvngj
+t͡sœŋ 1	zoengj
+t͡sɵŋ 1	zeongj
+t͡sap ̚ 1	zaapj
+t͡sɐp ̚ 1	zapj
+t͡sip ̚ 1	zipj
+t͡sɛp ̚ 1	zepj
+t͡sup ̚ 1	zupj
+t͡sɔp ̚ 1	zopj
+t͡syp ̚ 1	zvpj
+t͡sœp ̚ 1	zoepj
+t͡sɵp ̚ 1	zeopj
+t͡sat ̚ 1	zaatj
+t͡sɐt ̚ 1	zatj
+t͡sit ̚ 1	zitj
+t͡sɛt ̚ 1	zetj
+t͡sut ̚ 1	zutj
+t͡sɔt ̚ 1	zotj
+t͡syt ̚ 1	zvtj
+t͡sœt ̚ 1	zoetj
+t͡sɵt ̚ 1	zeotj
+t͡sak ̚ 1	zaakj
+t͡sɐk ̚ 1	zakj
+t͡sɪk ̚ 1	zikj
+t͡sɛk ̚ 1	zekj
+t͡sʊk ̚ 1	zukj
+t͡sɔk ̚ 1	zokj
+t͡syk ̚ 1	zvkj
+t͡sœk ̚ 1	zoekj
+t͡sɵk ̚ 1	zeokj
+t͡sʰa 1	caaj
+t͡sʰɐ 1	caj
+t͡sʰi 1	cij
+t͡sʰɛ 1	cej
+t͡sʰu 1	cuj
+t͡sʰɔ 1	coj
+t͡sʰy 1	cvj
+t͡sʰœ 1	coej
+t͡sʰɵ 1	ceoj
+t͡sʰaɪ 1	caaij
+t͡sʰɐɪ 1	caij
+t͡sʰiɪ 1	ciij
+t͡sʰeɪ 1	ceij
+t͡sʰuɪ 1	cuij
+t͡sʰɔɪ 1	coij
+t͡sʰyɪ 1	cvij
+t͡sʰœɪ 1	coeij
+t͡sʰɵɪ 1	ceoij
+t͡sʰaʊ 1	caauj
+t͡sʰɐʊ 1	cauj
+t͡sʰiʊ 1	ciuj
+t͡sʰɛʊ 1	ceuj
+t͡sʰuʊ 1	cuuj
+t͡sʰoʊ 1	couj
+t͡sʰyʊ 1	cvuj
+t͡sʰœʊ 1	coeuj
+t͡sʰɵʊ 1	ceouj
+t͡sʰam 1	caamj
+t͡sʰɐm 1	camj
+t͡sʰim 1	cimj
+t͡sʰɛm 1	cemj
+t͡sʰum 1	cumj
+t͡sʰɔm 1	comj
+t͡sʰym 1	cvmj
+t͡sʰœm 1	coemj
+t͡sʰɵm 1	ceomj
+t͡sʰan 1	caanj
+t͡sʰɐn 1	canj
+t͡sʰin 1	cinj
+t͡sʰɛn 1	cenj
+t͡sʰun 1	cunj
+t͡sʰɔn 1	conj
+t͡sʰyn 1	cvnj
+t͡sʰœn 1	coenj
+t͡sʰɵn 1	ceonj
+t͡sʰaŋ 1	caangj
+t͡sʰɐŋ 1	cangj
+t͡sʰɪŋ 1	cingj
+t͡sʰɛŋ 1	cengj
+t͡sʰʊŋ 1	cungj
+t͡sʰɔŋ 1	congj
+t͡sʰyŋ 1	cvngj
+t͡sʰœŋ 1	coengj
+t͡sʰɵŋ 1	ceongj
+t͡sʰap ̚ 1	caapj
+t͡sʰɐp ̚ 1	capj
+t͡sʰip ̚ 1	cipj
+t͡sʰɛp ̚ 1	cepj
+t͡sʰup ̚ 1	cupj
+t͡sʰɔp ̚ 1	copj
+t͡sʰyp ̚ 1	cvpj
+t͡sʰœp ̚ 1	coepj
+t͡sʰɵp ̚ 1	ceopj
+t͡sʰat ̚ 1	caatj
+t͡sʰɐt ̚ 1	catj
+t͡sʰit ̚ 1	citj
+t͡sʰɛt ̚ 1	cetj
+t͡sʰut ̚ 1	cutj
+t͡sʰɔt ̚ 1	cotj
+t͡sʰyt ̚ 1	cvtj
+t͡sʰœt ̚ 1	coetj
+t͡sʰɵt ̚ 1	ceotj
+t͡sʰak ̚ 1	caakj
+t͡sʰɐk ̚ 1	cakj
+t͡sʰɪk ̚ 1	cikj
+t͡sʰɛk ̚ 1	cekj
+t͡sʰʊk ̚ 1	cukj
+t͡sʰɔk ̚ 1	cokj
+t͡sʰyk ̚ 1	cvkj
+t͡sʰœk ̚ 1	coekj
+t͡sʰɵk ̚ 1	ceokj
+sa 1	saaj
+sɐ 1	saj
+si 1	sij
+sɛ 1	sej
+su 1	suj
+sɔ 1	soj
+sy 1	svj
+sœ 1	soej
+sɵ 1	seoj
+saɪ 1	saaij
+sɐɪ 1	saij
+siɪ 1	siij
+seɪ 1	seij
+suɪ 1	suij
+sɔɪ 1	soij
+syɪ 1	svij
+sœɪ 1	soeij
+sɵɪ 1	seoij
+saʊ 1	saauj
+sɐʊ 1	sauj
+siʊ 1	siuj
+sɛʊ 1	seuj
+suʊ 1	suuj
+soʊ 1	souj
+syʊ 1	svuj
+sœʊ 1	soeuj
+sɵʊ 1	seouj
+sam 1	saamj
+sɐm 1	samj
+sim 1	simj
+sɛm 1	semj
+sum 1	sumj
+sɔm 1	somj
+sym 1	svmj
+sœm 1	soemj
+sɵm 1	seomj
+san 1	saanj
+sɐn 1	sanj
+sin 1	sinj
+sɛn 1	senj
+sun 1	sunj
+sɔn 1	sonj
+syn 1	svnj
+sœn 1	soenj
+sɵn 1	seonj
+saŋ 1	saangj
+sɐŋ 1	sangj
+sɪŋ 1	singj
+sɛŋ 1	sengj
+sʊŋ 1	sungj
+sɔŋ 1	songj
+syŋ 1	svngj
+sœŋ 1	soengj
+sɵŋ 1	seongj
+sap ̚ 1	saapj
+sɐp ̚ 1	sapj
+sip ̚ 1	sipj
+sɛp ̚ 1	sepj
+sup ̚ 1	supj
+sɔp ̚ 1	sopj
+syp ̚ 1	svpj
+sœp ̚ 1	soepj
+sɵp ̚ 1	seopj
+sat ̚ 1	saatj
+sɐt ̚ 1	satj
+sit ̚ 1	sitj
+sɛt ̚ 1	setj
+sut ̚ 1	sutj
+sɔt ̚ 1	sotj
+syt ̚ 1	svtj
+sœt ̚ 1	soetj
+sɵt ̚ 1	seotj
+sak ̚ 1	saakj
+sɐk ̚ 1	sakj
+sɪk ̚ 1	sikj
+sɛk ̚ 1	sekj
+sʊk ̚ 1	sukj
+sɔk ̚ 1	sokj
+syk ̚ 1	svkj
+sœk ̚ 1	soekj
+sɵk ̚ 1	seokj
+ja 1	yaaj
+jɐ 1	yaj
+ji 1	yij
+jɛ 1	yej
+ju 1	yuj
+jɔ 1	yoj
+jy 1	yvj
+jœ 1	yoej
+jɵ 1	yeoj
+jaɪ 1	yaaij
+jɐɪ 1	yaij
+jiɪ 1	yiij
+jeɪ 1	yeij
+juɪ 1	yuij
+jɔɪ 1	yoij
+jyɪ 1	yvij
+jœɪ 1	yoeij
+jɵɪ 1	yeoij
+jaʊ 1	yaauj
+jɐʊ 1	yauj
+jiʊ 1	yiuj
+jɛʊ 1	yeuj
+juʊ 1	yuuj
+joʊ 1	youj
+jyʊ 1	yvuj
+jœʊ 1	yoeuj
+jɵʊ 1	yeouj
+jam 1	yaamj
+jɐm 1	yamj
+jim 1	yimj
+jɛm 1	yemj
+jum 1	yumj
+jɔm 1	yomj
+jym 1	yvmj
+jœm 1	yoemj
+jɵm 1	yeomj
+jan 1	yaanj
+jɐn 1	yanj
+jin 1	yinj
+jɛn 1	yenj
+jun 1	yunj
+jɔn 1	yonj
+jyn 1	yvnj
+jœn 1	yoenj
+jɵn 1	yeonj
+jaŋ 1	yaangj
+jɐŋ 1	yangj
+jɪŋ 1	yingj
+jɛŋ 1	yengj
+jʊŋ 1	yungj
+jɔŋ 1	yongj
+jyŋ 1	yvngj
+jœŋ 1	yoengj
+jɵŋ 1	yeongj
+jap ̚ 1	yaapj
+jɐp ̚ 1	yapj
+jip ̚ 1	yipj
+jɛp ̚ 1	yepj
+jup ̚ 1	yupj
+jɔp ̚ 1	yopj
+jyp ̚ 1	yvpj
+jœp ̚ 1	yoepj
+jɵp ̚ 1	yeopj
+jat ̚ 1	yaatj
+jɐt ̚ 1	yatj
+jit ̚ 1	yitj
+jɛt ̚ 1	yetj
+jut ̚ 1	yutj
+jɔt ̚ 1	yotj
+jyt ̚ 1	yvtj
+jœt ̚ 1	yoetj
+jɵt ̚ 1	yeotj
+jak ̚ 1	yaakj
+jɐk ̚ 1	yakj
+jɪk ̚ 1	yikj
+jɛk ̚ 1	yekj
+jʊk ̚ 1	yukj
+jɔk ̚ 1	yokj
+jyk ̚ 1	yvkj
+jœk ̚ 1	yoekj
+jɵk ̚ 1	yeokj
+m 1	mj
+hm 1	hmj
+ŋ 1	ngj
+hŋ 1	hngj
+s 1	sj
+a 2	aar
+ɐ 2	ar
+i 2	ir
+ɛ 2	er
+u 2	ur
+ɔ 2	or
+y 2	vr
+œ 2	oer
+ɵ 2	eor
+aɪ 2	aair
+ɐɪ 2	air
+iɪ 2	iir
+eɪ 2	eir
+uɪ 2	uir
+ɔɪ 2	oir
+yɪ 2	vir
+œɪ 2	oeir
+ɵɪ 2	eoir
+aʊ 2	aaur
+ɐʊ 2	aur
+iʊ 2	iur
+ɛʊ 2	eur
+uʊ 2	uur
+oʊ 2	our
+yʊ 2	vur
+œʊ 2	oeur
+ɵʊ 2	eour
+am 2	aamr
+ɐm 2	amr
+im 2	imr
+ɛm 2	emr
+um 2	umr
+ɔm 2	omr
+ym 2	vmr
+œm 2	oemr
+ɵm 2	eomr
+an 2	aanr
+ɐn 2	anr
+in 2	inr
+ɛn 2	enr
+un 2	unr
+ɔn 2	onr
+yn 2	vnr
+œn 2	oenr
+ɵn 2	eonr
+aŋ 2	aangr
+ɐŋ 2	angr
+ɪŋ 2	ingr
+ɛŋ 2	engr
+ʊŋ 2	ungr
+ɔŋ 2	ongr
+yŋ 2	vngr
+œŋ 2	oengr
+ɵŋ 2	eongr
+ap ̚ 2	aapr
+ɐp ̚ 2	apr
+ip ̚ 2	ipr
+ɛp ̚ 2	epr
+up ̚ 2	upr
+ɔp ̚ 2	opr
+yp ̚ 2	vpr
+œp ̚ 2	oepr
+ɵp ̚ 2	eopr
+at ̚ 2	aatr
+ɐt ̚ 2	atr
+it ̚ 2	itr
+ɛt ̚ 2	etr
+ut ̚ 2	utr
+ɔt ̚ 2	otr
+yt ̚ 2	vtr
+œt ̚ 2	oetr
+ɵt ̚ 2	eotr
+ak ̚ 2	aakr
+ɐk ̚ 2	akr
+ɪk ̚ 2	ikr
+ɛk ̚ 2	ekr
+ʊk ̚ 2	ukr
+ɔk ̚ 2	okr
+yk ̚ 2	vkr
+œk ̚ 2	oekr
+ɵk ̚ 2	eokr
+pa 2	baar
+pɐ 2	bar
+pi 2	bir
+pɛ 2	ber
+pu 2	bur
+pɔ 2	bor
+py 2	bvr
+pœ 2	boer
+pɵ 2	beor
+paɪ 2	baair
+pɐɪ 2	bair
+piɪ 2	biir
+peɪ 2	beir
+puɪ 2	buir
+pɔɪ 2	boir
+pyɪ 2	bvir
+pœɪ 2	boeir
+pɵɪ 2	beoir
+paʊ 2	baaur
+pɐʊ 2	baur
+piʊ 2	biur
+pɛʊ 2	beur
+puʊ 2	buur
+poʊ 2	bour
+pyʊ 2	bvur
+pœʊ 2	boeur
+pɵʊ 2	beour
+pam 2	baamr
+pɐm 2	bamr
+pim 2	bimr
+pɛm 2	bemr
+pum 2	bumr
+pɔm 2	bomr
+pym 2	bvmr
+pœm 2	boemr
+pɵm 2	beomr
+pan 2	baanr
+pɐn 2	banr
+pin 2	binr
+pɛn 2	benr
+pun 2	bunr
+pɔn 2	bonr
+pyn 2	bvnr
+pœn 2	boenr
+pɵn 2	beonr
+paŋ 2	baangr
+pɐŋ 2	bangr
+pɪŋ 2	bingr
+pɛŋ 2	bengr
+pʊŋ 2	bungr
+pɔŋ 2	bongr
+pyŋ 2	bvngr
+pœŋ 2	boengr
+pɵŋ 2	beongr
+pap ̚ 2	baapr
+pɐp ̚ 2	bapr
+pip ̚ 2	bipr
+pɛp ̚ 2	bepr
+pup ̚ 2	bupr
+pɔp ̚ 2	bopr
+pyp ̚ 2	bvpr
+pœp ̚ 2	boepr
+pɵp ̚ 2	beopr
+pat ̚ 2	baatr
+pɐt ̚ 2	batr
+pit ̚ 2	bitr
+pɛt ̚ 2	betr
+put ̚ 2	butr
+pɔt ̚ 2	botr
+pyt ̚ 2	bvtr
+pœt ̚ 2	boetr
+pɵt ̚ 2	beotr
+pak ̚ 2	baakr
+pɐk ̚ 2	bakr
+pɪk ̚ 2	bikr
+pɛk ̚ 2	bekr
+pʊk ̚ 2	bukr
+pɔk ̚ 2	bokr
+pyk ̚ 2	bvkr
+pœk ̚ 2	boekr
+pɵk ̚ 2	beokr
+pʰa 2	paar
+pʰɐ 2	par
+pʰi 2	pir
+pʰɛ 2	per
+pʰu 2	pur
+pʰɔ 2	por
+pʰy 2	pvr
+pʰœ 2	poer
+pʰɵ 2	peor
+pʰaɪ 2	paair
+pʰɐɪ 2	pair
+pʰiɪ 2	piir
+pʰeɪ 2	peir
+pʰuɪ 2	puir
+pʰɔɪ 2	poir
+pʰyɪ 2	pvir
+pʰœɪ 2	poeir
+pʰɵɪ 2	peoir
+pʰaʊ 2	paaur
+pʰɐʊ 2	paur
+pʰiʊ 2	piur
+pʰɛʊ 2	peur
+pʰuʊ 2	puur
+pʰoʊ 2	pour
+pʰyʊ 2	pvur
+pʰœʊ 2	poeur
+pʰɵʊ 2	peour
+pʰam 2	paamr
+pʰɐm 2	pamr
+pʰim 2	pimr
+pʰɛm 2	pemr
+pʰum 2	pumr
+pʰɔm 2	pomr
+pʰym 2	pvmr
+pʰœm 2	poemr
+pʰɵm 2	peomr
+pʰan 2	paanr
+pʰɐn 2	panr
+pʰin 2	pinr
+pʰɛn 2	penr
+pʰun 2	punr
+pʰɔn 2	ponr
+pʰyn 2	pvnr
+pʰœn 2	poenr
+pʰɵn 2	peonr
+pʰaŋ 2	paangr
+pʰɐŋ 2	pangr
+pʰɪŋ 2	pingr
+pʰɛŋ 2	pengr
+pʰʊŋ 2	pungr
+pʰɔŋ 2	pongr
+pʰyŋ 2	pvngr
+pʰœŋ 2	poengr
+pʰɵŋ 2	peongr
+pʰap ̚ 2	paapr
+pʰɐp ̚ 2	papr
+pʰip ̚ 2	pipr
+pʰɛp ̚ 2	pepr
+pʰup ̚ 2	pupr
+pʰɔp ̚ 2	popr
+pʰyp ̚ 2	pvpr
+pʰœp ̚ 2	poepr
+pʰɵp ̚ 2	peopr
+pʰat ̚ 2	paatr
+pʰɐt ̚ 2	patr
+pʰit ̚ 2	pitr
+pʰɛt ̚ 2	petr
+pʰut ̚ 2	putr
+pʰɔt ̚ 2	potr
+pʰyt ̚ 2	pvtr
+pʰœt ̚ 2	poetr
+pʰɵt ̚ 2	peotr
+pʰak ̚ 2	paakr
+pʰɐk ̚ 2	pakr
+pʰɪk ̚ 2	pikr
+pʰɛk ̚ 2	pekr
+pʰʊk ̚ 2	pukr
+pʰɔk ̚ 2	pokr
+pʰyk ̚ 2	pvkr
+pʰœk ̚ 2	poekr
+pʰɵk ̚ 2	peokr
+ma 2	maar
+mɐ 2	mar
+mi 2	mir
+mɛ 2	mer
+mu 2	mur
+mɔ 2	mor
+my 2	mvr
+mœ 2	moer
+mɵ 2	meor
+maɪ 2	maair
+mɐɪ 2	mair
+miɪ 2	miir
+meɪ 2	meir
+muɪ 2	muir
+mɔɪ 2	moir
+myɪ 2	mvir
+mœɪ 2	moeir
+mɵɪ 2	meoir
+maʊ 2	maaur
+mɐʊ 2	maur
+miʊ 2	miur
+mɛʊ 2	meur
+muʊ 2	muur
+moʊ 2	mour
+myʊ 2	mvur
+mœʊ 2	moeur
+mɵʊ 2	meour
+mam 2	maamr
+mɐm 2	mamr
+mim 2	mimr
+mɛm 2	memr
+mum 2	mumr
+mɔm 2	momr
+mym 2	mvmr
+mœm 2	moemr
+mɵm 2	meomr
+man 2	maanr
+mɐn 2	manr
+min 2	minr
+mɛn 2	menr
+mun 2	munr
+mɔn 2	monr
+myn 2	mvnr
+mœn 2	moenr
+mɵn 2	meonr
+maŋ 2	maangr
+mɐŋ 2	mangr
+mɪŋ 2	mingr
+mɛŋ 2	mengr
+mʊŋ 2	mungr
+mɔŋ 2	mongr
+myŋ 2	mvngr
+mœŋ 2	moengr
+mɵŋ 2	meongr
+map ̚ 2	maapr
+mɐp ̚ 2	mapr
+mip ̚ 2	mipr
+mɛp ̚ 2	mepr
+mup ̚ 2	mupr
+mɔp ̚ 2	mopr
+myp ̚ 2	mvpr
+mœp ̚ 2	moepr
+mɵp ̚ 2	meopr
+mat ̚ 2	maatr
+mɐt ̚ 2	matr
+mit ̚ 2	mitr
+mɛt ̚ 2	metr
+mut ̚ 2	mutr
+mɔt ̚ 2	motr
+myt ̚ 2	mvtr
+mœt ̚ 2	moetr
+mɵt ̚ 2	meotr
+mak ̚ 2	maakr
+mɐk ̚ 2	makr
+mɪk ̚ 2	mikr
+mɛk ̚ 2	mekr
+mʊk ̚ 2	mukr
+mɔk ̚ 2	mokr
+myk ̚ 2	mvkr
+mœk ̚ 2	moekr
+mɵk ̚ 2	meokr
+fa 2	faar
+fɐ 2	far
+fi 2	fir
+fɛ 2	fer
+fu 2	fur
+fɔ 2	for
+fy 2	fvr
+fœ 2	foer
+fɵ 2	feor
+faɪ 2	faair
+fɐɪ 2	fair
+fiɪ 2	fiir
+feɪ 2	feir
+fuɪ 2	fuir
+fɔɪ 2	foir
+fyɪ 2	fvir
+fœɪ 2	foeir
+fɵɪ 2	feoir
+faʊ 2	faaur
+fɐʊ 2	faur
+fiʊ 2	fiur
+fɛʊ 2	feur
+fuʊ 2	fuur
+foʊ 2	four
+fyʊ 2	fvur
+fœʊ 2	foeur
+fɵʊ 2	feour
+fam 2	faamr
+fɐm 2	famr
+fim 2	fimr
+fɛm 2	femr
+fum 2	fumr
+fɔm 2	fomr
+fym 2	fvmr
+fœm 2	foemr
+fɵm 2	feomr
+fan 2	faanr
+fɐn 2	fanr
+fin 2	finr
+fɛn 2	fenr
+fun 2	funr
+fɔn 2	fonr
+fyn 2	fvnr
+fœn 2	foenr
+fɵn 2	feonr
+faŋ 2	faangr
+fɐŋ 2	fangr
+fɪŋ 2	fingr
+fɛŋ 2	fengr
+fʊŋ 2	fungr
+fɔŋ 2	fongr
+fyŋ 2	fvngr
+fœŋ 2	foengr
+fɵŋ 2	feongr
+fap ̚ 2	faapr
+fɐp ̚ 2	fapr
+fip ̚ 2	fipr
+fɛp ̚ 2	fepr
+fup ̚ 2	fupr
+fɔp ̚ 2	fopr
+fyp ̚ 2	fvpr
+fœp ̚ 2	foepr
+fɵp ̚ 2	feopr
+fat ̚ 2	faatr
+fɐt ̚ 2	fatr
+fit ̚ 2	fitr
+fɛt ̚ 2	fetr
+fut ̚ 2	futr
+fɔt ̚ 2	fotr
+fyt ̚ 2	fvtr
+fœt ̚ 2	foetr
+fɵt ̚ 2	feotr
+fak ̚ 2	faakr
+fɐk ̚ 2	fakr
+fɪk ̚ 2	fikr
+fɛk ̚ 2	fekr
+fʊk ̚ 2	fukr
+fɔk ̚ 2	fokr
+fyk ̚ 2	fvkr
+fœk ̚ 2	foekr
+fɵk ̚ 2	feokr
+ta 2	daar
+tɐ 2	dar
+ti 2	dir
+tɛ 2	der
+tu 2	dur
+tɔ 2	dor
+ty 2	dvr
+tœ 2	doer
+tɵ 2	deor
+taɪ 2	daair
+tɐɪ 2	dair
+tiɪ 2	diir
+teɪ 2	deir
+tuɪ 2	duir
+tɔɪ 2	doir
+tyɪ 2	dvir
+tœɪ 2	doeir
+tɵɪ 2	deoir
+taʊ 2	daaur
+tɐʊ 2	daur
+tiʊ 2	diur
+tɛʊ 2	deur
+tuʊ 2	duur
+toʊ 2	dour
+tyʊ 2	dvur
+tœʊ 2	doeur
+tɵʊ 2	deour
+tam 2	daamr
+tɐm 2	damr
+tim 2	dimr
+tɛm 2	demr
+tum 2	dumr
+tɔm 2	domr
+tym 2	dvmr
+tœm 2	doemr
+tɵm 2	deomr
+tan 2	daanr
+tɐn 2	danr
+tin 2	dinr
+tɛn 2	denr
+tun 2	dunr
+tɔn 2	donr
+tyn 2	dvnr
+tœn 2	doenr
+tɵn 2	deonr
+taŋ 2	daangr
+tɐŋ 2	dangr
+tɪŋ 2	dingr
+tɛŋ 2	dengr
+tʊŋ 2	dungr
+tɔŋ 2	dongr
+tyŋ 2	dvngr
+tœŋ 2	doengr
+tɵŋ 2	deongr
+tap ̚ 2	daapr
+tɐp ̚ 2	dapr
+tip ̚ 2	dipr
+tɛp ̚ 2	depr
+tup ̚ 2	dupr
+tɔp ̚ 2	dopr
+typ ̚ 2	dvpr
+tœp ̚ 2	doepr
+tɵp ̚ 2	deopr
+tat ̚ 2	daatr
+tɐt ̚ 2	datr
+tit ̚ 2	ditr
+tɛt ̚ 2	detr
+tut ̚ 2	dutr
+tɔt ̚ 2	dotr
+tyt ̚ 2	dvtr
+tœt ̚ 2	doetr
+tɵt ̚ 2	deotr
+tak ̚ 2	daakr
+tɐk ̚ 2	dakr
+tɪk ̚ 2	dikr
+tɛk ̚ 2	dekr
+tʊk ̚ 2	dukr
+tɔk ̚ 2	dokr
+tyk ̚ 2	dvkr
+tœk ̚ 2	doekr
+tɵk ̚ 2	deokr
+tʰa 2	taar
+tʰɐ 2	tar
+tʰi 2	tir
+tʰɛ 2	ter
+tʰu 2	tur
+tʰɔ 2	tor
+tʰy 2	tvr
+tʰœ 2	toer
+tʰɵ 2	teor
+tʰaɪ 2	taair
+tʰɐɪ 2	tair
+tʰiɪ 2	tiir
+tʰeɪ 2	teir
+tʰuɪ 2	tuir
+tʰɔɪ 2	toir
+tʰyɪ 2	tvir
+tʰœɪ 2	toeir
+tʰɵɪ 2	teoir
+tʰaʊ 2	taaur
+tʰɐʊ 2	taur
+tʰiʊ 2	tiur
+tʰɛʊ 2	teur
+tʰuʊ 2	tuur
+tʰoʊ 2	tour
+tʰyʊ 2	tvur
+tʰœʊ 2	toeur
+tʰɵʊ 2	teour
+tʰam 2	taamr
+tʰɐm 2	tamr
+tʰim 2	timr
+tʰɛm 2	temr
+tʰum 2	tumr
+tʰɔm 2	tomr
+tʰym 2	tvmr
+tʰœm 2	toemr
+tʰɵm 2	teomr
+tʰan 2	taanr
+tʰɐn 2	tanr
+tʰin 2	tinr
+tʰɛn 2	tenr
+tʰun 2	tunr
+tʰɔn 2	tonr
+tʰyn 2	tvnr
+tʰœn 2	toenr
+tʰɵn 2	teonr
+tʰaŋ 2	taangr
+tʰɐŋ 2	tangr
+tʰɪŋ 2	tingr
+tʰɛŋ 2	tengr
+tʰʊŋ 2	tungr
+tʰɔŋ 2	tongr
+tʰyŋ 2	tvngr
+tʰœŋ 2	toengr
+tʰɵŋ 2	teongr
+tʰap ̚ 2	taapr
+tʰɐp ̚ 2	tapr
+tʰip ̚ 2	tipr
+tʰɛp ̚ 2	tepr
+tʰup ̚ 2	tupr
+tʰɔp ̚ 2	topr
+tʰyp ̚ 2	tvpr
+tʰœp ̚ 2	toepr
+tʰɵp ̚ 2	teopr
+tʰat ̚ 2	taatr
+tʰɐt ̚ 2	tatr
+tʰit ̚ 2	titr
+tʰɛt ̚ 2	tetr
+tʰut ̚ 2	tutr
+tʰɔt ̚ 2	totr
+tʰyt ̚ 2	tvtr
+tʰœt ̚ 2	toetr
+tʰɵt ̚ 2	teotr
+tʰak ̚ 2	taakr
+tʰɐk ̚ 2	takr
+tʰɪk ̚ 2	tikr
+tʰɛk ̚ 2	tekr
+tʰʊk ̚ 2	tukr
+tʰɔk ̚ 2	tokr
+tʰyk ̚ 2	tvkr
+tʰœk ̚ 2	toekr
+tʰɵk ̚ 2	teokr
+na 2	naar
+nɐ 2	nar
+ni 2	nir
+nɛ 2	ner
+nu 2	nur
+nɔ 2	nor
+ny 2	nvr
+nœ 2	noer
+nɵ 2	neor
+naɪ 2	naair
+nɐɪ 2	nair
+niɪ 2	niir
+neɪ 2	neir
+nuɪ 2	nuir
+nɔɪ 2	noir
+nyɪ 2	nvir
+nœɪ 2	noeir
+nɵɪ 2	neoir
+naʊ 2	naaur
+nɐʊ 2	naur
+niʊ 2	niur
+nɛʊ 2	neur
+nuʊ 2	nuur
+noʊ 2	nour
+nyʊ 2	nvur
+nœʊ 2	noeur
+nɵʊ 2	neour
+nam 2	naamr
+nɐm 2	namr
+nim 2	nimr
+nɛm 2	nemr
+num 2	numr
+nɔm 2	nomr
+nym 2	nvmr
+nœm 2	noemr
+nɵm 2	neomr
+nan 2	naanr
+nɐn 2	nanr
+nin 2	ninr
+nɛn 2	nenr
+nun 2	nunr
+nɔn 2	nonr
+nyn 2	nvnr
+nœn 2	noenr
+nɵn 2	neonr
+naŋ 2	naangr
+nɐŋ 2	nangr
+nɪŋ 2	ningr
+nɛŋ 2	nengr
+nʊŋ 2	nungr
+nɔŋ 2	nongr
+nyŋ 2	nvngr
+nœŋ 2	noengr
+nɵŋ 2	neongr
+nap ̚ 2	naapr
+nɐp ̚ 2	napr
+nip ̚ 2	nipr
+nɛp ̚ 2	nepr
+nup ̚ 2	nupr
+nɔp ̚ 2	nopr
+nyp ̚ 2	nvpr
+nœp ̚ 2	noepr
+nɵp ̚ 2	neopr
+nat ̚ 2	naatr
+nɐt ̚ 2	natr
+nit ̚ 2	nitr
+nɛt ̚ 2	netr
+nut ̚ 2	nutr
+nɔt ̚ 2	notr
+nyt ̚ 2	nvtr
+nœt ̚ 2	noetr
+nɵt ̚ 2	neotr
+nak ̚ 2	naakr
+nɐk ̚ 2	nakr
+nɪk ̚ 2	nikr
+nɛk ̚ 2	nekr
+nʊk ̚ 2	nukr
+nɔk ̚ 2	nokr
+nyk ̚ 2	nvkr
+nœk ̚ 2	noekr
+nɵk ̚ 2	neokr
+la 2	laar
+lɐ 2	lar
+li 2	lir
+lɛ 2	ler
+lu 2	lur
+lɔ 2	lor
+ly 2	lvr
+lœ 2	loer
+lɵ 2	leor
+laɪ 2	laair
+lɐɪ 2	lair
+liɪ 2	liir
+leɪ 2	leir
+luɪ 2	luir
+lɔɪ 2	loir
+lyɪ 2	lvir
+lœɪ 2	loeir
+lɵɪ 2	leoir
+laʊ 2	laaur
+lɐʊ 2	laur
+liʊ 2	liur
+lɛʊ 2	leur
+luʊ 2	luur
+loʊ 2	lour
+lyʊ 2	lvur
+lœʊ 2	loeur
+lɵʊ 2	leour
+lam 2	laamr
+lɐm 2	lamr
+lim 2	limr
+lɛm 2	lemr
+lum 2	lumr
+lɔm 2	lomr
+lym 2	lvmr
+lœm 2	loemr
+lɵm 2	leomr
+lan 2	laanr
+lɐn 2	lanr
+lin 2	linr
+lɛn 2	lenr
+lun 2	lunr
+lɔn 2	lonr
+lyn 2	lvnr
+lœn 2	loenr
+lɵn 2	leonr
+laŋ 2	laangr
+lɐŋ 2	langr
+lɪŋ 2	lingr
+lɛŋ 2	lengr
+lʊŋ 2	lungr
+lɔŋ 2	longr
+lyŋ 2	lvngr
+lœŋ 2	loengr
+lɵŋ 2	leongr
+lap ̚ 2	laapr
+lɐp ̚ 2	lapr
+lip ̚ 2	lipr
+lɛp ̚ 2	lepr
+lup ̚ 2	lupr
+lɔp ̚ 2	lopr
+lyp ̚ 2	lvpr
+lœp ̚ 2	loepr
+lɵp ̚ 2	leopr
+lat ̚ 2	laatr
+lɐt ̚ 2	latr
+lit ̚ 2	litr
+lɛt ̚ 2	letr
+lut ̚ 2	lutr
+lɔt ̚ 2	lotr
+lyt ̚ 2	lvtr
+lœt ̚ 2	loetr
+lɵt ̚ 2	leotr
+lak ̚ 2	laakr
+lɐk ̚ 2	lakr
+lɪk ̚ 2	likr
+lɛk ̚ 2	lekr
+lʊk ̚ 2	lukr
+lɔk ̚ 2	lokr
+lyk ̚ 2	lvkr
+lœk ̚ 2	loekr
+lɵk ̚ 2	leokr
+ka 2	gaar
+kɐ 2	gar
+ki 2	gir
+kɛ 2	ger
+ku 2	gur
+kɔ 2	gor
+ky 2	gvr
+kœ 2	goer
+kɵ 2	geor
+kaɪ 2	gaair
+kɐɪ 2	gair
+kiɪ 2	giir
+keɪ 2	geir
+kuɪ 2	guir
+kɔɪ 2	goir
+kyɪ 2	gvir
+kœɪ 2	goeir
+kɵɪ 2	geoir
+kaʊ 2	gaaur
+kɐʊ 2	gaur
+kiʊ 2	giur
+kɛʊ 2	geur
+kuʊ 2	guur
+koʊ 2	gour
+kyʊ 2	gvur
+kœʊ 2	goeur
+kɵʊ 2	geour
+kam 2	gaamr
+kɐm 2	gamr
+kim 2	gimr
+kɛm 2	gemr
+kum 2	gumr
+kɔm 2	gomr
+kym 2	gvmr
+kœm 2	goemr
+kɵm 2	geomr
+kan 2	gaanr
+kɐn 2	ganr
+kin 2	ginr
+kɛn 2	genr
+kun 2	gunr
+kɔn 2	gonr
+kyn 2	gvnr
+kœn 2	goenr
+kɵn 2	geonr
+kaŋ 2	gaangr
+kɐŋ 2	gangr
+kɪŋ 2	gingr
+kɛŋ 2	gengr
+kʊŋ 2	gungr
+kɔŋ 2	gongr
+kyŋ 2	gvngr
+kœŋ 2	goengr
+kɵŋ 2	geongr
+kap ̚ 2	gaapr
+kɐp ̚ 2	gapr
+kip ̚ 2	gipr
+kɛp ̚ 2	gepr
+kup ̚ 2	gupr
+kɔp ̚ 2	gopr
+kyp ̚ 2	gvpr
+kœp ̚ 2	goepr
+kɵp ̚ 2	geopr
+kat ̚ 2	gaatr
+kɐt ̚ 2	gatr
+kit ̚ 2	gitr
+kɛt ̚ 2	getr
+kut ̚ 2	gutr
+kɔt ̚ 2	gotr
+kyt ̚ 2	gvtr
+kœt ̚ 2	goetr
+kɵt ̚ 2	geotr
+kak ̚ 2	gaakr
+kɐk ̚ 2	gakr
+kɪk ̚ 2	gikr
+kɛk ̚ 2	gekr
+kʊk ̚ 2	gukr
+kɔk ̚ 2	gokr
+kyk ̚ 2	gvkr
+kœk ̚ 2	goekr
+kɵk ̚ 2	geokr
+kʰa 2	kaar
+kʰɐ 2	kar
+kʰi 2	kir
+kʰɛ 2	ker
+kʰu 2	kur
+kʰɔ 2	kor
+kʰy 2	kvr
+kʰœ 2	koer
+kʰɵ 2	keor
+kʰaɪ 2	kaair
+kʰɐɪ 2	kair
+kʰiɪ 2	kiir
+kʰeɪ 2	keir
+kʰuɪ 2	kuir
+kʰɔɪ 2	koir
+kʰyɪ 2	kvir
+kʰœɪ 2	koeir
+kʰɵɪ 2	keoir
+kʰaʊ 2	kaaur
+kʰɐʊ 2	kaur
+kʰiʊ 2	kiur
+kʰɛʊ 2	keur
+kʰuʊ 2	kuur
+kʰoʊ 2	kour
+kʰyʊ 2	kvur
+kʰœʊ 2	koeur
+kʰɵʊ 2	keour
+kʰam 2	kaamr
+kʰɐm 2	kamr
+kʰim 2	kimr
+kʰɛm 2	kemr
+kʰum 2	kumr
+kʰɔm 2	komr
+kʰym 2	kvmr
+kʰœm 2	koemr
+kʰɵm 2	keomr
+kʰan 2	kaanr
+kʰɐn 2	kanr
+kʰin 2	kinr
+kʰɛn 2	kenr
+kʰun 2	kunr
+kʰɔn 2	konr
+kʰyn 2	kvnr
+kʰœn 2	koenr
+kʰɵn 2	keonr
+kʰaŋ 2	kaangr
+kʰɐŋ 2	kangr
+kʰɪŋ 2	kingr
+kʰɛŋ 2	kengr
+kʰʊŋ 2	kungr
+kʰɔŋ 2	kongr
+kʰyŋ 2	kvngr
+kʰœŋ 2	koengr
+kʰɵŋ 2	keongr
+kʰap ̚ 2	kaapr
+kʰɐp ̚ 2	kapr
+kʰip ̚ 2	kipr
+kʰɛp ̚ 2	kepr
+kʰup ̚ 2	kupr
+kʰɔp ̚ 2	kopr
+kʰyp ̚ 2	kvpr
+kʰœp ̚ 2	koepr
+kʰɵp ̚ 2	keopr
+kʰat ̚ 2	kaatr
+kʰɐt ̚ 2	katr
+kʰit ̚ 2	kitr
+kʰɛt ̚ 2	ketr
+kʰut ̚ 2	kutr
+kʰɔt ̚ 2	kotr
+kʰyt ̚ 2	kvtr
+kʰœt ̚ 2	koetr
+kʰɵt ̚ 2	keotr
+kʰak ̚ 2	kaakr
+kʰɐk ̚ 2	kakr
+kʰɪk ̚ 2	kikr
+kʰɛk ̚ 2	kekr
+kʰʊk ̚ 2	kukr
+kʰɔk ̚ 2	kokr
+kʰyk ̚ 2	kvkr
+kʰœk ̚ 2	koekr
+kʰɵk ̚ 2	keokr
+ŋa 2	ngaar
+ŋɐ 2	ngar
+ŋi 2	ngir
+ŋɛ 2	nger
+ŋu 2	ngur
+ŋɔ 2	ngor
+ŋy 2	ngvr
+ŋœ 2	ngoer
+ŋɵ 2	ngeor
+ŋaɪ 2	ngaair
+ŋɐɪ 2	ngair
+ŋiɪ 2	ngiir
+ŋeɪ 2	ngeir
+ŋuɪ 2	nguir
+ŋɔɪ 2	ngoir
+ŋyɪ 2	ngvir
+ŋœɪ 2	ngoeir
+ŋɵɪ 2	ngeoir
+ŋaʊ 2	ngaaur
+ŋɐʊ 2	ngaur
+ŋiʊ 2	ngiur
+ŋɛʊ 2	ngeur
+ŋuʊ 2	nguur
+ŋoʊ 2	ngour
+ŋyʊ 2	ngvur
+ŋœʊ 2	ngoeur
+ŋɵʊ 2	ngeour
+ŋam 2	ngaamr
+ŋɐm 2	ngamr
+ŋim 2	ngimr
+ŋɛm 2	ngemr
+ŋum 2	ngumr
+ŋɔm 2	ngomr
+ŋym 2	ngvmr
+ŋœm 2	ngoemr
+ŋɵm 2	ngeomr
+ŋan 2	ngaanr
+ŋɐn 2	nganr
+ŋin 2	nginr
+ŋɛn 2	ngenr
+ŋun 2	ngunr
+ŋɔn 2	ngonr
+ŋyn 2	ngvnr
+ŋœn 2	ngoenr
+ŋɵn 2	ngeonr
+ŋaŋ 2	ngaangr
+ŋɐŋ 2	ngangr
+ŋɪŋ 2	ngingr
+ŋɛŋ 2	ngengr
+ŋʊŋ 2	ngungr
+ŋɔŋ 2	ngongr
+ŋyŋ 2	ngvngr
+ŋœŋ 2	ngoengr
+ŋɵŋ 2	ngeongr
+ŋap ̚ 2	ngaapr
+ŋɐp ̚ 2	ngapr
+ŋip ̚ 2	ngipr
+ŋɛp ̚ 2	ngepr
+ŋup ̚ 2	ngupr
+ŋɔp ̚ 2	ngopr
+ŋyp ̚ 2	ngvpr
+ŋœp ̚ 2	ngoepr
+ŋɵp ̚ 2	ngeopr
+ŋat ̚ 2	ngaatr
+ŋɐt ̚ 2	ngatr
+ŋit ̚ 2	ngitr
+ŋɛt ̚ 2	ngetr
+ŋut ̚ 2	ngutr
+ŋɔt ̚ 2	ngotr
+ŋyt ̚ 2	ngvtr
+ŋœt ̚ 2	ngoetr
+ŋɵt ̚ 2	ngeotr
+ŋak ̚ 2	ngaakr
+ŋɐk ̚ 2	ngakr
+ŋɪk ̚ 2	ngikr
+ŋɛk ̚ 2	ngekr
+ŋʊk ̚ 2	ngukr
+ŋɔk ̚ 2	ngokr
+ŋyk ̚ 2	ngvkr
+ŋœk ̚ 2	ngoekr
+ŋɵk ̚ 2	ngeokr
+ha 2	haar
+hɐ 2	har
+hi 2	hir
+hɛ 2	her
+hu 2	hur
+hɔ 2	hor
+hy 2	hvr
+hœ 2	hoer
+hɵ 2	heor
+haɪ 2	haair
+hɐɪ 2	hair
+hiɪ 2	hiir
+heɪ 2	heir
+huɪ 2	huir
+hɔɪ 2	hoir
+hyɪ 2	hvir
+hœɪ 2	hoeir
+hɵɪ 2	heoir
+haʊ 2	haaur
+hɐʊ 2	haur
+hiʊ 2	hiur
+hɛʊ 2	heur
+huʊ 2	huur
+hoʊ 2	hour
+hyʊ 2	hvur
+hœʊ 2	hoeur
+hɵʊ 2	heour
+ham 2	haamr
+hɐm 2	hamr
+him 2	himr
+hɛm 2	hemr
+hum 2	humr
+hɔm 2	homr
+hym 2	hvmr
+hœm 2	hoemr
+hɵm 2	heomr
+han 2	haanr
+hɐn 2	hanr
+hin 2	hinr
+hɛn 2	henr
+hun 2	hunr
+hɔn 2	honr
+hyn 2	hvnr
+hœn 2	hoenr
+hɵn 2	heonr
+haŋ 2	haangr
+hɐŋ 2	hangr
+hɪŋ 2	hingr
+hɛŋ 2	hengr
+hʊŋ 2	hungr
+hɔŋ 2	hongr
+hyŋ 2	hvngr
+hœŋ 2	hoengr
+hɵŋ 2	heongr
+hap ̚ 2	haapr
+hɐp ̚ 2	hapr
+hip ̚ 2	hipr
+hɛp ̚ 2	hepr
+hup ̚ 2	hupr
+hɔp ̚ 2	hopr
+hyp ̚ 2	hvpr
+hœp ̚ 2	hoepr
+hɵp ̚ 2	heopr
+hat ̚ 2	haatr
+hɐt ̚ 2	hatr
+hit ̚ 2	hitr
+hɛt ̚ 2	hetr
+hut ̚ 2	hutr
+hɔt ̚ 2	hotr
+hyt ̚ 2	hvtr
+hœt ̚ 2	hoetr
+hɵt ̚ 2	heotr
+hak ̚ 2	haakr
+hɐk ̚ 2	hakr
+hɪk ̚ 2	hikr
+hɛk ̚ 2	hekr
+hʊk ̚ 2	hukr
+hɔk ̚ 2	hokr
+hyk ̚ 2	hvkr
+hœk ̚ 2	hoekr
+hɵk ̚ 2	heokr
+kʷa 2	gwaar
+kʷɐ 2	gwar
+kʷi 2	gwir
+kʷɛ 2	gwer
+kʷu 2	gwur
+kʷɔ 2	gwor
+kʷy 2	gwvr
+kʷœ 2	gwoer
+kʷɵ 2	gweor
+kʷaɪ 2	gwaair
+kʷɐɪ 2	gwair
+kʷiɪ 2	gwiir
+kʷeɪ 2	gweir
+kʷuɪ 2	gwuir
+kʷɔɪ 2	gwoir
+kʷyɪ 2	gwvir
+kʷœɪ 2	gwoeir
+kʷɵɪ 2	gweoir
+kʷaʊ 2	gwaaur
+kʷɐʊ 2	gwaur
+kʷiʊ 2	gwiur
+kʷɛʊ 2	gweur
+kʷuʊ 2	gwuur
+kʷoʊ 2	gwour
+kʷyʊ 2	gwvur
+kʷœʊ 2	gwoeur
+kʷɵʊ 2	gweour
+kʷam 2	gwaamr
+kʷɐm 2	gwamr
+kʷim 2	gwimr
+kʷɛm 2	gwemr
+kʷum 2	gwumr
+kʷɔm 2	gwomr
+kʷym 2	gwvmr
+kʷœm 2	gwoemr
+kʷɵm 2	gweomr
+kʷan 2	gwaanr
+kʷɐn 2	gwanr
+kʷin 2	gwinr
+kʷɛn 2	gwenr
+kʷun 2	gwunr
+kʷɔn 2	gwonr
+kʷyn 2	gwvnr
+kʷœn 2	gwoenr
+kʷɵn 2	gweonr
+kʷaŋ 2	gwaangr
+kʷɐŋ 2	gwangr
+kʷɪŋ 2	gwingr
+kʷɛŋ 2	gwengr
+kʷʊŋ 2	gwungr
+kʷɔŋ 2	gwongr
+kʷyŋ 2	gwvngr
+kʷœŋ 2	gwoengr
+kʷɵŋ 2	gweongr
+kʷap ̚ 2	gwaapr
+kʷɐp ̚ 2	gwapr
+kʷip ̚ 2	gwipr
+kʷɛp ̚ 2	gwepr
+kʷup ̚ 2	gwupr
+kʷɔp ̚ 2	gwopr
+kʷyp ̚ 2	gwvpr
+kʷœp ̚ 2	gwoepr
+kʷɵp ̚ 2	gweopr
+kʷat ̚ 2	gwaatr
+kʷɐt ̚ 2	gwatr
+kʷit ̚ 2	gwitr
+kʷɛt ̚ 2	gwetr
+kʷut ̚ 2	gwutr
+kʷɔt ̚ 2	gwotr
+kʷyt ̚ 2	gwvtr
+kʷœt ̚ 2	gwoetr
+kʷɵt ̚ 2	gweotr
+kʷak ̚ 2	gwaakr
+kʷɐk ̚ 2	gwakr
+kʷɪk ̚ 2	gwikr
+kʷɛk ̚ 2	gwekr
+kʷʊk ̚ 2	gwukr
+kʷɔk ̚ 2	gwokr
+kʷyk ̚ 2	gwvkr
+kʷœk ̚ 2	gwoekr
+kʷɵk ̚ 2	gweokr
+kʷʰa 2	kwaar
+kʷʰɐ 2	kwar
+kʷʰi 2	kwir
+kʷʰɛ 2	kwer
+kʷʰu 2	kwur
+kʷʰɔ 2	kwor
+kʷʰy 2	kwvr
+kʷʰœ 2	kwoer
+kʷʰɵ 2	kweor
+kʷʰaɪ 2	kwaair
+kʷʰɐɪ 2	kwair
+kʷʰiɪ 2	kwiir
+kʷʰeɪ 2	kweir
+kʷʰuɪ 2	kwuir
+kʷʰɔɪ 2	kwoir
+kʷʰyɪ 2	kwvir
+kʷʰœɪ 2	kwoeir
+kʷʰɵɪ 2	kweoir
+kʷʰaʊ 2	kwaaur
+kʷʰɐʊ 2	kwaur
+kʷʰiʊ 2	kwiur
+kʷʰɛʊ 2	kweur
+kʷʰuʊ 2	kwuur
+kʷʰoʊ 2	kwour
+kʷʰyʊ 2	kwvur
+kʷʰœʊ 2	kwoeur
+kʷʰɵʊ 2	kweour
+kʷʰam 2	kwaamr
+kʷʰɐm 2	kwamr
+kʷʰim 2	kwimr
+kʷʰɛm 2	kwemr
+kʷʰum 2	kwumr
+kʷʰɔm 2	kwomr
+kʷʰym 2	kwvmr
+kʷʰœm 2	kwoemr
+kʷʰɵm 2	kweomr
+kʷʰan 2	kwaanr
+kʷʰɐn 2	kwanr
+kʷʰin 2	kwinr
+kʷʰɛn 2	kwenr
+kʷʰun 2	kwunr
+kʷʰɔn 2	kwonr
+kʷʰyn 2	kwvnr
+kʷʰœn 2	kwoenr
+kʷʰɵn 2	kweonr
+kʷʰaŋ 2	kwaangr
+kʷʰɐŋ 2	kwangr
+kʷʰɪŋ 2	kwingr
+kʷʰɛŋ 2	kwengr
+kʷʰʊŋ 2	kwungr
+kʷʰɔŋ 2	kwongr
+kʷʰyŋ 2	kwvngr
+kʷʰœŋ 2	kwoengr
+kʷʰɵŋ 2	kweongr
+kʷʰap ̚ 2	kwaapr
+kʷʰɐp ̚ 2	kwapr
+kʷʰip ̚ 2	kwipr
+kʷʰɛp ̚ 2	kwepr
+kʷʰup ̚ 2	kwupr
+kʷʰɔp ̚ 2	kwopr
+kʷʰyp ̚ 2	kwvpr
+kʷʰœp ̚ 2	kwoepr
+kʷʰɵp ̚ 2	kweopr
+kʷʰat ̚ 2	kwaatr
+kʷʰɐt ̚ 2	kwatr
+kʷʰit ̚ 2	kwitr
+kʷʰɛt ̚ 2	kwetr
+kʷʰut ̚ 2	kwutr
+kʷʰɔt ̚ 2	kwotr
+kʷʰyt ̚ 2	kwvtr
+kʷʰœt ̚ 2	kwoetr
+kʷʰɵt ̚ 2	kweotr
+kʷʰak ̚ 2	kwaakr
+kʷʰɐk ̚ 2	kwakr
+kʷʰɪk ̚ 2	kwikr
+kʷʰɛk ̚ 2	kwekr
+kʷʰʊk ̚ 2	kwukr
+kʷʰɔk ̚ 2	kwokr
+kʷʰyk ̚ 2	kwvkr
+kʷʰœk ̚ 2	kwoekr
+kʷʰɵk ̚ 2	kweokr
+wa 2	waar
+wɐ 2	war
+wi 2	wir
+wɛ 2	wer
+wu 2	wur
+wɔ 2	wor
+wy 2	wvr
+wœ 2	woer
+wɵ 2	weor
+waɪ 2	waair
+wɐɪ 2	wair
+wiɪ 2	wiir
+weɪ 2	weir
+wuɪ 2	wuir
+wɔɪ 2	woir
+wyɪ 2	wvir
+wœɪ 2	woeir
+wɵɪ 2	weoir
+waʊ 2	waaur
+wɐʊ 2	waur
+wiʊ 2	wiur
+wɛʊ 2	weur
+wuʊ 2	wuur
+woʊ 2	wour
+wyʊ 2	wvur
+wœʊ 2	woeur
+wɵʊ 2	weour
+wam 2	waamr
+wɐm 2	wamr
+wim 2	wimr
+wɛm 2	wemr
+wum 2	wumr
+wɔm 2	womr
+wym 2	wvmr
+wœm 2	woemr
+wɵm 2	weomr
+wan 2	waanr
+wɐn 2	wanr
+win 2	winr
+wɛn 2	wenr
+wun 2	wunr
+wɔn 2	wonr
+wyn 2	wvnr
+wœn 2	woenr
+wɵn 2	weonr
+waŋ 2	waangr
+wɐŋ 2	wangr
+wɪŋ 2	wingr
+wɛŋ 2	wengr
+wʊŋ 2	wungr
+wɔŋ 2	wongr
+wyŋ 2	wvngr
+wœŋ 2	woengr
+wɵŋ 2	weongr
+wap ̚ 2	waapr
+wɐp ̚ 2	wapr
+wip ̚ 2	wipr
+wɛp ̚ 2	wepr
+wup ̚ 2	wupr
+wɔp ̚ 2	wopr
+wyp ̚ 2	wvpr
+wœp ̚ 2	woepr
+wɵp ̚ 2	weopr
+wat ̚ 2	waatr
+wɐt ̚ 2	watr
+wit ̚ 2	witr
+wɛt ̚ 2	wetr
+wut ̚ 2	wutr
+wɔt ̚ 2	wotr
+wyt ̚ 2	wvtr
+wœt ̚ 2	woetr
+wɵt ̚ 2	weotr
+wak ̚ 2	waakr
+wɐk ̚ 2	wakr
+wɪk ̚ 2	wikr
+wɛk ̚ 2	wekr
+wʊk ̚ 2	wukr
+wɔk ̚ 2	wokr
+wyk ̚ 2	wvkr
+wœk ̚ 2	woekr
+wɵk ̚ 2	weokr
+t͡sa 2	zaar
+t͡sɐ 2	zar
+t͡si 2	zir
+t͡sɛ 2	zer
+t͡su 2	zur
+t͡sɔ 2	zor
+t͡sy 2	zvr
+t͡sœ 2	zoer
+t͡sɵ 2	zeor
+t͡saɪ 2	zaair
+t͡sɐɪ 2	zair
+t͡siɪ 2	ziir
+t͡seɪ 2	zeir
+t͡suɪ 2	zuir
+t͡sɔɪ 2	zoir
+t͡syɪ 2	zvir
+t͡sœɪ 2	zoeir
+t͡sɵɪ 2	zeoir
+t͡saʊ 2	zaaur
+t͡sɐʊ 2	zaur
+t͡siʊ 2	ziur
+t͡sɛʊ 2	zeur
+t͡suʊ 2	zuur
+t͡soʊ 2	zour
+t͡syʊ 2	zvur
+t͡sœʊ 2	zoeur
+t͡sɵʊ 2	zeour
+t͡sam 2	zaamr
+t͡sɐm 2	zamr
+t͡sim 2	zimr
+t͡sɛm 2	zemr
+t͡sum 2	zumr
+t͡sɔm 2	zomr
+t͡sym 2	zvmr
+t͡sœm 2	zoemr
+t͡sɵm 2	zeomr
+t͡san 2	zaanr
+t͡sɐn 2	zanr
+t͡sin 2	zinr
+t͡sɛn 2	zenr
+t͡sun 2	zunr
+t͡sɔn 2	zonr
+t͡syn 2	zvnr
+t͡sœn 2	zoenr
+t͡sɵn 2	zeonr
+t͡saŋ 2	zaangr
+t͡sɐŋ 2	zangr
+t͡sɪŋ 2	zingr
+t͡sɛŋ 2	zengr
+t͡sʊŋ 2	zungr
+t͡sɔŋ 2	zongr
+t͡syŋ 2	zvngr
+t͡sœŋ 2	zoengr
+t͡sɵŋ 2	zeongr
+t͡sap ̚ 2	zaapr
+t͡sɐp ̚ 2	zapr
+t͡sip ̚ 2	zipr
+t͡sɛp ̚ 2	zepr
+t͡sup ̚ 2	zupr
+t͡sɔp ̚ 2	zopr
+t͡syp ̚ 2	zvpr
+t͡sœp ̚ 2	zoepr
+t͡sɵp ̚ 2	zeopr
+t͡sat ̚ 2	zaatr
+t͡sɐt ̚ 2	zatr
+t͡sit ̚ 2	zitr
+t͡sɛt ̚ 2	zetr
+t͡sut ̚ 2	zutr
+t͡sɔt ̚ 2	zotr
+t͡syt ̚ 2	zvtr
+t͡sœt ̚ 2	zoetr
+t͡sɵt ̚ 2	zeotr
+t͡sak ̚ 2	zaakr
+t͡sɐk ̚ 2	zakr
+t͡sɪk ̚ 2	zikr
+t͡sɛk ̚ 2	zekr
+t͡sʊk ̚ 2	zukr
+t͡sɔk ̚ 2	zokr
+t͡syk ̚ 2	zvkr
+t͡sœk ̚ 2	zoekr
+t͡sɵk ̚ 2	zeokr
+t͡sʰa 2	caar
+t͡sʰɐ 2	car
+t͡sʰi 2	cir
+t͡sʰɛ 2	cer
+t͡sʰu 2	cur
+t͡sʰɔ 2	cor
+t͡sʰy 2	cvr
+t͡sʰœ 2	coer
+t͡sʰɵ 2	ceor
+t͡sʰaɪ 2	caair
+t͡sʰɐɪ 2	cair
+t͡sʰiɪ 2	ciir
+t͡sʰeɪ 2	ceir
+t͡sʰuɪ 2	cuir
+t͡sʰɔɪ 2	coir
+t͡sʰyɪ 2	cvir
+t͡sʰœɪ 2	coeir
+t͡sʰɵɪ 2	ceoir
+t͡sʰaʊ 2	caaur
+t͡sʰɐʊ 2	caur
+t͡sʰiʊ 2	ciur
+t͡sʰɛʊ 2	ceur
+t͡sʰuʊ 2	cuur
+t͡sʰoʊ 2	cour
+t͡sʰyʊ 2	cvur
+t͡sʰœʊ 2	coeur
+t͡sʰɵʊ 2	ceour
+t͡sʰam 2	caamr
+t͡sʰɐm 2	camr
+t͡sʰim 2	cimr
+t͡sʰɛm 2	cemr
+t͡sʰum 2	cumr
+t͡sʰɔm 2	comr
+t͡sʰym 2	cvmr
+t͡sʰœm 2	coemr
+t͡sʰɵm 2	ceomr
+t͡sʰan 2	caanr
+t͡sʰɐn 2	canr
+t͡sʰin 2	cinr
+t͡sʰɛn 2	cenr
+t͡sʰun 2	cunr
+t͡sʰɔn 2	conr
+t͡sʰyn 2	cvnr
+t͡sʰœn 2	coenr
+t͡sʰɵn 2	ceonr
+t͡sʰaŋ 2	caangr
+t͡sʰɐŋ 2	cangr
+t͡sʰɪŋ 2	cingr
+t͡sʰɛŋ 2	cengr
+t͡sʰʊŋ 2	cungr
+t͡sʰɔŋ 2	congr
+t͡sʰyŋ 2	cvngr
+t͡sʰœŋ 2	coengr
+t͡sʰɵŋ 2	ceongr
+t͡sʰap ̚ 2	caapr
+t͡sʰɐp ̚ 2	capr
+t͡sʰip ̚ 2	cipr
+t͡sʰɛp ̚ 2	cepr
+t͡sʰup ̚ 2	cupr
+t͡sʰɔp ̚ 2	copr
+t͡sʰyp ̚ 2	cvpr
+t͡sʰœp ̚ 2	coepr
+t͡sʰɵp ̚ 2	ceopr
+t͡sʰat ̚ 2	caatr
+t͡sʰɐt ̚ 2	catr
+t͡sʰit ̚ 2	citr
+t͡sʰɛt ̚ 2	cetr
+t͡sʰut ̚ 2	cutr
+t͡sʰɔt ̚ 2	cotr
+t͡sʰyt ̚ 2	cvtr
+t͡sʰœt ̚ 2	coetr
+t͡sʰɵt ̚ 2	ceotr
+t͡sʰak ̚ 2	caakr
+t͡sʰɐk ̚ 2	cakr
+t͡sʰɪk ̚ 2	cikr
+t͡sʰɛk ̚ 2	cekr
+t͡sʰʊk ̚ 2	cukr
+t͡sʰɔk ̚ 2	cokr
+t͡sʰyk ̚ 2	cvkr
+t͡sʰœk ̚ 2	coekr
+t͡sʰɵk ̚ 2	ceokr
+sa 2	saar
+sɐ 2	sar
+si 2	sir
+sɛ 2	ser
+su 2	sur
+sɔ 2	sor
+sy 2	svr
+sœ 2	soer
+sɵ 2	seor
+saɪ 2	saair
+sɐɪ 2	sair
+siɪ 2	siir
+seɪ 2	seir
+suɪ 2	suir
+sɔɪ 2	soir
+syɪ 2	svir
+sœɪ 2	soeir
+sɵɪ 2	seoir
+saʊ 2	saaur
+sɐʊ 2	saur
+siʊ 2	siur
+sɛʊ 2	seur
+suʊ 2	suur
+soʊ 2	sour
+syʊ 2	svur
+sœʊ 2	soeur
+sɵʊ 2	seour
+sam 2	saamr
+sɐm 2	samr
+sim 2	simr
+sɛm 2	semr
+sum 2	sumr
+sɔm 2	somr
+sym 2	svmr
+sœm 2	soemr
+sɵm 2	seomr
+san 2	saanr
+sɐn 2	sanr
+sin 2	sinr
+sɛn 2	senr
+sun 2	sunr
+sɔn 2	sonr
+syn 2	svnr
+sœn 2	soenr
+sɵn 2	seonr
+saŋ 2	saangr
+sɐŋ 2	sangr
+sɪŋ 2	singr
+sɛŋ 2	sengr
+sʊŋ 2	sungr
+sɔŋ 2	songr
+syŋ 2	svngr
+sœŋ 2	soengr
+sɵŋ 2	seongr
+sap ̚ 2	saapr
+sɐp ̚ 2	sapr
+sip ̚ 2	sipr
+sɛp ̚ 2	sepr
+sup ̚ 2	supr
+sɔp ̚ 2	sopr
+syp ̚ 2	svpr
+sœp ̚ 2	soepr
+sɵp ̚ 2	seopr
+sat ̚ 2	saatr
+sɐt ̚ 2	satr
+sit ̚ 2	sitr
+sɛt ̚ 2	setr
+sut ̚ 2	sutr
+sɔt ̚ 2	sotr
+syt ̚ 2	svtr
+sœt ̚ 2	soetr
+sɵt ̚ 2	seotr
+sak ̚ 2	saakr
+sɐk ̚ 2	sakr
+sɪk ̚ 2	sikr
+sɛk ̚ 2	sekr
+sʊk ̚ 2	sukr
+sɔk ̚ 2	sokr
+syk ̚ 2	svkr
+sœk ̚ 2	soekr
+sɵk ̚ 2	seokr
+ja 2	yaar
+jɐ 2	yar
+ji 2	yir
+jɛ 2	yer
+ju 2	yur
+jɔ 2	yor
+jy 2	yvr
+jœ 2	yoer
+jɵ 2	yeor
+jaɪ 2	yaair
+jɐɪ 2	yair
+jiɪ 2	yiir
+jeɪ 2	yeir
+juɪ 2	yuir
+jɔɪ 2	yoir
+jyɪ 2	yvir
+jœɪ 2	yoeir
+jɵɪ 2	yeoir
+jaʊ 2	yaaur
+jɐʊ 2	yaur
+jiʊ 2	yiur
+jɛʊ 2	yeur
+juʊ 2	yuur
+joʊ 2	your
+jyʊ 2	yvur
+jœʊ 2	yoeur
+jɵʊ 2	yeour
+jam 2	yaamr
+jɐm 2	yamr
+jim 2	yimr
+jɛm 2	yemr
+jum 2	yumr
+jɔm 2	yomr
+jym 2	yvmr
+jœm 2	yoemr
+jɵm 2	yeomr
+jan 2	yaanr
+jɐn 2	yanr
+jin 2	yinr
+jɛn 2	yenr
+jun 2	yunr
+jɔn 2	yonr
+jyn 2	yvnr
+jœn 2	yoenr
+jɵn 2	yeonr
+jaŋ 2	yaangr
+jɐŋ 2	yangr
+jɪŋ 2	yingr
+jɛŋ 2	yengr
+jʊŋ 2	yungr
+jɔŋ 2	yongr
+jyŋ 2	yvngr
+jœŋ 2	yoengr
+jɵŋ 2	yeongr
+jap ̚ 2	yaapr
+jɐp ̚ 2	yapr
+jip ̚ 2	yipr
+jɛp ̚ 2	yepr
+jup ̚ 2	yupr
+jɔp ̚ 2	yopr
+jyp ̚ 2	yvpr
+jœp ̚ 2	yoepr
+jɵp ̚ 2	yeopr
+jat ̚ 2	yaatr
+jɐt ̚ 2	yatr
+jit ̚ 2	yitr
+jɛt ̚ 2	yetr
+jut ̚ 2	yutr
+jɔt ̚ 2	yotr
+jyt ̚ 2	yvtr
+jœt ̚ 2	yoetr
+jɵt ̚ 2	yeotr
+jak ̚ 2	yaakr
+jɐk ̚ 2	yakr
+jɪk ̚ 2	yikr
+jɛk ̚ 2	yekr
+jʊk ̚ 2	yukr
+jɔk ̚ 2	yokr
+jyk ̚ 2	yvkr
+jœk ̚ 2	yoekr
+jɵk ̚ 2	yeokr
+m 2	mr
+hm 2	hmr
+ŋ 2	ngr
+hŋ 2	hngr
+s 2	sr
+a 3	aa
+ɐ 3	a
+i 3	i
+ɛ 3	e
+u 3	u
+ɔ 3	o
+y 3	v
+œ 3	oe
+ɵ 3	eo
+aɪ 3	aai
+ɐɪ 3	ai
+iɪ 3	ii
+eɪ 3	ei
+uɪ 3	ui
+ɔɪ 3	oi
+yɪ 3	vi
+œɪ 3	oei
+ɵɪ 3	eoi
+aʊ 3	aau
+ɐʊ 3	au
+iʊ 3	iu
+ɛʊ 3	eu
+uʊ 3	uu
+oʊ 3	ou
+yʊ 3	vu
+œʊ 3	oeu
+ɵʊ 3	eou
+am 3	aam
+ɐm 3	am
+im 3	im
+ɛm 3	em
+um 3	um
+ɔm 3	om
+ym 3	vm
+œm 3	oem
+ɵm 3	eom
+an 3	aan
+ɐn 3	an
+in 3	in
+ɛn 3	en
+un 3	un
+ɔn 3	on
+yn 3	vn
+œn 3	oen
+ɵn 3	eon
+aŋ 3	aang
+ɐŋ 3	ang
+ɪŋ 3	ing
+ɛŋ 3	eng
+ʊŋ 3	ung
+ɔŋ 3	ong
+yŋ 3	vng
+œŋ 3	oeng
+ɵŋ 3	eong
+ap ̚ 3	aap
+ɐp ̚ 3	ap
+ip ̚ 3	ip
+ɛp ̚ 3	ep
+up ̚ 3	up
+ɔp ̚ 3	op
+yp ̚ 3	vp
+œp ̚ 3	oep
+ɵp ̚ 3	eop
+at ̚ 3	aat
+ɐt ̚ 3	at
+it ̚ 3	it
+ɛt ̚ 3	et
+ut ̚ 3	ut
+ɔt ̚ 3	ot
+yt ̚ 3	vt
+œt ̚ 3	oet
+ɵt ̚ 3	eot
+ak ̚ 3	aak
+ɐk ̚ 3	ak
+ɪk ̚ 3	ik
+ɛk ̚ 3	ek
+ʊk ̚ 3	uk
+ɔk ̚ 3	ok
+yk ̚ 3	vk
+œk ̚ 3	oek
+ɵk ̚ 3	eok
+pa 3	baa
+pɐ 3	ba
+pi 3	bi
+pɛ 3	be
+pu 3	bu
+pɔ 3	bo
+py 3	bv
+pœ 3	boe
+pɵ 3	beo
+paɪ 3	baai
+pɐɪ 3	bai
+piɪ 3	bii
+peɪ 3	bei
+puɪ 3	bui
+pɔɪ 3	boi
+pyɪ 3	bvi
+pœɪ 3	boei
+pɵɪ 3	beoi
+paʊ 3	baau
+pɐʊ 3	bau
+piʊ 3	biu
+pɛʊ 3	beu
+puʊ 3	buu
+poʊ 3	bou
+pyʊ 3	bvu
+pœʊ 3	boeu
+pɵʊ 3	beou
+pam 3	baam
+pɐm 3	bam
+pim 3	bim
+pɛm 3	bem
+pum 3	bum
+pɔm 3	bom
+pym 3	bvm
+pœm 3	boem
+pɵm 3	beom
+pan 3	baan
+pɐn 3	ban
+pin 3	bin
+pɛn 3	ben
+pun 3	bun
+pɔn 3	bon
+pyn 3	bvn
+pœn 3	boen
+pɵn 3	beon
+paŋ 3	baang
+pɐŋ 3	bang
+pɪŋ 3	bing
+pɛŋ 3	beng
+pʊŋ 3	bung
+pɔŋ 3	bong
+pyŋ 3	bvng
+pœŋ 3	boeng
+pɵŋ 3	beong
+pap ̚ 3	baap
+pɐp ̚ 3	bap
+pip ̚ 3	bip
+pɛp ̚ 3	bep
+pup ̚ 3	bup
+pɔp ̚ 3	bop
+pyp ̚ 3	bvp
+pœp ̚ 3	boep
+pɵp ̚ 3	beop
+pat ̚ 3	baat
+pɐt ̚ 3	bat
+pit ̚ 3	bit
+pɛt ̚ 3	bet
+put ̚ 3	but
+pɔt ̚ 3	bot
+pyt ̚ 3	bvt
+pœt ̚ 3	boet
+pɵt ̚ 3	beot
+pak ̚ 3	baak
+pɐk ̚ 3	bak
+pɪk ̚ 3	bik
+pɛk ̚ 3	bek
+pʊk ̚ 3	buk
+pɔk ̚ 3	bok
+pyk ̚ 3	bvk
+pœk ̚ 3	boek
+pɵk ̚ 3	beok
+pʰa 3	paa
+pʰɐ 3	pa
+pʰi 3	pi
+pʰɛ 3	pe
+pʰu 3	pu
+pʰɔ 3	po
+pʰy 3	pv
+pʰœ 3	poe
+pʰɵ 3	peo
+pʰaɪ 3	paai
+pʰɐɪ 3	pai
+pʰiɪ 3	pii
+pʰeɪ 3	pei
+pʰuɪ 3	pui
+pʰɔɪ 3	poi
+pʰyɪ 3	pvi
+pʰœɪ 3	poei
+pʰɵɪ 3	peoi
+pʰaʊ 3	paau
+pʰɐʊ 3	pau
+pʰiʊ 3	piu
+pʰɛʊ 3	peu
+pʰuʊ 3	puu
+pʰoʊ 3	pou
+pʰyʊ 3	pvu
+pʰœʊ 3	poeu
+pʰɵʊ 3	peou
+pʰam 3	paam
+pʰɐm 3	pam
+pʰim 3	pim
+pʰɛm 3	pem
+pʰum 3	pum
+pʰɔm 3	pom
+pʰym 3	pvm
+pʰœm 3	poem
+pʰɵm 3	peom
+pʰan 3	paan
+pʰɐn 3	pan
+pʰin 3	pin
+pʰɛn 3	pen
+pʰun 3	pun
+pʰɔn 3	pon
+pʰyn 3	pvn
+pʰœn 3	poen
+pʰɵn 3	peon
+pʰaŋ 3	paang
+pʰɐŋ 3	pang
+pʰɪŋ 3	ping
+pʰɛŋ 3	peng
+pʰʊŋ 3	pung
+pʰɔŋ 3	pong
+pʰyŋ 3	pvng
+pʰœŋ 3	poeng
+pʰɵŋ 3	peong
+pʰap ̚ 3	paap
+pʰɐp ̚ 3	pap
+pʰip ̚ 3	pip
+pʰɛp ̚ 3	pep
+pʰup ̚ 3	pup
+pʰɔp ̚ 3	pop
+pʰyp ̚ 3	pvp
+pʰœp ̚ 3	poep
+pʰɵp ̚ 3	peop
+pʰat ̚ 3	paat
+pʰɐt ̚ 3	pat
+pʰit ̚ 3	pit
+pʰɛt ̚ 3	pet
+pʰut ̚ 3	put
+pʰɔt ̚ 3	pot
+pʰyt ̚ 3	pvt
+pʰœt ̚ 3	poet
+pʰɵt ̚ 3	peot
+pʰak ̚ 3	paak
+pʰɐk ̚ 3	pak
+pʰɪk ̚ 3	pik
+pʰɛk ̚ 3	pek
+pʰʊk ̚ 3	puk
+pʰɔk ̚ 3	pok
+pʰyk ̚ 3	pvk
+pʰœk ̚ 3	poek
+pʰɵk ̚ 3	peok
+ma 3	maa
+mɐ 3	ma
+mi 3	mi
+mɛ 3	me
+mu 3	mu
+mɔ 3	mo
+my 3	mv
+mœ 3	moe
+mɵ 3	meo
+maɪ 3	maai
+mɐɪ 3	mai
+miɪ 3	mii
+meɪ 3	mei
+muɪ 3	mui
+mɔɪ 3	moi
+myɪ 3	mvi
+mœɪ 3	moei
+mɵɪ 3	meoi
+maʊ 3	maau
+mɐʊ 3	mau
+miʊ 3	miu
+mɛʊ 3	meu
+muʊ 3	muu
+moʊ 3	mou
+myʊ 3	mvu
+mœʊ 3	moeu
+mɵʊ 3	meou
+mam 3	maam
+mɐm 3	mam
+mim 3	mim
+mɛm 3	mem
+mum 3	mum
+mɔm 3	mom
+mym 3	mvm
+mœm 3	moem
+mɵm 3	meom
+man 3	maan
+mɐn 3	man
+min 3	min
+mɛn 3	men
+mun 3	mun
+mɔn 3	mon
+myn 3	mvn
+mœn 3	moen
+mɵn 3	meon
+maŋ 3	maang
+mɐŋ 3	mang
+mɪŋ 3	ming
+mɛŋ 3	meng
+mʊŋ 3	mung
+mɔŋ 3	mong
+myŋ 3	mvng
+mœŋ 3	moeng
+mɵŋ 3	meong
+map ̚ 3	maap
+mɐp ̚ 3	map
+mip ̚ 3	mip
+mɛp ̚ 3	mep
+mup ̚ 3	mup
+mɔp ̚ 3	mop
+myp ̚ 3	mvp
+mœp ̚ 3	moep
+mɵp ̚ 3	meop
+mat ̚ 3	maat
+mɐt ̚ 3	mat
+mit ̚ 3	mit
+mɛt ̚ 3	met
+mut ̚ 3	mut
+mɔt ̚ 3	mot
+myt ̚ 3	mvt
+mœt ̚ 3	moet
+mɵt ̚ 3	meot
+mak ̚ 3	maak
+mɐk ̚ 3	mak
+mɪk ̚ 3	mik
+mɛk ̚ 3	mek
+mʊk ̚ 3	muk
+mɔk ̚ 3	mok
+myk ̚ 3	mvk
+mœk ̚ 3	moek
+mɵk ̚ 3	meok
+fa 3	faa
+fɐ 3	fa
+fi 3	fi
+fɛ 3	fe
+fu 3	fu
+fɔ 3	fo
+fy 3	fv
+fœ 3	foe
+fɵ 3	feo
+faɪ 3	faai
+fɐɪ 3	fai
+fiɪ 3	fii
+feɪ 3	fei
+fuɪ 3	fui
+fɔɪ 3	foi
+fyɪ 3	fvi
+fœɪ 3	foei
+fɵɪ 3	feoi
+faʊ 3	faau
+fɐʊ 3	fau
+fiʊ 3	fiu
+fɛʊ 3	feu
+fuʊ 3	fuu
+foʊ 3	fou
+fyʊ 3	fvu
+fœʊ 3	foeu
+fɵʊ 3	feou
+fam 3	faam
+fɐm 3	fam
+fim 3	fim
+fɛm 3	fem
+fum 3	fum
+fɔm 3	fom
+fym 3	fvm
+fœm 3	foem
+fɵm 3	feom
+fan 3	faan
+fɐn 3	fan
+fin 3	fin
+fɛn 3	fen
+fun 3	fun
+fɔn 3	fon
+fyn 3	fvn
+fœn 3	foen
+fɵn 3	feon
+faŋ 3	faang
+fɐŋ 3	fang
+fɪŋ 3	fing
+fɛŋ 3	feng
+fʊŋ 3	fung
+fɔŋ 3	fong
+fyŋ 3	fvng
+fœŋ 3	foeng
+fɵŋ 3	feong
+fap ̚ 3	faap
+fɐp ̚ 3	fap
+fip ̚ 3	fip
+fɛp ̚ 3	fep
+fup ̚ 3	fup
+fɔp ̚ 3	fop
+fyp ̚ 3	fvp
+fœp ̚ 3	foep
+fɵp ̚ 3	feop
+fat ̚ 3	faat
+fɐt ̚ 3	fat
+fit ̚ 3	fit
+fɛt ̚ 3	fet
+fut ̚ 3	fut
+fɔt ̚ 3	fot
+fyt ̚ 3	fvt
+fœt ̚ 3	foet
+fɵt ̚ 3	feot
+fak ̚ 3	faak
+fɐk ̚ 3	fak
+fɪk ̚ 3	fik
+fɛk ̚ 3	fek
+fʊk ̚ 3	fuk
+fɔk ̚ 3	fok
+fyk ̚ 3	fvk
+fœk ̚ 3	foek
+fɵk ̚ 3	feok
+ta 3	daa
+tɐ 3	da
+ti 3	di
+tɛ 3	de
+tu 3	du
+tɔ 3	do
+ty 3	dv
+tœ 3	doe
+tɵ 3	deo
+taɪ 3	daai
+tɐɪ 3	dai
+tiɪ 3	dii
+teɪ 3	dei
+tuɪ 3	dui
+tɔɪ 3	doi
+tyɪ 3	dvi
+tœɪ 3	doei
+tɵɪ 3	deoi
+taʊ 3	daau
+tɐʊ 3	dau
+tiʊ 3	diu
+tɛʊ 3	deu
+tuʊ 3	duu
+toʊ 3	dou
+tyʊ 3	dvu
+tœʊ 3	doeu
+tɵʊ 3	deou
+tam 3	daam
+tɐm 3	dam
+tim 3	dim
+tɛm 3	dem
+tum 3	dum
+tɔm 3	dom
+tym 3	dvm
+tœm 3	doem
+tɵm 3	deom
+tan 3	daan
+tɐn 3	dan
+tin 3	din
+tɛn 3	den
+tun 3	dun
+tɔn 3	don
+tyn 3	dvn
+tœn 3	doen
+tɵn 3	deon
+taŋ 3	daang
+tɐŋ 3	dang
+tɪŋ 3	ding
+tɛŋ 3	deng
+tʊŋ 3	dung
+tɔŋ 3	dong
+tyŋ 3	dvng
+tœŋ 3	doeng
+tɵŋ 3	deong
+tap ̚ 3	daap
+tɐp ̚ 3	dap
+tip ̚ 3	dip
+tɛp ̚ 3	dep
+tup ̚ 3	dup
+tɔp ̚ 3	dop
+typ ̚ 3	dvp
+tœp ̚ 3	doep
+tɵp ̚ 3	deop
+tat ̚ 3	daat
+tɐt ̚ 3	dat
+tit ̚ 3	dit
+tɛt ̚ 3	det
+tut ̚ 3	dut
+tɔt ̚ 3	dot
+tyt ̚ 3	dvt
+tœt ̚ 3	doet
+tɵt ̚ 3	deot
+tak ̚ 3	daak
+tɐk ̚ 3	dak
+tɪk ̚ 3	dik
+tɛk ̚ 3	dek
+tʊk ̚ 3	duk
+tɔk ̚ 3	dok
+tyk ̚ 3	dvk
+tœk ̚ 3	doek
+tɵk ̚ 3	deok
+tʰa 3	taa
+tʰɐ 3	ta
+tʰi 3	ti
+tʰɛ 3	te
+tʰu 3	tu
+tʰɔ 3	to
+tʰy 3	tv
+tʰœ 3	toe
+tʰɵ 3	teo
+tʰaɪ 3	taai
+tʰɐɪ 3	tai
+tʰiɪ 3	tii
+tʰeɪ 3	tei
+tʰuɪ 3	tui
+tʰɔɪ 3	toi
+tʰyɪ 3	tvi
+tʰœɪ 3	toei
+tʰɵɪ 3	teoi
+tʰaʊ 3	taau
+tʰɐʊ 3	tau
+tʰiʊ 3	tiu
+tʰɛʊ 3	teu
+tʰuʊ 3	tuu
+tʰoʊ 3	tou
+tʰyʊ 3	tvu
+tʰœʊ 3	toeu
+tʰɵʊ 3	teou
+tʰam 3	taam
+tʰɐm 3	tam
+tʰim 3	tim
+tʰɛm 3	tem
+tʰum 3	tum
+tʰɔm 3	tom
+tʰym 3	tvm
+tʰœm 3	toem
+tʰɵm 3	teom
+tʰan 3	taan
+tʰɐn 3	tan
+tʰin 3	tin
+tʰɛn 3	ten
+tʰun 3	tun
+tʰɔn 3	ton
+tʰyn 3	tvn
+tʰœn 3	toen
+tʰɵn 3	teon
+tʰaŋ 3	taang
+tʰɐŋ 3	tang
+tʰɪŋ 3	ting
+tʰɛŋ 3	teng
+tʰʊŋ 3	tung
+tʰɔŋ 3	tong
+tʰyŋ 3	tvng
+tʰœŋ 3	toeng
+tʰɵŋ 3	teong
+tʰap ̚ 3	taap
+tʰɐp ̚ 3	tap
+tʰip ̚ 3	tip
+tʰɛp ̚ 3	tep
+tʰup ̚ 3	tup
+tʰɔp ̚ 3	top
+tʰyp ̚ 3	tvp
+tʰœp ̚ 3	toep
+tʰɵp ̚ 3	teop
+tʰat ̚ 3	taat
+tʰɐt ̚ 3	tat
+tʰit ̚ 3	tit
+tʰɛt ̚ 3	tet
+tʰut ̚ 3	tut
+tʰɔt ̚ 3	tot
+tʰyt ̚ 3	tvt
+tʰœt ̚ 3	toet
+tʰɵt ̚ 3	teot
+tʰak ̚ 3	taak
+tʰɐk ̚ 3	tak
+tʰɪk ̚ 3	tik
+tʰɛk ̚ 3	tek
+tʰʊk ̚ 3	tuk
+tʰɔk ̚ 3	tok
+tʰyk ̚ 3	tvk
+tʰœk ̚ 3	toek
+tʰɵk ̚ 3	teok
+na 3	naa
+nɐ 3	na
+ni 3	ni
+nɛ 3	ne
+nu 3	nu
+nɔ 3	no
+ny 3	nv
+nœ 3	noe
+nɵ 3	neo
+naɪ 3	naai
+nɐɪ 3	nai
+niɪ 3	nii
+neɪ 3	nei
+nuɪ 3	nui
+nɔɪ 3	noi
+nyɪ 3	nvi
+nœɪ 3	noei
+nɵɪ 3	neoi
+naʊ 3	naau
+nɐʊ 3	nau
+niʊ 3	niu
+nɛʊ 3	neu
+nuʊ 3	nuu
+noʊ 3	nou
+nyʊ 3	nvu
+nœʊ 3	noeu
+nɵʊ 3	neou
+nam 3	naam
+nɐm 3	nam
+nim 3	nim
+nɛm 3	nem
+num 3	num
+nɔm 3	nom
+nym 3	nvm
+nœm 3	noem
+nɵm 3	neom
+nan 3	naan
+nɐn 3	nan
+nin 3	nin
+nɛn 3	nen
+nun 3	nun
+nɔn 3	non
+nyn 3	nvn
+nœn 3	noen
+nɵn 3	neon
+naŋ 3	naang
+nɐŋ 3	nang
+nɪŋ 3	ning
+nɛŋ 3	neng
+nʊŋ 3	nung
+nɔŋ 3	nong
+nyŋ 3	nvng
+nœŋ 3	noeng
+nɵŋ 3	neong
+nap ̚ 3	naap
+nɐp ̚ 3	nap
+nip ̚ 3	nip
+nɛp ̚ 3	nep
+nup ̚ 3	nup
+nɔp ̚ 3	nop
+nyp ̚ 3	nvp
+nœp ̚ 3	noep
+nɵp ̚ 3	neop
+nat ̚ 3	naat
+nɐt ̚ 3	nat
+nit ̚ 3	nit
+nɛt ̚ 3	net
+nut ̚ 3	nut
+nɔt ̚ 3	not
+nyt ̚ 3	nvt
+nœt ̚ 3	noet
+nɵt ̚ 3	neot
+nak ̚ 3	naak
+nɐk ̚ 3	nak
+nɪk ̚ 3	nik
+nɛk ̚ 3	nek
+nʊk ̚ 3	nuk
+nɔk ̚ 3	nok
+nyk ̚ 3	nvk
+nœk ̚ 3	noek
+nɵk ̚ 3	neok
+la 3	laa
+lɐ 3	la
+li 3	li
+lɛ 3	le
+lu 3	lu
+lɔ 3	lo
+ly 3	lv
+lœ 3	loe
+lɵ 3	leo
+laɪ 3	laai
+lɐɪ 3	lai
+liɪ 3	lii
+leɪ 3	lei
+luɪ 3	lui
+lɔɪ 3	loi
+lyɪ 3	lvi
+lœɪ 3	loei
+lɵɪ 3	leoi
+laʊ 3	laau
+lɐʊ 3	lau
+liʊ 3	liu
+lɛʊ 3	leu
+luʊ 3	luu
+loʊ 3	lou
+lyʊ 3	lvu
+lœʊ 3	loeu
+lɵʊ 3	leou
+lam 3	laam
+lɐm 3	lam
+lim 3	lim
+lɛm 3	lem
+lum 3	lum
+lɔm 3	lom
+lym 3	lvm
+lœm 3	loem
+lɵm 3	leom
+lan 3	laan
+lɐn 3	lan
+lin 3	lin
+lɛn 3	len
+lun 3	lun
+lɔn 3	lon
+lyn 3	lvn
+lœn 3	loen
+lɵn 3	leon
+laŋ 3	laang
+lɐŋ 3	lang
+lɪŋ 3	ling
+lɛŋ 3	leng
+lʊŋ 3	lung
+lɔŋ 3	long
+lyŋ 3	lvng
+lœŋ 3	loeng
+lɵŋ 3	leong
+lap ̚ 3	laap
+lɐp ̚ 3	lap
+lip ̚ 3	lip
+lɛp ̚ 3	lep
+lup ̚ 3	lup
+lɔp ̚ 3	lop
+lyp ̚ 3	lvp
+lœp ̚ 3	loep
+lɵp ̚ 3	leop
+lat ̚ 3	laat
+lɐt ̚ 3	lat
+lit ̚ 3	lit
+lɛt ̚ 3	let
+lut ̚ 3	lut
+lɔt ̚ 3	lot
+lyt ̚ 3	lvt
+lœt ̚ 3	loet
+lɵt ̚ 3	leot
+lak ̚ 3	laak
+lɐk ̚ 3	lak
+lɪk ̚ 3	lik
+lɛk ̚ 3	lek
+lʊk ̚ 3	luk
+lɔk ̚ 3	lok
+lyk ̚ 3	lvk
+lœk ̚ 3	loek
+lɵk ̚ 3	leok
+ka 3	gaa
+kɐ 3	ga
+ki 3	gi
+kɛ 3	ge
+ku 3	gu
+kɔ 3	go
+ky 3	gv
+kœ 3	goe
+kɵ 3	geo
+kaɪ 3	gaai
+kɐɪ 3	gai
+kiɪ 3	gii
+keɪ 3	gei
+kuɪ 3	gui
+kɔɪ 3	goi
+kyɪ 3	gvi
+kœɪ 3	goei
+kɵɪ 3	geoi
+kaʊ 3	gaau
+kɐʊ 3	gau
+kiʊ 3	giu
+kɛʊ 3	geu
+kuʊ 3	guu
+koʊ 3	gou
+kyʊ 3	gvu
+kœʊ 3	goeu
+kɵʊ 3	geou
+kam 3	gaam
+kɐm 3	gam
+kim 3	gim
+kɛm 3	gem
+kum 3	gum
+kɔm 3	gom
+kym 3	gvm
+kœm 3	goem
+kɵm 3	geom
+kan 3	gaan
+kɐn 3	gan
+kin 3	gin
+kɛn 3	gen
+kun 3	gun
+kɔn 3	gon
+kyn 3	gvn
+kœn 3	goen
+kɵn 3	geon
+kaŋ 3	gaang
+kɐŋ 3	gang
+kɪŋ 3	ging
+kɛŋ 3	geng
+kʊŋ 3	gung
+kɔŋ 3	gong
+kyŋ 3	gvng
+kœŋ 3	goeng
+kɵŋ 3	geong
+kap ̚ 3	gaap
+kɐp ̚ 3	gap
+kip ̚ 3	gip
+kɛp ̚ 3	gep
+kup ̚ 3	gup
+kɔp ̚ 3	gop
+kyp ̚ 3	gvp
+kœp ̚ 3	goep
+kɵp ̚ 3	geop
+kat ̚ 3	gaat
+kɐt ̚ 3	gat
+kit ̚ 3	git
+kɛt ̚ 3	get
+kut ̚ 3	gut
+kɔt ̚ 3	got
+kyt ̚ 3	gvt
+kœt ̚ 3	goet
+kɵt ̚ 3	geot
+kak ̚ 3	gaak
+kɐk ̚ 3	gak
+kɪk ̚ 3	gik
+kɛk ̚ 3	gek
+kʊk ̚ 3	guk
+kɔk ̚ 3	gok
+kyk ̚ 3	gvk
+kœk ̚ 3	goek
+kɵk ̚ 3	geok
+kʰa 3	kaa
+kʰɐ 3	ka
+kʰi 3	ki
+kʰɛ 3	ke
+kʰu 3	ku
+kʰɔ 3	ko
+kʰy 3	kv
+kʰœ 3	koe
+kʰɵ 3	keo
+kʰaɪ 3	kaai
+kʰɐɪ 3	kai
+kʰiɪ 3	kii
+kʰeɪ 3	kei
+kʰuɪ 3	kui
+kʰɔɪ 3	koi
+kʰyɪ 3	kvi
+kʰœɪ 3	koei
+kʰɵɪ 3	keoi
+kʰaʊ 3	kaau
+kʰɐʊ 3	kau
+kʰiʊ 3	kiu
+kʰɛʊ 3	keu
+kʰuʊ 3	kuu
+kʰoʊ 3	kou
+kʰyʊ 3	kvu
+kʰœʊ 3	koeu
+kʰɵʊ 3	keou
+kʰam 3	kaam
+kʰɐm 3	kam
+kʰim 3	kim
+kʰɛm 3	kem
+kʰum 3	kum
+kʰɔm 3	kom
+kʰym 3	kvm
+kʰœm 3	koem
+kʰɵm 3	keom
+kʰan 3	kaan
+kʰɐn 3	kan
+kʰin 3	kin
+kʰɛn 3	ken
+kʰun 3	kun
+kʰɔn 3	kon
+kʰyn 3	kvn
+kʰœn 3	koen
+kʰɵn 3	keon
+kʰaŋ 3	kaang
+kʰɐŋ 3	kang
+kʰɪŋ 3	king
+kʰɛŋ 3	keng
+kʰʊŋ 3	kung
+kʰɔŋ 3	kong
+kʰyŋ 3	kvng
+kʰœŋ 3	koeng
+kʰɵŋ 3	keong
+kʰap ̚ 3	kaap
+kʰɐp ̚ 3	kap
+kʰip ̚ 3	kip
+kʰɛp ̚ 3	kep
+kʰup ̚ 3	kup
+kʰɔp ̚ 3	kop
+kʰyp ̚ 3	kvp
+kʰœp ̚ 3	koep
+kʰɵp ̚ 3	keop
+kʰat ̚ 3	kaat
+kʰɐt ̚ 3	kat
+kʰit ̚ 3	kit
+kʰɛt ̚ 3	ket
+kʰut ̚ 3	kut
+kʰɔt ̚ 3	kot
+kʰyt ̚ 3	kvt
+kʰœt ̚ 3	koet
+kʰɵt ̚ 3	keot
+kʰak ̚ 3	kaak
+kʰɐk ̚ 3	kak
+kʰɪk ̚ 3	kik
+kʰɛk ̚ 3	kek
+kʰʊk ̚ 3	kuk
+kʰɔk ̚ 3	kok
+kʰyk ̚ 3	kvk
+kʰœk ̚ 3	koek
+kʰɵk ̚ 3	keok
+ŋa 3	ngaa
+ŋɐ 3	nga
+ŋi 3	ngi
+ŋɛ 3	nge
+ŋu 3	ngu
+ŋɔ 3	ngo
+ŋy 3	ngv
+ŋœ 3	ngoe
+ŋɵ 3	ngeo
+ŋaɪ 3	ngaai
+ŋɐɪ 3	ngai
+ŋiɪ 3	ngii
+ŋeɪ 3	ngei
+ŋuɪ 3	ngui
+ŋɔɪ 3	ngoi
+ŋyɪ 3	ngvi
+ŋœɪ 3	ngoei
+ŋɵɪ 3	ngeoi
+ŋaʊ 3	ngaau
+ŋɐʊ 3	ngau
+ŋiʊ 3	ngiu
+ŋɛʊ 3	ngeu
+ŋuʊ 3	nguu
+ŋoʊ 3	ngou
+ŋyʊ 3	ngvu
+ŋœʊ 3	ngoeu
+ŋɵʊ 3	ngeou
+ŋam 3	ngaam
+ŋɐm 3	ngam
+ŋim 3	ngim
+ŋɛm 3	ngem
+ŋum 3	ngum
+ŋɔm 3	ngom
+ŋym 3	ngvm
+ŋœm 3	ngoem
+ŋɵm 3	ngeom
+ŋan 3	ngaan
+ŋɐn 3	ngan
+ŋin 3	ngin
+ŋɛn 3	ngen
+ŋun 3	ngun
+ŋɔn 3	ngon
+ŋyn 3	ngvn
+ŋœn 3	ngoen
+ŋɵn 3	ngeon
+ŋaŋ 3	ngaang
+ŋɐŋ 3	ngang
+ŋɪŋ 3	nging
+ŋɛŋ 3	ngeng
+ŋʊŋ 3	ngung
+ŋɔŋ 3	ngong
+ŋyŋ 3	ngvng
+ŋœŋ 3	ngoeng
+ŋɵŋ 3	ngeong
+ŋap ̚ 3	ngaap
+ŋɐp ̚ 3	ngap
+ŋip ̚ 3	ngip
+ŋɛp ̚ 3	ngep
+ŋup ̚ 3	ngup
+ŋɔp ̚ 3	ngop
+ŋyp ̚ 3	ngvp
+ŋœp ̚ 3	ngoep
+ŋɵp ̚ 3	ngeop
+ŋat ̚ 3	ngaat
+ŋɐt ̚ 3	ngat
+ŋit ̚ 3	ngit
+ŋɛt ̚ 3	nget
+ŋut ̚ 3	ngut
+ŋɔt ̚ 3	ngot
+ŋyt ̚ 3	ngvt
+ŋœt ̚ 3	ngoet
+ŋɵt ̚ 3	ngeot
+ŋak ̚ 3	ngaak
+ŋɐk ̚ 3	ngak
+ŋɪk ̚ 3	ngik
+ŋɛk ̚ 3	ngek
+ŋʊk ̚ 3	nguk
+ŋɔk ̚ 3	ngok
+ŋyk ̚ 3	ngvk
+ŋœk ̚ 3	ngoek
+ŋɵk ̚ 3	ngeok
+ha 3	haa
+hɐ 3	ha
+hi 3	hi
+hɛ 3	he
+hu 3	hu
+hɔ 3	ho
+hy 3	hv
+hœ 3	hoe
+hɵ 3	heo
+haɪ 3	haai
+hɐɪ 3	hai
+hiɪ 3	hii
+heɪ 3	hei
+huɪ 3	hui
+hɔɪ 3	hoi
+hyɪ 3	hvi
+hœɪ 3	hoei
+hɵɪ 3	heoi
+haʊ 3	haau
+hɐʊ 3	hau
+hiʊ 3	hiu
+hɛʊ 3	heu
+huʊ 3	huu
+hoʊ 3	hou
+hyʊ 3	hvu
+hœʊ 3	hoeu
+hɵʊ 3	heou
+ham 3	haam
+hɐm 3	ham
+him 3	him
+hɛm 3	hem
+hum 3	hum
+hɔm 3	hom
+hym 3	hvm
+hœm 3	hoem
+hɵm 3	heom
+han 3	haan
+hɐn 3	han
+hin 3	hin
+hɛn 3	hen
+hun 3	hun
+hɔn 3	hon
+hyn 3	hvn
+hœn 3	hoen
+hɵn 3	heon
+haŋ 3	haang
+hɐŋ 3	hang
+hɪŋ 3	hing
+hɛŋ 3	heng
+hʊŋ 3	hung
+hɔŋ 3	hong
+hyŋ 3	hvng
+hœŋ 3	hoeng
+hɵŋ 3	heong
+hap ̚ 3	haap
+hɐp ̚ 3	hap
+hip ̚ 3	hip
+hɛp ̚ 3	hep
+hup ̚ 3	hup
+hɔp ̚ 3	hop
+hyp ̚ 3	hvp
+hœp ̚ 3	hoep
+hɵp ̚ 3	heop
+hat ̚ 3	haat
+hɐt ̚ 3	hat
+hit ̚ 3	hit
+hɛt ̚ 3	het
+hut ̚ 3	hut
+hɔt ̚ 3	hot
+hyt ̚ 3	hvt
+hœt ̚ 3	hoet
+hɵt ̚ 3	heot
+hak ̚ 3	haak
+hɐk ̚ 3	hak
+hɪk ̚ 3	hik
+hɛk ̚ 3	hek
+hʊk ̚ 3	huk
+hɔk ̚ 3	hok
+hyk ̚ 3	hvk
+hœk ̚ 3	hoek
+hɵk ̚ 3	heok
+kʷa 3	gwaa
+kʷɐ 3	gwa
+kʷi 3	gwi
+kʷɛ 3	gwe
+kʷu 3	gwu
+kʷɔ 3	gwo
+kʷy 3	gwv
+kʷœ 3	gwoe
+kʷɵ 3	gweo
+kʷaɪ 3	gwaai
+kʷɐɪ 3	gwai
+kʷiɪ 3	gwii
+kʷeɪ 3	gwei
+kʷuɪ 3	gwui
+kʷɔɪ 3	gwoi
+kʷyɪ 3	gwvi
+kʷœɪ 3	gwoei
+kʷɵɪ 3	gweoi
+kʷaʊ 3	gwaau
+kʷɐʊ 3	gwau
+kʷiʊ 3	gwiu
+kʷɛʊ 3	gweu
+kʷuʊ 3	gwuu
+kʷoʊ 3	gwou
+kʷyʊ 3	gwvu
+kʷœʊ 3	gwoeu
+kʷɵʊ 3	gweou
+kʷam 3	gwaam
+kʷɐm 3	gwam
+kʷim 3	gwim
+kʷɛm 3	gwem
+kʷum 3	gwum
+kʷɔm 3	gwom
+kʷym 3	gwvm
+kʷœm 3	gwoem
+kʷɵm 3	gweom
+kʷan 3	gwaan
+kʷɐn 3	gwan
+kʷin 3	gwin
+kʷɛn 3	gwen
+kʷun 3	gwun
+kʷɔn 3	gwon
+kʷyn 3	gwvn
+kʷœn 3	gwoen
+kʷɵn 3	gweon
+kʷaŋ 3	gwaang
+kʷɐŋ 3	gwang
+kʷɪŋ 3	gwing
+kʷɛŋ 3	gweng
+kʷʊŋ 3	gwung
+kʷɔŋ 3	gwong
+kʷyŋ 3	gwvng
+kʷœŋ 3	gwoeng
+kʷɵŋ 3	gweong
+kʷap ̚ 3	gwaap
+kʷɐp ̚ 3	gwap
+kʷip ̚ 3	gwip
+kʷɛp ̚ 3	gwep
+kʷup ̚ 3	gwup
+kʷɔp ̚ 3	gwop
+kʷyp ̚ 3	gwvp
+kʷœp ̚ 3	gwoep
+kʷɵp ̚ 3	gweop
+kʷat ̚ 3	gwaat
+kʷɐt ̚ 3	gwat
+kʷit ̚ 3	gwit
+kʷɛt ̚ 3	gwet
+kʷut ̚ 3	gwut
+kʷɔt ̚ 3	gwot
+kʷyt ̚ 3	gwvt
+kʷœt ̚ 3	gwoet
+kʷɵt ̚ 3	gweot
+kʷak ̚ 3	gwaak
+kʷɐk ̚ 3	gwak
+kʷɪk ̚ 3	gwik
+kʷɛk ̚ 3	gwek
+kʷʊk ̚ 3	gwuk
+kʷɔk ̚ 3	gwok
+kʷyk ̚ 3	gwvk
+kʷœk ̚ 3	gwoek
+kʷɵk ̚ 3	gweok
+kʷʰa 3	kwaa
+kʷʰɐ 3	kwa
+kʷʰi 3	kwi
+kʷʰɛ 3	kwe
+kʷʰu 3	kwu
+kʷʰɔ 3	kwo
+kʷʰy 3	kwv
+kʷʰœ 3	kwoe
+kʷʰɵ 3	kweo
+kʷʰaɪ 3	kwaai
+kʷʰɐɪ 3	kwai
+kʷʰiɪ 3	kwii
+kʷʰeɪ 3	kwei
+kʷʰuɪ 3	kwui
+kʷʰɔɪ 3	kwoi
+kʷʰyɪ 3	kwvi
+kʷʰœɪ 3	kwoei
+kʷʰɵɪ 3	kweoi
+kʷʰaʊ 3	kwaau
+kʷʰɐʊ 3	kwau
+kʷʰiʊ 3	kwiu
+kʷʰɛʊ 3	kweu
+kʷʰuʊ 3	kwuu
+kʷʰoʊ 3	kwou
+kʷʰyʊ 3	kwvu
+kʷʰœʊ 3	kwoeu
+kʷʰɵʊ 3	kweou
+kʷʰam 3	kwaam
+kʷʰɐm 3	kwam
+kʷʰim 3	kwim
+kʷʰɛm 3	kwem
+kʷʰum 3	kwum
+kʷʰɔm 3	kwom
+kʷʰym 3	kwvm
+kʷʰœm 3	kwoem
+kʷʰɵm 3	kweom
+kʷʰan 3	kwaan
+kʷʰɐn 3	kwan
+kʷʰin 3	kwin
+kʷʰɛn 3	kwen
+kʷʰun 3	kwun
+kʷʰɔn 3	kwon
+kʷʰyn 3	kwvn
+kʷʰœn 3	kwoen
+kʷʰɵn 3	kweon
+kʷʰaŋ 3	kwaang
+kʷʰɐŋ 3	kwang
+kʷʰɪŋ 3	kwing
+kʷʰɛŋ 3	kweng
+kʷʰʊŋ 3	kwung
+kʷʰɔŋ 3	kwong
+kʷʰyŋ 3	kwvng
+kʷʰœŋ 3	kwoeng
+kʷʰɵŋ 3	kweong
+kʷʰap ̚ 3	kwaap
+kʷʰɐp ̚ 3	kwap
+kʷʰip ̚ 3	kwip
+kʷʰɛp ̚ 3	kwep
+kʷʰup ̚ 3	kwup
+kʷʰɔp ̚ 3	kwop
+kʷʰyp ̚ 3	kwvp
+kʷʰœp ̚ 3	kwoep
+kʷʰɵp ̚ 3	kweop
+kʷʰat ̚ 3	kwaat
+kʷʰɐt ̚ 3	kwat
+kʷʰit ̚ 3	kwit
+kʷʰɛt ̚ 3	kwet
+kʷʰut ̚ 3	kwut
+kʷʰɔt ̚ 3	kwot
+kʷʰyt ̚ 3	kwvt
+kʷʰœt ̚ 3	kwoet
+kʷʰɵt ̚ 3	kweot
+kʷʰak ̚ 3	kwaak
+kʷʰɐk ̚ 3	kwak
+kʷʰɪk ̚ 3	kwik
+kʷʰɛk ̚ 3	kwek
+kʷʰʊk ̚ 3	kwuk
+kʷʰɔk ̚ 3	kwok
+kʷʰyk ̚ 3	kwvk
+kʷʰœk ̚ 3	kwoek
+kʷʰɵk ̚ 3	kweok
+wa 3	waa
+wɐ 3	wa
+wi 3	wi
+wɛ 3	we
+wu 3	wu
+wɔ 3	wo
+wy 3	wv
+wœ 3	woe
+wɵ 3	weo
+waɪ 3	waai
+wɐɪ 3	wai
+wiɪ 3	wii
+weɪ 3	wei
+wuɪ 3	wui
+wɔɪ 3	woi
+wyɪ 3	wvi
+wœɪ 3	woei
+wɵɪ 3	weoi
+waʊ 3	waau
+wɐʊ 3	wau
+wiʊ 3	wiu
+wɛʊ 3	weu
+wuʊ 3	wuu
+woʊ 3	wou
+wyʊ 3	wvu
+wœʊ 3	woeu
+wɵʊ 3	weou
+wam 3	waam
+wɐm 3	wam
+wim 3	wim
+wɛm 3	wem
+wum 3	wum
+wɔm 3	wom
+wym 3	wvm
+wœm 3	woem
+wɵm 3	weom
+wan 3	waan
+wɐn 3	wan
+win 3	win
+wɛn 3	wen
+wun 3	wun
+wɔn 3	won
+wyn 3	wvn
+wœn 3	woen
+wɵn 3	weon
+waŋ 3	waang
+wɐŋ 3	wang
+wɪŋ 3	wing
+wɛŋ 3	weng
+wʊŋ 3	wung
+wɔŋ 3	wong
+wyŋ 3	wvng
+wœŋ 3	woeng
+wɵŋ 3	weong
+wap ̚ 3	waap
+wɐp ̚ 3	wap
+wip ̚ 3	wip
+wɛp ̚ 3	wep
+wup ̚ 3	wup
+wɔp ̚ 3	wop
+wyp ̚ 3	wvp
+wœp ̚ 3	woep
+wɵp ̚ 3	weop
+wat ̚ 3	waat
+wɐt ̚ 3	wat
+wit ̚ 3	wit
+wɛt ̚ 3	wet
+wut ̚ 3	wut
+wɔt ̚ 3	wot
+wyt ̚ 3	wvt
+wœt ̚ 3	woet
+wɵt ̚ 3	weot
+wak ̚ 3	waak
+wɐk ̚ 3	wak
+wɪk ̚ 3	wik
+wɛk ̚ 3	wek
+wʊk ̚ 3	wuk
+wɔk ̚ 3	wok
+wyk ̚ 3	wvk
+wœk ̚ 3	woek
+wɵk ̚ 3	weok
+t͡sa 3	zaa
+t͡sɐ 3	za
+t͡si 3	zi
+t͡sɛ 3	ze
+t͡su 3	zu
+t͡sɔ 3	zo
+t͡sy 3	zv
+t͡sœ 3	zoe
+t͡sɵ 3	zeo
+t͡saɪ 3	zaai
+t͡sɐɪ 3	zai
+t͡siɪ 3	zii
+t͡seɪ 3	zei
+t͡suɪ 3	zui
+t͡sɔɪ 3	zoi
+t͡syɪ 3	zvi
+t͡sœɪ 3	zoei
+t͡sɵɪ 3	zeoi
+t͡saʊ 3	zaau
+t͡sɐʊ 3	zau
+t͡siʊ 3	ziu
+t͡sɛʊ 3	zeu
+t͡suʊ 3	zuu
+t͡soʊ 3	zou
+t͡syʊ 3	zvu
+t͡sœʊ 3	zoeu
+t͡sɵʊ 3	zeou
+t͡sam 3	zaam
+t͡sɐm 3	zam
+t͡sim 3	zim
+t͡sɛm 3	zem
+t͡sum 3	zum
+t͡sɔm 3	zom
+t͡sym 3	zvm
+t͡sœm 3	zoem
+t͡sɵm 3	zeom
+t͡san 3	zaan
+t͡sɐn 3	zan
+t͡sin 3	zin
+t͡sɛn 3	zen
+t͡sun 3	zun
+t͡sɔn 3	zon
+t͡syn 3	zvn
+t͡sœn 3	zoen
+t͡sɵn 3	zeon
+t͡saŋ 3	zaang
+t͡sɐŋ 3	zang
+t͡sɪŋ 3	zing
+t͡sɛŋ 3	zeng
+t͡sʊŋ 3	zung
+t͡sɔŋ 3	zong
+t͡syŋ 3	zvng
+t͡sœŋ 3	zoeng
+t͡sɵŋ 3	zeong
+t͡sap ̚ 3	zaap
+t͡sɐp ̚ 3	zap
+t͡sip ̚ 3	zip
+t͡sɛp ̚ 3	zep
+t͡sup ̚ 3	zup
+t͡sɔp ̚ 3	zop
+t͡syp ̚ 3	zvp
+t͡sœp ̚ 3	zoep
+t͡sɵp ̚ 3	zeop
+t͡sat ̚ 3	zaat
+t͡sɐt ̚ 3	zat
+t͡sit ̚ 3	zit
+t͡sɛt ̚ 3	zet
+t͡sut ̚ 3	zut
+t͡sɔt ̚ 3	zot
+t͡syt ̚ 3	zvt
+t͡sœt ̚ 3	zoet
+t͡sɵt ̚ 3	zeot
+t͡sak ̚ 3	zaak
+t͡sɐk ̚ 3	zak
+t͡sɪk ̚ 3	zik
+t͡sɛk ̚ 3	zek
+t͡sʊk ̚ 3	zuk
+t͡sɔk ̚ 3	zok
+t͡syk ̚ 3	zvk
+t͡sœk ̚ 3	zoek
+t͡sɵk ̚ 3	zeok
+t͡sʰa 3	caa
+t͡sʰɐ 3	ca
+t͡sʰi 3	ci
+t͡sʰɛ 3	ce
+t͡sʰu 3	cu
+t͡sʰɔ 3	co
+t͡sʰy 3	cv
+t͡sʰœ 3	coe
+t͡sʰɵ 3	ceo
+t͡sʰaɪ 3	caai
+t͡sʰɐɪ 3	cai
+t͡sʰiɪ 3	cii
+t͡sʰeɪ 3	cei
+t͡sʰuɪ 3	cui
+t͡sʰɔɪ 3	coi
+t͡sʰyɪ 3	cvi
+t͡sʰœɪ 3	coei
+t͡sʰɵɪ 3	ceoi
+t͡sʰaʊ 3	caau
+t͡sʰɐʊ 3	cau
+t͡sʰiʊ 3	ciu
+t͡sʰɛʊ 3	ceu
+t͡sʰuʊ 3	cuu
+t͡sʰoʊ 3	cou
+t͡sʰyʊ 3	cvu
+t͡sʰœʊ 3	coeu
+t͡sʰɵʊ 3	ceou
+t͡sʰam 3	caam
+t͡sʰɐm 3	cam
+t͡sʰim 3	cim
+t͡sʰɛm 3	cem
+t͡sʰum 3	cum
+t͡sʰɔm 3	com
+t͡sʰym 3	cvm
+t͡sʰœm 3	coem
+t͡sʰɵm 3	ceom
+t͡sʰan 3	caan
+t͡sʰɐn 3	can
+t͡sʰin 3	cin
+t͡sʰɛn 3	cen
+t͡sʰun 3	cun
+t͡sʰɔn 3	con
+t͡sʰyn 3	cvn
+t͡sʰœn 3	coen
+t͡sʰɵn 3	ceon
+t͡sʰaŋ 3	caang
+t͡sʰɐŋ 3	cang
+t͡sʰɪŋ 3	cing
+t͡sʰɛŋ 3	ceng
+t͡sʰʊŋ 3	cung
+t͡sʰɔŋ 3	cong
+t͡sʰyŋ 3	cvng
+t͡sʰœŋ 3	coeng
+t͡sʰɵŋ 3	ceong
+t͡sʰap ̚ 3	caap
+t͡sʰɐp ̚ 3	cap
+t͡sʰip ̚ 3	cip
+t͡sʰɛp ̚ 3	cep
+t͡sʰup ̚ 3	cup
+t͡sʰɔp ̚ 3	cop
+t͡sʰyp ̚ 3	cvp
+t͡sʰœp ̚ 3	coep
+t͡sʰɵp ̚ 3	ceop
+t͡sʰat ̚ 3	caat
+t͡sʰɐt ̚ 3	cat
+t͡sʰit ̚ 3	cit
+t͡sʰɛt ̚ 3	cet
+t͡sʰut ̚ 3	cut
+t͡sʰɔt ̚ 3	cot
+t͡sʰyt ̚ 3	cvt
+t͡sʰœt ̚ 3	coet
+t͡sʰɵt ̚ 3	ceot
+t͡sʰak ̚ 3	caak
+t͡sʰɐk ̚ 3	cak
+t͡sʰɪk ̚ 3	cik
+t͡sʰɛk ̚ 3	cek
+t͡sʰʊk ̚ 3	cuk
+t͡sʰɔk ̚ 3	cok
+t͡sʰyk ̚ 3	cvk
+t͡sʰœk ̚ 3	coek
+t͡sʰɵk ̚ 3	ceok
+sa 3	saa
+sɐ 3	sa
+si 3	si
+sɛ 3	se
+su 3	su
+sɔ 3	so
+sy 3	sv
+sœ 3	soe
+sɵ 3	seo
+saɪ 3	saai
+sɐɪ 3	sai
+siɪ 3	sii
+seɪ 3	sei
+suɪ 3	sui
+sɔɪ 3	soi
+syɪ 3	svi
+sœɪ 3	soei
+sɵɪ 3	seoi
+saʊ 3	saau
+sɐʊ 3	sau
+siʊ 3	siu
+sɛʊ 3	seu
+suʊ 3	suu
+soʊ 3	sou
+syʊ 3	svu
+sœʊ 3	soeu
+sɵʊ 3	seou
+sam 3	saam
+sɐm 3	sam
+sim 3	sim
+sɛm 3	sem
+sum 3	sum
+sɔm 3	som
+sym 3	svm
+sœm 3	soem
+sɵm 3	seom
+san 3	saan
+sɐn 3	san
+sin 3	sin
+sɛn 3	sen
+sun 3	sun
+sɔn 3	son
+syn 3	svn
+sœn 3	soen
+sɵn 3	seon
+saŋ 3	saang
+sɐŋ 3	sang
+sɪŋ 3	sing
+sɛŋ 3	seng
+sʊŋ 3	sung
+sɔŋ 3	song
+syŋ 3	svng
+sœŋ 3	soeng
+sɵŋ 3	seong
+sap ̚ 3	saap
+sɐp ̚ 3	sap
+sip ̚ 3	sip
+sɛp ̚ 3	sep
+sup ̚ 3	sup
+sɔp ̚ 3	sop
+syp ̚ 3	svp
+sœp ̚ 3	soep
+sɵp ̚ 3	seop
+sat ̚ 3	saat
+sɐt ̚ 3	sat
+sit ̚ 3	sit
+sɛt ̚ 3	set
+sut ̚ 3	sut
+sɔt ̚ 3	sot
+syt ̚ 3	svt
+sœt ̚ 3	soet
+sɵt ̚ 3	seot
+sak ̚ 3	saak
+sɐk ̚ 3	sak
+sɪk ̚ 3	sik
+sɛk ̚ 3	sek
+sʊk ̚ 3	suk
+sɔk ̚ 3	sok
+syk ̚ 3	svk
+sœk ̚ 3	soek
+sɵk ̚ 3	seok
+ja 3	yaa
+jɐ 3	ya
+ji 3	yi
+jɛ 3	ye
+ju 3	yu
+jɔ 3	yo
+jy 3	yv
+jœ 3	yoe
+jɵ 3	yeo
+jaɪ 3	yaai
+jɐɪ 3	yai
+jiɪ 3	yii
+jeɪ 3	yei
+juɪ 3	yui
+jɔɪ 3	yoi
+jyɪ 3	yvi
+jœɪ 3	yoei
+jɵɪ 3	yeoi
+jaʊ 3	yaau
+jɐʊ 3	yau
+jiʊ 3	yiu
+jɛʊ 3	yeu
+juʊ 3	yuu
+joʊ 3	you
+jyʊ 3	yvu
+jœʊ 3	yoeu
+jɵʊ 3	yeou
+jam 3	yaam
+jɐm 3	yam
+jim 3	yim
+jɛm 3	yem
+jum 3	yum
+jɔm 3	yom
+jym 3	yvm
+jœm 3	yoem
+jɵm 3	yeom
+jan 3	yaan
+jɐn 3	yan
+jin 3	yin
+jɛn 3	yen
+jun 3	yun
+jɔn 3	yon
+jyn 3	yvn
+jœn 3	yoen
+jɵn 3	yeon
+jaŋ 3	yaang
+jɐŋ 3	yang
+jɪŋ 3	ying
+jɛŋ 3	yeng
+jʊŋ 3	yung
+jɔŋ 3	yong
+jyŋ 3	yvng
+jœŋ 3	yoeng
+jɵŋ 3	yeong
+jap ̚ 3	yaap
+jɐp ̚ 3	yap
+jip ̚ 3	yip
+jɛp ̚ 3	yep
+jup ̚ 3	yup
+jɔp ̚ 3	yop
+jyp ̚ 3	yvp
+jœp ̚ 3	yoep
+jɵp ̚ 3	yeop
+jat ̚ 3	yaat
+jɐt ̚ 3	yat
+jit ̚ 3	yit
+jɛt ̚ 3	yet
+jut ̚ 3	yut
+jɔt ̚ 3	yot
+jyt ̚ 3	yvt
+jœt ̚ 3	yoet
+jɵt ̚ 3	yeot
+jak ̚ 3	yaak
+jɐk ̚ 3	yak
+jɪk ̚ 3	yik
+jɛk ̚ 3	yek
+jʊk ̚ 3	yuk
+jɔk ̚ 3	yok
+jyk ̚ 3	yvk
+jœk ̚ 3	yoek
+jɵk ̚ 3	yeok
+m 3	m
+hm 3	hm
+ŋ 3	ng
+hŋ 3	hng
+s 3	s
+a 4	aax
+ɐ 4	ax
+i 4	ix
+ɛ 4	ex
+u 4	ux
+ɔ 4	ox
+y 4	vx
+œ 4	oex
+ɵ 4	eox
+aɪ 4	aaix
+ɐɪ 4	aix
+iɪ 4	iix
+eɪ 4	eix
+uɪ 4	uix
+ɔɪ 4	oix
+yɪ 4	vix
+œɪ 4	oeix
+ɵɪ 4	eoix
+aʊ 4	aaux
+ɐʊ 4	aux
+iʊ 4	iux
+ɛʊ 4	eux
+uʊ 4	uux
+oʊ 4	oux
+yʊ 4	vux
+œʊ 4	oeux
+ɵʊ 4	eoux
+am 4	aamx
+ɐm 4	amx
+im 4	imx
+ɛm 4	emx
+um 4	umx
+ɔm 4	omx
+ym 4	vmx
+œm 4	oemx
+ɵm 4	eomx
+an 4	aanx
+ɐn 4	anx
+in 4	inx
+ɛn 4	enx
+un 4	unx
+ɔn 4	onx
+yn 4	vnx
+œn 4	oenx
+ɵn 4	eonx
+aŋ 4	aangx
+ɐŋ 4	angx
+ɪŋ 4	ingx
+ɛŋ 4	engx
+ʊŋ 4	ungx
+ɔŋ 4	ongx
+yŋ 4	vngx
+œŋ 4	oengx
+ɵŋ 4	eongx
+ap ̚ 4	aapx
+ɐp ̚ 4	apx
+ip ̚ 4	ipx
+ɛp ̚ 4	epx
+up ̚ 4	upx
+ɔp ̚ 4	opx
+yp ̚ 4	vpx
+œp ̚ 4	oepx
+ɵp ̚ 4	eopx
+at ̚ 4	aatx
+ɐt ̚ 4	atx
+it ̚ 4	itx
+ɛt ̚ 4	etx
+ut ̚ 4	utx
+ɔt ̚ 4	otx
+yt ̚ 4	vtx
+œt ̚ 4	oetx
+ɵt ̚ 4	eotx
+ak ̚ 4	aakx
+ɐk ̚ 4	akx
+ɪk ̚ 4	ikx
+ɛk ̚ 4	ekx
+ʊk ̚ 4	ukx
+ɔk ̚ 4	okx
+yk ̚ 4	vkx
+œk ̚ 4	oekx
+ɵk ̚ 4	eokx
+pa 4	baax
+pɐ 4	bax
+pi 4	bix
+pɛ 4	bex
+pu 4	bux
+pɔ 4	box
+py 4	bvx
+pœ 4	boex
+pɵ 4	beox
+paɪ 4	baaix
+pɐɪ 4	baix
+piɪ 4	biix
+peɪ 4	beix
+puɪ 4	buix
+pɔɪ 4	boix
+pyɪ 4	bvix
+pœɪ 4	boeix
+pɵɪ 4	beoix
+paʊ 4	baaux
+pɐʊ 4	baux
+piʊ 4	biux
+pɛʊ 4	beux
+puʊ 4	buux
+poʊ 4	boux
+pyʊ 4	bvux
+pœʊ 4	boeux
+pɵʊ 4	beoux
+pam 4	baamx
+pɐm 4	bamx
+pim 4	bimx
+pɛm 4	bemx
+pum 4	bumx
+pɔm 4	bomx
+pym 4	bvmx
+pœm 4	boemx
+pɵm 4	beomx
+pan 4	baanx
+pɐn 4	banx
+pin 4	binx
+pɛn 4	benx
+pun 4	bunx
+pɔn 4	bonx
+pyn 4	bvnx
+pœn 4	boenx
+pɵn 4	beonx
+paŋ 4	baangx
+pɐŋ 4	bangx
+pɪŋ 4	bingx
+pɛŋ 4	bengx
+pʊŋ 4	bungx
+pɔŋ 4	bongx
+pyŋ 4	bvngx
+pœŋ 4	boengx
+pɵŋ 4	beongx
+pap ̚ 4	baapx
+pɐp ̚ 4	bapx
+pip ̚ 4	bipx
+pɛp ̚ 4	bepx
+pup ̚ 4	bupx
+pɔp ̚ 4	bopx
+pyp ̚ 4	bvpx
+pœp ̚ 4	boepx
+pɵp ̚ 4	beopx
+pat ̚ 4	baatx
+pɐt ̚ 4	batx
+pit ̚ 4	bitx
+pɛt ̚ 4	betx
+put ̚ 4	butx
+pɔt ̚ 4	botx
+pyt ̚ 4	bvtx
+pœt ̚ 4	boetx
+pɵt ̚ 4	beotx
+pak ̚ 4	baakx
+pɐk ̚ 4	bakx
+pɪk ̚ 4	bikx
+pɛk ̚ 4	bekx
+pʊk ̚ 4	bukx
+pɔk ̚ 4	bokx
+pyk ̚ 4	bvkx
+pœk ̚ 4	boekx
+pɵk ̚ 4	beokx
+pʰa 4	paax
+pʰɐ 4	pax
+pʰi 4	pix
+pʰɛ 4	pex
+pʰu 4	pux
+pʰɔ 4	pox
+pʰy 4	pvx
+pʰœ 4	poex
+pʰɵ 4	peox
+pʰaɪ 4	paaix
+pʰɐɪ 4	paix
+pʰiɪ 4	piix
+pʰeɪ 4	peix
+pʰuɪ 4	puix
+pʰɔɪ 4	poix
+pʰyɪ 4	pvix
+pʰœɪ 4	poeix
+pʰɵɪ 4	peoix
+pʰaʊ 4	paaux
+pʰɐʊ 4	paux
+pʰiʊ 4	piux
+pʰɛʊ 4	peux
+pʰuʊ 4	puux
+pʰoʊ 4	poux
+pʰyʊ 4	pvux
+pʰœʊ 4	poeux
+pʰɵʊ 4	peoux
+pʰam 4	paamx
+pʰɐm 4	pamx
+pʰim 4	pimx
+pʰɛm 4	pemx
+pʰum 4	pumx
+pʰɔm 4	pomx
+pʰym 4	pvmx
+pʰœm 4	poemx
+pʰɵm 4	peomx
+pʰan 4	paanx
+pʰɐn 4	panx
+pʰin 4	pinx
+pʰɛn 4	penx
+pʰun 4	punx
+pʰɔn 4	ponx
+pʰyn 4	pvnx
+pʰœn 4	poenx
+pʰɵn 4	peonx
+pʰaŋ 4	paangx
+pʰɐŋ 4	pangx
+pʰɪŋ 4	pingx
+pʰɛŋ 4	pengx
+pʰʊŋ 4	pungx
+pʰɔŋ 4	pongx
+pʰyŋ 4	pvngx
+pʰœŋ 4	poengx
+pʰɵŋ 4	peongx
+pʰap ̚ 4	paapx
+pʰɐp ̚ 4	papx
+pʰip ̚ 4	pipx
+pʰɛp ̚ 4	pepx
+pʰup ̚ 4	pupx
+pʰɔp ̚ 4	popx
+pʰyp ̚ 4	pvpx
+pʰœp ̚ 4	poepx
+pʰɵp ̚ 4	peopx
+pʰat ̚ 4	paatx
+pʰɐt ̚ 4	patx
+pʰit ̚ 4	pitx
+pʰɛt ̚ 4	petx
+pʰut ̚ 4	putx
+pʰɔt ̚ 4	potx
+pʰyt ̚ 4	pvtx
+pʰœt ̚ 4	poetx
+pʰɵt ̚ 4	peotx
+pʰak ̚ 4	paakx
+pʰɐk ̚ 4	pakx
+pʰɪk ̚ 4	pikx
+pʰɛk ̚ 4	pekx
+pʰʊk ̚ 4	pukx
+pʰɔk ̚ 4	pokx
+pʰyk ̚ 4	pvkx
+pʰœk ̚ 4	poekx
+pʰɵk ̚ 4	peokx
+ma 4	maax
+mɐ 4	max
+mi 4	mix
+mɛ 4	mex
+mu 4	mux
+mɔ 4	mox
+my 4	mvx
+mœ 4	moex
+mɵ 4	meox
+maɪ 4	maaix
+mɐɪ 4	maix
+miɪ 4	miix
+meɪ 4	meix
+muɪ 4	muix
+mɔɪ 4	moix
+myɪ 4	mvix
+mœɪ 4	moeix
+mɵɪ 4	meoix
+maʊ 4	maaux
+mɐʊ 4	maux
+miʊ 4	miux
+mɛʊ 4	meux
+muʊ 4	muux
+moʊ 4	moux
+myʊ 4	mvux
+mœʊ 4	moeux
+mɵʊ 4	meoux
+mam 4	maamx
+mɐm 4	mamx
+mim 4	mimx
+mɛm 4	memx
+mum 4	mumx
+mɔm 4	momx
+mym 4	mvmx
+mœm 4	moemx
+mɵm 4	meomx
+man 4	maanx
+mɐn 4	manx
+min 4	minx
+mɛn 4	menx
+mun 4	munx
+mɔn 4	monx
+myn 4	mvnx
+mœn 4	moenx
+mɵn 4	meonx
+maŋ 4	maangx
+mɐŋ 4	mangx
+mɪŋ 4	mingx
+mɛŋ 4	mengx
+mʊŋ 4	mungx
+mɔŋ 4	mongx
+myŋ 4	mvngx
+mœŋ 4	moengx
+mɵŋ 4	meongx
+map ̚ 4	maapx
+mɐp ̚ 4	mapx
+mip ̚ 4	mipx
+mɛp ̚ 4	mepx
+mup ̚ 4	mupx
+mɔp ̚ 4	mopx
+myp ̚ 4	mvpx
+mœp ̚ 4	moepx
+mɵp ̚ 4	meopx
+mat ̚ 4	maatx
+mɐt ̚ 4	matx
+mit ̚ 4	mitx
+mɛt ̚ 4	metx
+mut ̚ 4	mutx
+mɔt ̚ 4	motx
+myt ̚ 4	mvtx
+mœt ̚ 4	moetx
+mɵt ̚ 4	meotx
+mak ̚ 4	maakx
+mɐk ̚ 4	makx
+mɪk ̚ 4	mikx
+mɛk ̚ 4	mekx
+mʊk ̚ 4	mukx
+mɔk ̚ 4	mokx
+myk ̚ 4	mvkx
+mœk ̚ 4	moekx
+mɵk ̚ 4	meokx
+fa 4	faax
+fɐ 4	fax
+fi 4	fix
+fɛ 4	fex
+fu 4	fux
+fɔ 4	fox
+fy 4	fvx
+fœ 4	foex
+fɵ 4	feox
+faɪ 4	faaix
+fɐɪ 4	faix
+fiɪ 4	fiix
+feɪ 4	feix
+fuɪ 4	fuix
+fɔɪ 4	foix
+fyɪ 4	fvix
+fœɪ 4	foeix
+fɵɪ 4	feoix
+faʊ 4	faaux
+fɐʊ 4	faux
+fiʊ 4	fiux
+fɛʊ 4	feux
+fuʊ 4	fuux
+foʊ 4	foux
+fyʊ 4	fvux
+fœʊ 4	foeux
+fɵʊ 4	feoux
+fam 4	faamx
+fɐm 4	famx
+fim 4	fimx
+fɛm 4	femx
+fum 4	fumx
+fɔm 4	fomx
+fym 4	fvmx
+fœm 4	foemx
+fɵm 4	feomx
+fan 4	faanx
+fɐn 4	fanx
+fin 4	finx
+fɛn 4	fenx
+fun 4	funx
+fɔn 4	fonx
+fyn 4	fvnx
+fœn 4	foenx
+fɵn 4	feonx
+faŋ 4	faangx
+fɐŋ 4	fangx
+fɪŋ 4	fingx
+fɛŋ 4	fengx
+fʊŋ 4	fungx
+fɔŋ 4	fongx
+fyŋ 4	fvngx
+fœŋ 4	foengx
+fɵŋ 4	feongx
+fap ̚ 4	faapx
+fɐp ̚ 4	fapx
+fip ̚ 4	fipx
+fɛp ̚ 4	fepx
+fup ̚ 4	fupx
+fɔp ̚ 4	fopx
+fyp ̚ 4	fvpx
+fœp ̚ 4	foepx
+fɵp ̚ 4	feopx
+fat ̚ 4	faatx
+fɐt ̚ 4	fatx
+fit ̚ 4	fitx
+fɛt ̚ 4	fetx
+fut ̚ 4	futx
+fɔt ̚ 4	fotx
+fyt ̚ 4	fvtx
+fœt ̚ 4	foetx
+fɵt ̚ 4	feotx
+fak ̚ 4	faakx
+fɐk ̚ 4	fakx
+fɪk ̚ 4	fikx
+fɛk ̚ 4	fekx
+fʊk ̚ 4	fukx
+fɔk ̚ 4	fokx
+fyk ̚ 4	fvkx
+fœk ̚ 4	foekx
+fɵk ̚ 4	feokx
+ta 4	daax
+tɐ 4	dax
+ti 4	dix
+tɛ 4	dex
+tu 4	dux
+tɔ 4	dox
+ty 4	dvx
+tœ 4	doex
+tɵ 4	deox
+taɪ 4	daaix
+tɐɪ 4	daix
+tiɪ 4	diix
+teɪ 4	deix
+tuɪ 4	duix
+tɔɪ 4	doix
+tyɪ 4	dvix
+tœɪ 4	doeix
+tɵɪ 4	deoix
+taʊ 4	daaux
+tɐʊ 4	daux
+tiʊ 4	diux
+tɛʊ 4	deux
+tuʊ 4	duux
+toʊ 4	doux
+tyʊ 4	dvux
+tœʊ 4	doeux
+tɵʊ 4	deoux
+tam 4	daamx
+tɐm 4	damx
+tim 4	dimx
+tɛm 4	demx
+tum 4	dumx
+tɔm 4	domx
+tym 4	dvmx
+tœm 4	doemx
+tɵm 4	deomx
+tan 4	daanx
+tɐn 4	danx
+tin 4	dinx
+tɛn 4	denx
+tun 4	dunx
+tɔn 4	donx
+tyn 4	dvnx
+tœn 4	doenx
+tɵn 4	deonx
+taŋ 4	daangx
+tɐŋ 4	dangx
+tɪŋ 4	dingx
+tɛŋ 4	dengx
+tʊŋ 4	dungx
+tɔŋ 4	dongx
+tyŋ 4	dvngx
+tœŋ 4	doengx
+tɵŋ 4	deongx
+tap ̚ 4	daapx
+tɐp ̚ 4	dapx
+tip ̚ 4	dipx
+tɛp ̚ 4	depx
+tup ̚ 4	dupx
+tɔp ̚ 4	dopx
+typ ̚ 4	dvpx
+tœp ̚ 4	doepx
+tɵp ̚ 4	deopx
+tat ̚ 4	daatx
+tɐt ̚ 4	datx
+tit ̚ 4	ditx
+tɛt ̚ 4	detx
+tut ̚ 4	dutx
+tɔt ̚ 4	dotx
+tyt ̚ 4	dvtx
+tœt ̚ 4	doetx
+tɵt ̚ 4	deotx
+tak ̚ 4	daakx
+tɐk ̚ 4	dakx
+tɪk ̚ 4	dikx
+tɛk ̚ 4	dekx
+tʊk ̚ 4	dukx
+tɔk ̚ 4	dokx
+tyk ̚ 4	dvkx
+tœk ̚ 4	doekx
+tɵk ̚ 4	deokx
+tʰa 4	taax
+tʰɐ 4	tax
+tʰi 4	tix
+tʰɛ 4	tex
+tʰu 4	tux
+tʰɔ 4	tox
+tʰy 4	tvx
+tʰœ 4	toex
+tʰɵ 4	teox
+tʰaɪ 4	taaix
+tʰɐɪ 4	taix
+tʰiɪ 4	tiix
+tʰeɪ 4	teix
+tʰuɪ 4	tuix
+tʰɔɪ 4	toix
+tʰyɪ 4	tvix
+tʰœɪ 4	toeix
+tʰɵɪ 4	teoix
+tʰaʊ 4	taaux
+tʰɐʊ 4	taux
+tʰiʊ 4	tiux
+tʰɛʊ 4	teux
+tʰuʊ 4	tuux
+tʰoʊ 4	toux
+tʰyʊ 4	tvux
+tʰœʊ 4	toeux
+tʰɵʊ 4	teoux
+tʰam 4	taamx
+tʰɐm 4	tamx
+tʰim 4	timx
+tʰɛm 4	temx
+tʰum 4	tumx
+tʰɔm 4	tomx
+tʰym 4	tvmx
+tʰœm 4	toemx
+tʰɵm 4	teomx
+tʰan 4	taanx
+tʰɐn 4	tanx
+tʰin 4	tinx
+tʰɛn 4	tenx
+tʰun 4	tunx
+tʰɔn 4	tonx
+tʰyn 4	tvnx
+tʰœn 4	toenx
+tʰɵn 4	teonx
+tʰaŋ 4	taangx
+tʰɐŋ 4	tangx
+tʰɪŋ 4	tingx
+tʰɛŋ 4	tengx
+tʰʊŋ 4	tungx
+tʰɔŋ 4	tongx
+tʰyŋ 4	tvngx
+tʰœŋ 4	toengx
+tʰɵŋ 4	teongx
+tʰap ̚ 4	taapx
+tʰɐp ̚ 4	tapx
+tʰip ̚ 4	tipx
+tʰɛp ̚ 4	tepx
+tʰup ̚ 4	tupx
+tʰɔp ̚ 4	topx
+tʰyp ̚ 4	tvpx
+tʰœp ̚ 4	toepx
+tʰɵp ̚ 4	teopx
+tʰat ̚ 4	taatx
+tʰɐt ̚ 4	tatx
+tʰit ̚ 4	titx
+tʰɛt ̚ 4	tetx
+tʰut ̚ 4	tutx
+tʰɔt ̚ 4	totx
+tʰyt ̚ 4	tvtx
+tʰœt ̚ 4	toetx
+tʰɵt ̚ 4	teotx
+tʰak ̚ 4	taakx
+tʰɐk ̚ 4	takx
+tʰɪk ̚ 4	tikx
+tʰɛk ̚ 4	tekx
+tʰʊk ̚ 4	tukx
+tʰɔk ̚ 4	tokx
+tʰyk ̚ 4	tvkx
+tʰœk ̚ 4	toekx
+tʰɵk ̚ 4	teokx
+na 4	naax
+nɐ 4	nax
+ni 4	nix
+nɛ 4	nex
+nu 4	nux
+nɔ 4	nox
+ny 4	nvx
+nœ 4	noex
+nɵ 4	neox
+naɪ 4	naaix
+nɐɪ 4	naix
+niɪ 4	niix
+neɪ 4	neix
+nuɪ 4	nuix
+nɔɪ 4	noix
+nyɪ 4	nvix
+nœɪ 4	noeix
+nɵɪ 4	neoix
+naʊ 4	naaux
+nɐʊ 4	naux
+niʊ 4	niux
+nɛʊ 4	neux
+nuʊ 4	nuux
+noʊ 4	noux
+nyʊ 4	nvux
+nœʊ 4	noeux
+nɵʊ 4	neoux
+nam 4	naamx
+nɐm 4	namx
+nim 4	nimx
+nɛm 4	nemx
+num 4	numx
+nɔm 4	nomx
+nym 4	nvmx
+nœm 4	noemx
+nɵm 4	neomx
+nan 4	naanx
+nɐn 4	nanx
+nin 4	ninx
+nɛn 4	nenx
+nun 4	nunx
+nɔn 4	nonx
+nyn 4	nvnx
+nœn 4	noenx
+nɵn 4	neonx
+naŋ 4	naangx
+nɐŋ 4	nangx
+nɪŋ 4	ningx
+nɛŋ 4	nengx
+nʊŋ 4	nungx
+nɔŋ 4	nongx
+nyŋ 4	nvngx
+nœŋ 4	noengx
+nɵŋ 4	neongx
+nap ̚ 4	naapx
+nɐp ̚ 4	napx
+nip ̚ 4	nipx
+nɛp ̚ 4	nepx
+nup ̚ 4	nupx
+nɔp ̚ 4	nopx
+nyp ̚ 4	nvpx
+nœp ̚ 4	noepx
+nɵp ̚ 4	neopx
+nat ̚ 4	naatx
+nɐt ̚ 4	natx
+nit ̚ 4	nitx
+nɛt ̚ 4	netx
+nut ̚ 4	nutx
+nɔt ̚ 4	notx
+nyt ̚ 4	nvtx
+nœt ̚ 4	noetx
+nɵt ̚ 4	neotx
+nak ̚ 4	naakx
+nɐk ̚ 4	nakx
+nɪk ̚ 4	nikx
+nɛk ̚ 4	nekx
+nʊk ̚ 4	nukx
+nɔk ̚ 4	nokx
+nyk ̚ 4	nvkx
+nœk ̚ 4	noekx
+nɵk ̚ 4	neokx
+la 4	laax
+lɐ 4	lax
+li 4	lix
+lɛ 4	lex
+lu 4	lux
+lɔ 4	lox
+ly 4	lvx
+lœ 4	loex
+lɵ 4	leox
+laɪ 4	laaix
+lɐɪ 4	laix
+liɪ 4	liix
+leɪ 4	leix
+luɪ 4	luix
+lɔɪ 4	loix
+lyɪ 4	lvix
+lœɪ 4	loeix
+lɵɪ 4	leoix
+laʊ 4	laaux
+lɐʊ 4	laux
+liʊ 4	liux
+lɛʊ 4	leux
+luʊ 4	luux
+loʊ 4	loux
+lyʊ 4	lvux
+lœʊ 4	loeux
+lɵʊ 4	leoux
+lam 4	laamx
+lɐm 4	lamx
+lim 4	limx
+lɛm 4	lemx
+lum 4	lumx
+lɔm 4	lomx
+lym 4	lvmx
+lœm 4	loemx
+lɵm 4	leomx
+lan 4	laanx
+lɐn 4	lanx
+lin 4	linx
+lɛn 4	lenx
+lun 4	lunx
+lɔn 4	lonx
+lyn 4	lvnx
+lœn 4	loenx
+lɵn 4	leonx
+laŋ 4	laangx
+lɐŋ 4	langx
+lɪŋ 4	lingx
+lɛŋ 4	lengx
+lʊŋ 4	lungx
+lɔŋ 4	longx
+lyŋ 4	lvngx
+lœŋ 4	loengx
+lɵŋ 4	leongx
+lap ̚ 4	laapx
+lɐp ̚ 4	lapx
+lip ̚ 4	lipx
+lɛp ̚ 4	lepx
+lup ̚ 4	lupx
+lɔp ̚ 4	lopx
+lyp ̚ 4	lvpx
+lœp ̚ 4	loepx
+lɵp ̚ 4	leopx
+lat ̚ 4	laatx
+lɐt ̚ 4	latx
+lit ̚ 4	litx
+lɛt ̚ 4	letx
+lut ̚ 4	lutx
+lɔt ̚ 4	lotx
+lyt ̚ 4	lvtx
+lœt ̚ 4	loetx
+lɵt ̚ 4	leotx
+lak ̚ 4	laakx
+lɐk ̚ 4	lakx
+lɪk ̚ 4	likx
+lɛk ̚ 4	lekx
+lʊk ̚ 4	lukx
+lɔk ̚ 4	lokx
+lyk ̚ 4	lvkx
+lœk ̚ 4	loekx
+lɵk ̚ 4	leokx
+ka 4	gaax
+kɐ 4	gax
+ki 4	gix
+kɛ 4	gex
+ku 4	gux
+kɔ 4	gox
+ky 4	gvx
+kœ 4	goex
+kɵ 4	geox
+kaɪ 4	gaaix
+kɐɪ 4	gaix
+kiɪ 4	giix
+keɪ 4	geix
+kuɪ 4	guix
+kɔɪ 4	goix
+kyɪ 4	gvix
+kœɪ 4	goeix
+kɵɪ 4	geoix
+kaʊ 4	gaaux
+kɐʊ 4	gaux
+kiʊ 4	giux
+kɛʊ 4	geux
+kuʊ 4	guux
+koʊ 4	goux
+kyʊ 4	gvux
+kœʊ 4	goeux
+kɵʊ 4	geoux
+kam 4	gaamx
+kɐm 4	gamx
+kim 4	gimx
+kɛm 4	gemx
+kum 4	gumx
+kɔm 4	gomx
+kym 4	gvmx
+kœm 4	goemx
+kɵm 4	geomx
+kan 4	gaanx
+kɐn 4	ganx
+kin 4	ginx
+kɛn 4	genx
+kun 4	gunx
+kɔn 4	gonx
+kyn 4	gvnx
+kœn 4	goenx
+kɵn 4	geonx
+kaŋ 4	gaangx
+kɐŋ 4	gangx
+kɪŋ 4	gingx
+kɛŋ 4	gengx
+kʊŋ 4	gungx
+kɔŋ 4	gongx
+kyŋ 4	gvngx
+kœŋ 4	goengx
+kɵŋ 4	geongx
+kap ̚ 4	gaapx
+kɐp ̚ 4	gapx
+kip ̚ 4	gipx
+kɛp ̚ 4	gepx
+kup ̚ 4	gupx
+kɔp ̚ 4	gopx
+kyp ̚ 4	gvpx
+kœp ̚ 4	goepx
+kɵp ̚ 4	geopx
+kat ̚ 4	gaatx
+kɐt ̚ 4	gatx
+kit ̚ 4	gitx
+kɛt ̚ 4	getx
+kut ̚ 4	gutx
+kɔt ̚ 4	gotx
+kyt ̚ 4	gvtx
+kœt ̚ 4	goetx
+kɵt ̚ 4	geotx
+kak ̚ 4	gaakx
+kɐk ̚ 4	gakx
+kɪk ̚ 4	gikx
+kɛk ̚ 4	gekx
+kʊk ̚ 4	gukx
+kɔk ̚ 4	gokx
+kyk ̚ 4	gvkx
+kœk ̚ 4	goekx
+kɵk ̚ 4	geokx
+kʰa 4	kaax
+kʰɐ 4	kax
+kʰi 4	kix
+kʰɛ 4	kex
+kʰu 4	kux
+kʰɔ 4	kox
+kʰy 4	kvx
+kʰœ 4	koex
+kʰɵ 4	keox
+kʰaɪ 4	kaaix
+kʰɐɪ 4	kaix
+kʰiɪ 4	kiix
+kʰeɪ 4	keix
+kʰuɪ 4	kuix
+kʰɔɪ 4	koix
+kʰyɪ 4	kvix
+kʰœɪ 4	koeix
+kʰɵɪ 4	keoix
+kʰaʊ 4	kaaux
+kʰɐʊ 4	kaux
+kʰiʊ 4	kiux
+kʰɛʊ 4	keux
+kʰuʊ 4	kuux
+kʰoʊ 4	koux
+kʰyʊ 4	kvux
+kʰœʊ 4	koeux
+kʰɵʊ 4	keoux
+kʰam 4	kaamx
+kʰɐm 4	kamx
+kʰim 4	kimx
+kʰɛm 4	kemx
+kʰum 4	kumx
+kʰɔm 4	komx
+kʰym 4	kvmx
+kʰœm 4	koemx
+kʰɵm 4	keomx
+kʰan 4	kaanx
+kʰɐn 4	kanx
+kʰin 4	kinx
+kʰɛn 4	kenx
+kʰun 4	kunx
+kʰɔn 4	konx
+kʰyn 4	kvnx
+kʰœn 4	koenx
+kʰɵn 4	keonx
+kʰaŋ 4	kaangx
+kʰɐŋ 4	kangx
+kʰɪŋ 4	kingx
+kʰɛŋ 4	kengx
+kʰʊŋ 4	kungx
+kʰɔŋ 4	kongx
+kʰyŋ 4	kvngx
+kʰœŋ 4	koengx
+kʰɵŋ 4	keongx
+kʰap ̚ 4	kaapx
+kʰɐp ̚ 4	kapx
+kʰip ̚ 4	kipx
+kʰɛp ̚ 4	kepx
+kʰup ̚ 4	kupx
+kʰɔp ̚ 4	kopx
+kʰyp ̚ 4	kvpx
+kʰœp ̚ 4	koepx
+kʰɵp ̚ 4	keopx
+kʰat ̚ 4	kaatx
+kʰɐt ̚ 4	katx
+kʰit ̚ 4	kitx
+kʰɛt ̚ 4	ketx
+kʰut ̚ 4	kutx
+kʰɔt ̚ 4	kotx
+kʰyt ̚ 4	kvtx
+kʰœt ̚ 4	koetx
+kʰɵt ̚ 4	keotx
+kʰak ̚ 4	kaakx
+kʰɐk ̚ 4	kakx
+kʰɪk ̚ 4	kikx
+kʰɛk ̚ 4	kekx
+kʰʊk ̚ 4	kukx
+kʰɔk ̚ 4	kokx
+kʰyk ̚ 4	kvkx
+kʰœk ̚ 4	koekx
+kʰɵk ̚ 4	keokx
+ŋa 4	ngaax
+ŋɐ 4	ngax
+ŋi 4	ngix
+ŋɛ 4	ngex
+ŋu 4	ngux
+ŋɔ 4	ngox
+ŋy 4	ngvx
+ŋœ 4	ngoex
+ŋɵ 4	ngeox
+ŋaɪ 4	ngaaix
+ŋɐɪ 4	ngaix
+ŋiɪ 4	ngiix
+ŋeɪ 4	ngeix
+ŋuɪ 4	nguix
+ŋɔɪ 4	ngoix
+ŋyɪ 4	ngvix
+ŋœɪ 4	ngoeix
+ŋɵɪ 4	ngeoix
+ŋaʊ 4	ngaaux
+ŋɐʊ 4	ngaux
+ŋiʊ 4	ngiux
+ŋɛʊ 4	ngeux
+ŋuʊ 4	nguux
+ŋoʊ 4	ngoux
+ŋyʊ 4	ngvux
+ŋœʊ 4	ngoeux
+ŋɵʊ 4	ngeoux
+ŋam 4	ngaamx
+ŋɐm 4	ngamx
+ŋim 4	ngimx
+ŋɛm 4	ngemx
+ŋum 4	ngumx
+ŋɔm 4	ngomx
+ŋym 4	ngvmx
+ŋœm 4	ngoemx
+ŋɵm 4	ngeomx
+ŋan 4	ngaanx
+ŋɐn 4	nganx
+ŋin 4	nginx
+ŋɛn 4	ngenx
+ŋun 4	ngunx
+ŋɔn 4	ngonx
+ŋyn 4	ngvnx
+ŋœn 4	ngoenx
+ŋɵn 4	ngeonx
+ŋaŋ 4	ngaangx
+ŋɐŋ 4	ngangx
+ŋɪŋ 4	ngingx
+ŋɛŋ 4	ngengx
+ŋʊŋ 4	ngungx
+ŋɔŋ 4	ngongx
+ŋyŋ 4	ngvngx
+ŋœŋ 4	ngoengx
+ŋɵŋ 4	ngeongx
+ŋap ̚ 4	ngaapx
+ŋɐp ̚ 4	ngapx
+ŋip ̚ 4	ngipx
+ŋɛp ̚ 4	ngepx
+ŋup ̚ 4	ngupx
+ŋɔp ̚ 4	ngopx
+ŋyp ̚ 4	ngvpx
+ŋœp ̚ 4	ngoepx
+ŋɵp ̚ 4	ngeopx
+ŋat ̚ 4	ngaatx
+ŋɐt ̚ 4	ngatx
+ŋit ̚ 4	ngitx
+ŋɛt ̚ 4	ngetx
+ŋut ̚ 4	ngutx
+ŋɔt ̚ 4	ngotx
+ŋyt ̚ 4	ngvtx
+ŋœt ̚ 4	ngoetx
+ŋɵt ̚ 4	ngeotx
+ŋak ̚ 4	ngaakx
+ŋɐk ̚ 4	ngakx
+ŋɪk ̚ 4	ngikx
+ŋɛk ̚ 4	ngekx
+ŋʊk ̚ 4	ngukx
+ŋɔk ̚ 4	ngokx
+ŋyk ̚ 4	ngvkx
+ŋœk ̚ 4	ngoekx
+ŋɵk ̚ 4	ngeokx
+ha 4	haax
+hɐ 4	hax
+hi 4	hix
+hɛ 4	hex
+hu 4	hux
+hɔ 4	hox
+hy 4	hvx
+hœ 4	hoex
+hɵ 4	heox
+haɪ 4	haaix
+hɐɪ 4	haix
+hiɪ 4	hiix
+heɪ 4	heix
+huɪ 4	huix
+hɔɪ 4	hoix
+hyɪ 4	hvix
+hœɪ 4	hoeix
+hɵɪ 4	heoix
+haʊ 4	haaux
+hɐʊ 4	haux
+hiʊ 4	hiux
+hɛʊ 4	heux
+huʊ 4	huux
+hoʊ 4	houx
+hyʊ 4	hvux
+hœʊ 4	hoeux
+hɵʊ 4	heoux
+ham 4	haamx
+hɐm 4	hamx
+him 4	himx
+hɛm 4	hemx
+hum 4	humx
+hɔm 4	homx
+hym 4	hvmx
+hœm 4	hoemx
+hɵm 4	heomx
+han 4	haanx
+hɐn 4	hanx
+hin 4	hinx
+hɛn 4	henx
+hun 4	hunx
+hɔn 4	honx
+hyn 4	hvnx
+hœn 4	hoenx
+hɵn 4	heonx
+haŋ 4	haangx
+hɐŋ 4	hangx
+hɪŋ 4	hingx
+hɛŋ 4	hengx
+hʊŋ 4	hungx
+hɔŋ 4	hongx
+hyŋ 4	hvngx
+hœŋ 4	hoengx
+hɵŋ 4	heongx
+hap ̚ 4	haapx
+hɐp ̚ 4	hapx
+hip ̚ 4	hipx
+hɛp ̚ 4	hepx
+hup ̚ 4	hupx
+hɔp ̚ 4	hopx
+hyp ̚ 4	hvpx
+hœp ̚ 4	hoepx
+hɵp ̚ 4	heopx
+hat ̚ 4	haatx
+hɐt ̚ 4	hatx
+hit ̚ 4	hitx
+hɛt ̚ 4	hetx
+hut ̚ 4	hutx
+hɔt ̚ 4	hotx
+hyt ̚ 4	hvtx
+hœt ̚ 4	hoetx
+hɵt ̚ 4	heotx
+hak ̚ 4	haakx
+hɐk ̚ 4	hakx
+hɪk ̚ 4	hikx
+hɛk ̚ 4	hekx
+hʊk ̚ 4	hukx
+hɔk ̚ 4	hokx
+hyk ̚ 4	hvkx
+hœk ̚ 4	hoekx
+hɵk ̚ 4	heokx
+kʷa 4	gwaax
+kʷɐ 4	gwax
+kʷi 4	gwix
+kʷɛ 4	gwex
+kʷu 4	gwux
+kʷɔ 4	gwox
+kʷy 4	gwvx
+kʷœ 4	gwoex
+kʷɵ 4	gweox
+kʷaɪ 4	gwaaix
+kʷɐɪ 4	gwaix
+kʷiɪ 4	gwiix
+kʷeɪ 4	gweix
+kʷuɪ 4	gwuix
+kʷɔɪ 4	gwoix
+kʷyɪ 4	gwvix
+kʷœɪ 4	gwoeix
+kʷɵɪ 4	gweoix
+kʷaʊ 4	gwaaux
+kʷɐʊ 4	gwaux
+kʷiʊ 4	gwiux
+kʷɛʊ 4	gweux
+kʷuʊ 4	gwuux
+kʷoʊ 4	gwoux
+kʷyʊ 4	gwvux
+kʷœʊ 4	gwoeux
+kʷɵʊ 4	gweoux
+kʷam 4	gwaamx
+kʷɐm 4	gwamx
+kʷim 4	gwimx
+kʷɛm 4	gwemx
+kʷum 4	gwumx
+kʷɔm 4	gwomx
+kʷym 4	gwvmx
+kʷœm 4	gwoemx
+kʷɵm 4	gweomx
+kʷan 4	gwaanx
+kʷɐn 4	gwanx
+kʷin 4	gwinx
+kʷɛn 4	gwenx
+kʷun 4	gwunx
+kʷɔn 4	gwonx
+kʷyn 4	gwvnx
+kʷœn 4	gwoenx
+kʷɵn 4	gweonx
+kʷaŋ 4	gwaangx
+kʷɐŋ 4	gwangx
+kʷɪŋ 4	gwingx
+kʷɛŋ 4	gwengx
+kʷʊŋ 4	gwungx
+kʷɔŋ 4	gwongx
+kʷyŋ 4	gwvngx
+kʷœŋ 4	gwoengx
+kʷɵŋ 4	gweongx
+kʷap ̚ 4	gwaapx
+kʷɐp ̚ 4	gwapx
+kʷip ̚ 4	gwipx
+kʷɛp ̚ 4	gwepx
+kʷup ̚ 4	gwupx
+kʷɔp ̚ 4	gwopx
+kʷyp ̚ 4	gwvpx
+kʷœp ̚ 4	gwoepx
+kʷɵp ̚ 4	gweopx
+kʷat ̚ 4	gwaatx
+kʷɐt ̚ 4	gwatx
+kʷit ̚ 4	gwitx
+kʷɛt ̚ 4	gwetx
+kʷut ̚ 4	gwutx
+kʷɔt ̚ 4	gwotx
+kʷyt ̚ 4	gwvtx
+kʷœt ̚ 4	gwoetx
+kʷɵt ̚ 4	gweotx
+kʷak ̚ 4	gwaakx
+kʷɐk ̚ 4	gwakx
+kʷɪk ̚ 4	gwikx
+kʷɛk ̚ 4	gwekx
+kʷʊk ̚ 4	gwukx
+kʷɔk ̚ 4	gwokx
+kʷyk ̚ 4	gwvkx
+kʷœk ̚ 4	gwoekx
+kʷɵk ̚ 4	gweokx
+kʷʰa 4	kwaax
+kʷʰɐ 4	kwax
+kʷʰi 4	kwix
+kʷʰɛ 4	kwex
+kʷʰu 4	kwux
+kʷʰɔ 4	kwox
+kʷʰy 4	kwvx
+kʷʰœ 4	kwoex
+kʷʰɵ 4	kweox
+kʷʰaɪ 4	kwaaix
+kʷʰɐɪ 4	kwaix
+kʷʰiɪ 4	kwiix
+kʷʰeɪ 4	kweix
+kʷʰuɪ 4	kwuix
+kʷʰɔɪ 4	kwoix
+kʷʰyɪ 4	kwvix
+kʷʰœɪ 4	kwoeix
+kʷʰɵɪ 4	kweoix
+kʷʰaʊ 4	kwaaux
+kʷʰɐʊ 4	kwaux
+kʷʰiʊ 4	kwiux
+kʷʰɛʊ 4	kweux
+kʷʰuʊ 4	kwuux
+kʷʰoʊ 4	kwoux
+kʷʰyʊ 4	kwvux
+kʷʰœʊ 4	kwoeux
+kʷʰɵʊ 4	kweoux
+kʷʰam 4	kwaamx
+kʷʰɐm 4	kwamx
+kʷʰim 4	kwimx
+kʷʰɛm 4	kwemx
+kʷʰum 4	kwumx
+kʷʰɔm 4	kwomx
+kʷʰym 4	kwvmx
+kʷʰœm 4	kwoemx
+kʷʰɵm 4	kweomx
+kʷʰan 4	kwaanx
+kʷʰɐn 4	kwanx
+kʷʰin 4	kwinx
+kʷʰɛn 4	kwenx
+kʷʰun 4	kwunx
+kʷʰɔn 4	kwonx
+kʷʰyn 4	kwvnx
+kʷʰœn 4	kwoenx
+kʷʰɵn 4	kweonx
+kʷʰaŋ 4	kwaangx
+kʷʰɐŋ 4	kwangx
+kʷʰɪŋ 4	kwingx
+kʷʰɛŋ 4	kwengx
+kʷʰʊŋ 4	kwungx
+kʷʰɔŋ 4	kwongx
+kʷʰyŋ 4	kwvngx
+kʷʰœŋ 4	kwoengx
+kʷʰɵŋ 4	kweongx
+kʷʰap ̚ 4	kwaapx
+kʷʰɐp ̚ 4	kwapx
+kʷʰip ̚ 4	kwipx
+kʷʰɛp ̚ 4	kwepx
+kʷʰup ̚ 4	kwupx
+kʷʰɔp ̚ 4	kwopx
+kʷʰyp ̚ 4	kwvpx
+kʷʰœp ̚ 4	kwoepx
+kʷʰɵp ̚ 4	kweopx
+kʷʰat ̚ 4	kwaatx
+kʷʰɐt ̚ 4	kwatx
+kʷʰit ̚ 4	kwitx
+kʷʰɛt ̚ 4	kwetx
+kʷʰut ̚ 4	kwutx
+kʷʰɔt ̚ 4	kwotx
+kʷʰyt ̚ 4	kwvtx
+kʷʰœt ̚ 4	kwoetx
+kʷʰɵt ̚ 4	kweotx
+kʷʰak ̚ 4	kwaakx
+kʷʰɐk ̚ 4	kwakx
+kʷʰɪk ̚ 4	kwikx
+kʷʰɛk ̚ 4	kwekx
+kʷʰʊk ̚ 4	kwukx
+kʷʰɔk ̚ 4	kwokx
+kʷʰyk ̚ 4	kwvkx
+kʷʰœk ̚ 4	kwoekx
+kʷʰɵk ̚ 4	kweokx
+wa 4	waax
+wɐ 4	wax
+wi 4	wix
+wɛ 4	wex
+wu 4	wux
+wɔ 4	wox
+wy 4	wvx
+wœ 4	woex
+wɵ 4	weox
+waɪ 4	waaix
+wɐɪ 4	waix
+wiɪ 4	wiix
+weɪ 4	weix
+wuɪ 4	wuix
+wɔɪ 4	woix
+wyɪ 4	wvix
+wœɪ 4	woeix
+wɵɪ 4	weoix
+waʊ 4	waaux
+wɐʊ 4	waux
+wiʊ 4	wiux
+wɛʊ 4	weux
+wuʊ 4	wuux
+woʊ 4	woux
+wyʊ 4	wvux
+wœʊ 4	woeux
+wɵʊ 4	weoux
+wam 4	waamx
+wɐm 4	wamx
+wim 4	wimx
+wɛm 4	wemx
+wum 4	wumx
+wɔm 4	womx
+wym 4	wvmx
+wœm 4	woemx
+wɵm 4	weomx
+wan 4	waanx
+wɐn 4	wanx
+win 4	winx
+wɛn 4	wenx
+wun 4	wunx
+wɔn 4	wonx
+wyn 4	wvnx
+wœn 4	woenx
+wɵn 4	weonx
+waŋ 4	waangx
+wɐŋ 4	wangx
+wɪŋ 4	wingx
+wɛŋ 4	wengx
+wʊŋ 4	wungx
+wɔŋ 4	wongx
+wyŋ 4	wvngx
+wœŋ 4	woengx
+wɵŋ 4	weongx
+wap ̚ 4	waapx
+wɐp ̚ 4	wapx
+wip ̚ 4	wipx
+wɛp ̚ 4	wepx
+wup ̚ 4	wupx
+wɔp ̚ 4	wopx
+wyp ̚ 4	wvpx
+wœp ̚ 4	woepx
+wɵp ̚ 4	weopx
+wat ̚ 4	waatx
+wɐt ̚ 4	watx
+wit ̚ 4	witx
+wɛt ̚ 4	wetx
+wut ̚ 4	wutx
+wɔt ̚ 4	wotx
+wyt ̚ 4	wvtx
+wœt ̚ 4	woetx
+wɵt ̚ 4	weotx
+wak ̚ 4	waakx
+wɐk ̚ 4	wakx
+wɪk ̚ 4	wikx
+wɛk ̚ 4	wekx
+wʊk ̚ 4	wukx
+wɔk ̚ 4	wokx
+wyk ̚ 4	wvkx
+wœk ̚ 4	woekx
+wɵk ̚ 4	weokx
+t͡sa 4	zaax
+t͡sɐ 4	zax
+t͡si 4	zix
+t͡sɛ 4	zex
+t͡su 4	zux
+t͡sɔ 4	zox
+t͡sy 4	zvx
+t͡sœ 4	zoex
+t͡sɵ 4	zeox
+t͡saɪ 4	zaaix
+t͡sɐɪ 4	zaix
+t͡siɪ 4	ziix
+t͡seɪ 4	zeix
+t͡suɪ 4	zuix
+t͡sɔɪ 4	zoix
+t͡syɪ 4	zvix
+t͡sœɪ 4	zoeix
+t͡sɵɪ 4	zeoix
+t͡saʊ 4	zaaux
+t͡sɐʊ 4	zaux
+t͡siʊ 4	ziux
+t͡sɛʊ 4	zeux
+t͡suʊ 4	zuux
+t͡soʊ 4	zoux
+t͡syʊ 4	zvux
+t͡sœʊ 4	zoeux
+t͡sɵʊ 4	zeoux
+t͡sam 4	zaamx
+t͡sɐm 4	zamx
+t͡sim 4	zimx
+t͡sɛm 4	zemx
+t͡sum 4	zumx
+t͡sɔm 4	zomx
+t͡sym 4	zvmx
+t͡sœm 4	zoemx
+t͡sɵm 4	zeomx
+t͡san 4	zaanx
+t͡sɐn 4	zanx
+t͡sin 4	zinx
+t͡sɛn 4	zenx
+t͡sun 4	zunx
+t͡sɔn 4	zonx
+t͡syn 4	zvnx
+t͡sœn 4	zoenx
+t͡sɵn 4	zeonx
+t͡saŋ 4	zaangx
+t͡sɐŋ 4	zangx
+t͡sɪŋ 4	zingx
+t͡sɛŋ 4	zengx
+t͡sʊŋ 4	zungx
+t͡sɔŋ 4	zongx
+t͡syŋ 4	zvngx
+t͡sœŋ 4	zoengx
+t͡sɵŋ 4	zeongx
+t͡sap ̚ 4	zaapx
+t͡sɐp ̚ 4	zapx
+t͡sip ̚ 4	zipx
+t͡sɛp ̚ 4	zepx
+t͡sup ̚ 4	zupx
+t͡sɔp ̚ 4	zopx
+t͡syp ̚ 4	zvpx
+t͡sœp ̚ 4	zoepx
+t͡sɵp ̚ 4	zeopx
+t͡sat ̚ 4	zaatx
+t͡sɐt ̚ 4	zatx
+t͡sit ̚ 4	zitx
+t͡sɛt ̚ 4	zetx
+t͡sut ̚ 4	zutx
+t͡sɔt ̚ 4	zotx
+t͡syt ̚ 4	zvtx
+t͡sœt ̚ 4	zoetx
+t͡sɵt ̚ 4	zeotx
+t͡sak ̚ 4	zaakx
+t͡sɐk ̚ 4	zakx
+t͡sɪk ̚ 4	zikx
+t͡sɛk ̚ 4	zekx
+t͡sʊk ̚ 4	zukx
+t͡sɔk ̚ 4	zokx
+t͡syk ̚ 4	zvkx
+t͡sœk ̚ 4	zoekx
+t͡sɵk ̚ 4	zeokx
+t͡sʰa 4	caax
+t͡sʰɐ 4	cax
+t͡sʰi 4	cix
+t͡sʰɛ 4	cex
+t͡sʰu 4	cux
+t͡sʰɔ 4	cox
+t͡sʰy 4	cvx
+t͡sʰœ 4	coex
+t͡sʰɵ 4	ceox
+t͡sʰaɪ 4	caaix
+t͡sʰɐɪ 4	caix
+t͡sʰiɪ 4	ciix
+t͡sʰeɪ 4	ceix
+t͡sʰuɪ 4	cuix
+t͡sʰɔɪ 4	coix
+t͡sʰyɪ 4	cvix
+t͡sʰœɪ 4	coeix
+t͡sʰɵɪ 4	ceoix
+t͡sʰaʊ 4	caaux
+t͡sʰɐʊ 4	caux
+t͡sʰiʊ 4	ciux
+t͡sʰɛʊ 4	ceux
+t͡sʰuʊ 4	cuux
+t͡sʰoʊ 4	coux
+t͡sʰyʊ 4	cvux
+t͡sʰœʊ 4	coeux
+t͡sʰɵʊ 4	ceoux
+t͡sʰam 4	caamx
+t͡sʰɐm 4	camx
+t͡sʰim 4	cimx
+t͡sʰɛm 4	cemx
+t͡sʰum 4	cumx
+t͡sʰɔm 4	comx
+t͡sʰym 4	cvmx
+t͡sʰœm 4	coemx
+t͡sʰɵm 4	ceomx
+t͡sʰan 4	caanx
+t͡sʰɐn 4	canx
+t͡sʰin 4	cinx
+t͡sʰɛn 4	cenx
+t͡sʰun 4	cunx
+t͡sʰɔn 4	conx
+t͡sʰyn 4	cvnx
+t͡sʰœn 4	coenx
+t͡sʰɵn 4	ceonx
+t͡sʰaŋ 4	caangx
+t͡sʰɐŋ 4	cangx
+t͡sʰɪŋ 4	cingx
+t͡sʰɛŋ 4	cengx
+t͡sʰʊŋ 4	cungx
+t͡sʰɔŋ 4	congx
+t͡sʰyŋ 4	cvngx
+t͡sʰœŋ 4	coengx
+t͡sʰɵŋ 4	ceongx
+t͡sʰap ̚ 4	caapx
+t͡sʰɐp ̚ 4	capx
+t͡sʰip ̚ 4	cipx
+t͡sʰɛp ̚ 4	cepx
+t͡sʰup ̚ 4	cupx
+t͡sʰɔp ̚ 4	copx
+t͡sʰyp ̚ 4	cvpx
+t͡sʰœp ̚ 4	coepx
+t͡sʰɵp ̚ 4	ceopx
+t͡sʰat ̚ 4	caatx
+t͡sʰɐt ̚ 4	catx
+t͡sʰit ̚ 4	citx
+t͡sʰɛt ̚ 4	cetx
+t͡sʰut ̚ 4	cutx
+t͡sʰɔt ̚ 4	cotx
+t͡sʰyt ̚ 4	cvtx
+t͡sʰœt ̚ 4	coetx
+t͡sʰɵt ̚ 4	ceotx
+t͡sʰak ̚ 4	caakx
+t͡sʰɐk ̚ 4	cakx
+t͡sʰɪk ̚ 4	cikx
+t͡sʰɛk ̚ 4	cekx
+t͡sʰʊk ̚ 4	cukx
+t͡sʰɔk ̚ 4	cokx
+t͡sʰyk ̚ 4	cvkx
+t͡sʰœk ̚ 4	coekx
+t͡sʰɵk ̚ 4	ceokx
+sa 4	saax
+sɐ 4	sax
+si 4	six
+sɛ 4	sex
+su 4	sux
+sɔ 4	sox
+sy 4	svx
+sœ 4	soex
+sɵ 4	seox
+saɪ 4	saaix
+sɐɪ 4	saix
+siɪ 4	siix
+seɪ 4	seix
+suɪ 4	suix
+sɔɪ 4	soix
+syɪ 4	svix
+sœɪ 4	soeix
+sɵɪ 4	seoix
+saʊ 4	saaux
+sɐʊ 4	saux
+siʊ 4	siux
+sɛʊ 4	seux
+suʊ 4	suux
+soʊ 4	soux
+syʊ 4	svux
+sœʊ 4	soeux
+sɵʊ 4	seoux
+sam 4	saamx
+sɐm 4	samx
+sim 4	simx
+sɛm 4	semx
+sum 4	sumx
+sɔm 4	somx
+sym 4	svmx
+sœm 4	soemx
+sɵm 4	seomx
+san 4	saanx
+sɐn 4	sanx
+sin 4	sinx
+sɛn 4	senx
+sun 4	sunx
+sɔn 4	sonx
+syn 4	svnx
+sœn 4	soenx
+sɵn 4	seonx
+saŋ 4	saangx
+sɐŋ 4	sangx
+sɪŋ 4	singx
+sɛŋ 4	sengx
+sʊŋ 4	sungx
+sɔŋ 4	songx
+syŋ 4	svngx
+sœŋ 4	soengx
+sɵŋ 4	seongx
+sap ̚ 4	saapx
+sɐp ̚ 4	sapx
+sip ̚ 4	sipx
+sɛp ̚ 4	sepx
+sup ̚ 4	supx
+sɔp ̚ 4	sopx
+syp ̚ 4	svpx
+sœp ̚ 4	soepx
+sɵp ̚ 4	seopx
+sat ̚ 4	saatx
+sɐt ̚ 4	satx
+sit ̚ 4	sitx
+sɛt ̚ 4	setx
+sut ̚ 4	sutx
+sɔt ̚ 4	sotx
+syt ̚ 4	svtx
+sœt ̚ 4	soetx
+sɵt ̚ 4	seotx
+sak ̚ 4	saakx
+sɐk ̚ 4	sakx
+sɪk ̚ 4	sikx
+sɛk ̚ 4	sekx
+sʊk ̚ 4	sukx
+sɔk ̚ 4	sokx
+syk ̚ 4	svkx
+sœk ̚ 4	soekx
+sɵk ̚ 4	seokx
+ja 4	yaax
+jɐ 4	yax
+ji 4	yix
+jɛ 4	yex
+ju 4	yux
+jɔ 4	yox
+jy 4	yvx
+jœ 4	yoex
+jɵ 4	yeox
+jaɪ 4	yaaix
+jɐɪ 4	yaix
+jiɪ 4	yiix
+jeɪ 4	yeix
+juɪ 4	yuix
+jɔɪ 4	yoix
+jyɪ 4	yvix
+jœɪ 4	yoeix
+jɵɪ 4	yeoix
+jaʊ 4	yaaux
+jɐʊ 4	yaux
+jiʊ 4	yiux
+jɛʊ 4	yeux
+juʊ 4	yuux
+joʊ 4	youx
+jyʊ 4	yvux
+jœʊ 4	yoeux
+jɵʊ 4	yeoux
+jam 4	yaamx
+jɐm 4	yamx
+jim 4	yimx
+jɛm 4	yemx
+jum 4	yumx
+jɔm 4	yomx
+jym 4	yvmx
+jœm 4	yoemx
+jɵm 4	yeomx
+jan 4	yaanx
+jɐn 4	yanx
+jin 4	yinx
+jɛn 4	yenx
+jun 4	yunx
+jɔn 4	yonx
+jyn 4	yvnx
+jœn 4	yoenx
+jɵn 4	yeonx
+jaŋ 4	yaangx
+jɐŋ 4	yangx
+jɪŋ 4	yingx
+jɛŋ 4	yengx
+jʊŋ 4	yungx
+jɔŋ 4	yongx
+jyŋ 4	yvngx
+jœŋ 4	yoengx
+jɵŋ 4	yeongx
+jap ̚ 4	yaapx
+jɐp ̚ 4	yapx
+jip ̚ 4	yipx
+jɛp ̚ 4	yepx
+jup ̚ 4	yupx
+jɔp ̚ 4	yopx
+jyp ̚ 4	yvpx
+jœp ̚ 4	yoepx
+jɵp ̚ 4	yeopx
+jat ̚ 4	yaatx
+jɐt ̚ 4	yatx
+jit ̚ 4	yitx
+jɛt ̚ 4	yetx
+jut ̚ 4	yutx
+jɔt ̚ 4	yotx
+jyt ̚ 4	yvtx
+jœt ̚ 4	yoetx
+jɵt ̚ 4	yeotx
+jak ̚ 4	yaakx
+jɐk ̚ 4	yakx
+jɪk ̚ 4	yikx
+jɛk ̚ 4	yekx
+jʊk ̚ 4	yukx
+jɔk ̚ 4	yokx
+jyk ̚ 4	yvkx
+jœk ̚ 4	yoekx
+jɵk ̚ 4	yeokx
+m 4	mx
+hm 4	hmx
+ŋ 4	ngx
+hŋ 4	hngx
+s 4	sx
+a 5	aaq
+ɐ 5	aq
+i 5	iq
+ɛ 5	eq
+u 5	uq
+ɔ 5	oq
+y 5	vq
+œ 5	oeq
+ɵ 5	eoq
+aɪ 5	aaiq
+ɐɪ 5	aiq
+iɪ 5	iiq
+eɪ 5	eiq
+uɪ 5	uiq
+ɔɪ 5	oiq
+yɪ 5	viq
+œɪ 5	oeiq
+ɵɪ 5	eoiq
+aʊ 5	aauq
+ɐʊ 5	auq
+iʊ 5	iuq
+ɛʊ 5	euq
+uʊ 5	uuq
+oʊ 5	ouq
+yʊ 5	vuq
+œʊ 5	oeuq
+ɵʊ 5	eouq
+am 5	aamq
+ɐm 5	amq
+im 5	imq
+ɛm 5	emq
+um 5	umq
+ɔm 5	omq
+ym 5	vmq
+œm 5	oemq
+ɵm 5	eomq
+an 5	aanq
+ɐn 5	anq
+in 5	inq
+ɛn 5	enq
+un 5	unq
+ɔn 5	onq
+yn 5	vnq
+œn 5	oenq
+ɵn 5	eonq
+aŋ 5	aangq
+ɐŋ 5	angq
+ɪŋ 5	ingq
+ɛŋ 5	engq
+ʊŋ 5	ungq
+ɔŋ 5	ongq
+yŋ 5	vngq
+œŋ 5	oengq
+ɵŋ 5	eongq
+ap ̚ 5	aapq
+ɐp ̚ 5	apq
+ip ̚ 5	ipq
+ɛp ̚ 5	epq
+up ̚ 5	upq
+ɔp ̚ 5	opq
+yp ̚ 5	vpq
+œp ̚ 5	oepq
+ɵp ̚ 5	eopq
+at ̚ 5	aatq
+ɐt ̚ 5	atq
+it ̚ 5	itq
+ɛt ̚ 5	etq
+ut ̚ 5	utq
+ɔt ̚ 5	otq
+yt ̚ 5	vtq
+œt ̚ 5	oetq
+ɵt ̚ 5	eotq
+ak ̚ 5	aakq
+ɐk ̚ 5	akq
+ɪk ̚ 5	ikq
+ɛk ̚ 5	ekq
+ʊk ̚ 5	ukq
+ɔk ̚ 5	okq
+yk ̚ 5	vkq
+œk ̚ 5	oekq
+ɵk ̚ 5	eokq
+pa 5	baaq
+pɐ 5	baq
+pi 5	biq
+pɛ 5	beq
+pu 5	buq
+pɔ 5	boq
+py 5	bvq
+pœ 5	boeq
+pɵ 5	beoq
+paɪ 5	baaiq
+pɐɪ 5	baiq
+piɪ 5	biiq
+peɪ 5	beiq
+puɪ 5	buiq
+pɔɪ 5	boiq
+pyɪ 5	bviq
+pœɪ 5	boeiq
+pɵɪ 5	beoiq
+paʊ 5	baauq
+pɐʊ 5	bauq
+piʊ 5	biuq
+pɛʊ 5	beuq
+puʊ 5	buuq
+poʊ 5	bouq
+pyʊ 5	bvuq
+pœʊ 5	boeuq
+pɵʊ 5	beouq
+pam 5	baamq
+pɐm 5	bamq
+pim 5	bimq
+pɛm 5	bemq
+pum 5	bumq
+pɔm 5	bomq
+pym 5	bvmq
+pœm 5	boemq
+pɵm 5	beomq
+pan 5	baanq
+pɐn 5	banq
+pin 5	binq
+pɛn 5	benq
+pun 5	bunq
+pɔn 5	bonq
+pyn 5	bvnq
+pœn 5	boenq
+pɵn 5	beonq
+paŋ 5	baangq
+pɐŋ 5	bangq
+pɪŋ 5	bingq
+pɛŋ 5	bengq
+pʊŋ 5	bungq
+pɔŋ 5	bongq
+pyŋ 5	bvngq
+pœŋ 5	boengq
+pɵŋ 5	beongq
+pap ̚ 5	baapq
+pɐp ̚ 5	bapq
+pip ̚ 5	bipq
+pɛp ̚ 5	bepq
+pup ̚ 5	bupq
+pɔp ̚ 5	bopq
+pyp ̚ 5	bvpq
+pœp ̚ 5	boepq
+pɵp ̚ 5	beopq
+pat ̚ 5	baatq
+pɐt ̚ 5	batq
+pit ̚ 5	bitq
+pɛt ̚ 5	betq
+put ̚ 5	butq
+pɔt ̚ 5	botq
+pyt ̚ 5	bvtq
+pœt ̚ 5	boetq
+pɵt ̚ 5	beotq
+pak ̚ 5	baakq
+pɐk ̚ 5	bakq
+pɪk ̚ 5	bikq
+pɛk ̚ 5	bekq
+pʊk ̚ 5	bukq
+pɔk ̚ 5	bokq
+pyk ̚ 5	bvkq
+pœk ̚ 5	boekq
+pɵk ̚ 5	beokq
+pʰa 5	paaq
+pʰɐ 5	paq
+pʰi 5	piq
+pʰɛ 5	peq
+pʰu 5	puq
+pʰɔ 5	poq
+pʰy 5	pvq
+pʰœ 5	poeq
+pʰɵ 5	peoq
+pʰaɪ 5	paaiq
+pʰɐɪ 5	paiq
+pʰiɪ 5	piiq
+pʰeɪ 5	peiq
+pʰuɪ 5	puiq
+pʰɔɪ 5	poiq
+pʰyɪ 5	pviq
+pʰœɪ 5	poeiq
+pʰɵɪ 5	peoiq
+pʰaʊ 5	paauq
+pʰɐʊ 5	pauq
+pʰiʊ 5	piuq
+pʰɛʊ 5	peuq
+pʰuʊ 5	puuq
+pʰoʊ 5	pouq
+pʰyʊ 5	pvuq
+pʰœʊ 5	poeuq
+pʰɵʊ 5	peouq
+pʰam 5	paamq
+pʰɐm 5	pamq
+pʰim 5	pimq
+pʰɛm 5	pemq
+pʰum 5	pumq
+pʰɔm 5	pomq
+pʰym 5	pvmq
+pʰœm 5	poemq
+pʰɵm 5	peomq
+pʰan 5	paanq
+pʰɐn 5	panq
+pʰin 5	pinq
+pʰɛn 5	penq
+pʰun 5	punq
+pʰɔn 5	ponq
+pʰyn 5	pvnq
+pʰœn 5	poenq
+pʰɵn 5	peonq
+pʰaŋ 5	paangq
+pʰɐŋ 5	pangq
+pʰɪŋ 5	pingq
+pʰɛŋ 5	pengq
+pʰʊŋ 5	pungq
+pʰɔŋ 5	pongq
+pʰyŋ 5	pvngq
+pʰœŋ 5	poengq
+pʰɵŋ 5	peongq
+pʰap ̚ 5	paapq
+pʰɐp ̚ 5	papq
+pʰip ̚ 5	pipq
+pʰɛp ̚ 5	pepq
+pʰup ̚ 5	pupq
+pʰɔp ̚ 5	popq
+pʰyp ̚ 5	pvpq
+pʰœp ̚ 5	poepq
+pʰɵp ̚ 5	peopq
+pʰat ̚ 5	paatq
+pʰɐt ̚ 5	patq
+pʰit ̚ 5	pitq
+pʰɛt ̚ 5	petq
+pʰut ̚ 5	putq
+pʰɔt ̚ 5	potq
+pʰyt ̚ 5	pvtq
+pʰœt ̚ 5	poetq
+pʰɵt ̚ 5	peotq
+pʰak ̚ 5	paakq
+pʰɐk ̚ 5	pakq
+pʰɪk ̚ 5	pikq
+pʰɛk ̚ 5	pekq
+pʰʊk ̚ 5	pukq
+pʰɔk ̚ 5	pokq
+pʰyk ̚ 5	pvkq
+pʰœk ̚ 5	poekq
+pʰɵk ̚ 5	peokq
+ma 5	maaq
+mɐ 5	maq
+mi 5	miq
+mɛ 5	meq
+mu 5	muq
+mɔ 5	moq
+my 5	mvq
+mœ 5	moeq
+mɵ 5	meoq
+maɪ 5	maaiq
+mɐɪ 5	maiq
+miɪ 5	miiq
+meɪ 5	meiq
+muɪ 5	muiq
+mɔɪ 5	moiq
+myɪ 5	mviq
+mœɪ 5	moeiq
+mɵɪ 5	meoiq
+maʊ 5	maauq
+mɐʊ 5	mauq
+miʊ 5	miuq
+mɛʊ 5	meuq
+muʊ 5	muuq
+moʊ 5	mouq
+myʊ 5	mvuq
+mœʊ 5	moeuq
+mɵʊ 5	meouq
+mam 5	maamq
+mɐm 5	mamq
+mim 5	mimq
+mɛm 5	memq
+mum 5	mumq
+mɔm 5	momq
+mym 5	mvmq
+mœm 5	moemq
+mɵm 5	meomq
+man 5	maanq
+mɐn 5	manq
+min 5	minq
+mɛn 5	menq
+mun 5	munq
+mɔn 5	monq
+myn 5	mvnq
+mœn 5	moenq
+mɵn 5	meonq
+maŋ 5	maangq
+mɐŋ 5	mangq
+mɪŋ 5	mingq
+mɛŋ 5	mengq
+mʊŋ 5	mungq
+mɔŋ 5	mongq
+myŋ 5	mvngq
+mœŋ 5	moengq
+mɵŋ 5	meongq
+map ̚ 5	maapq
+mɐp ̚ 5	mapq
+mip ̚ 5	mipq
+mɛp ̚ 5	mepq
+mup ̚ 5	mupq
+mɔp ̚ 5	mopq
+myp ̚ 5	mvpq
+mœp ̚ 5	moepq
+mɵp ̚ 5	meopq
+mat ̚ 5	maatq
+mɐt ̚ 5	matq
+mit ̚ 5	mitq
+mɛt ̚ 5	metq
+mut ̚ 5	mutq
+mɔt ̚ 5	motq
+myt ̚ 5	mvtq
+mœt ̚ 5	moetq
+mɵt ̚ 5	meotq
+mak ̚ 5	maakq
+mɐk ̚ 5	makq
+mɪk ̚ 5	mikq
+mɛk ̚ 5	mekq
+mʊk ̚ 5	mukq
+mɔk ̚ 5	mokq
+myk ̚ 5	mvkq
+mœk ̚ 5	moekq
+mɵk ̚ 5	meokq
+fa 5	faaq
+fɐ 5	faq
+fi 5	fiq
+fɛ 5	feq
+fu 5	fuq
+fɔ 5	foq
+fy 5	fvq
+fœ 5	foeq
+fɵ 5	feoq
+faɪ 5	faaiq
+fɐɪ 5	faiq
+fiɪ 5	fiiq
+feɪ 5	feiq
+fuɪ 5	fuiq
+fɔɪ 5	foiq
+fyɪ 5	fviq
+fœɪ 5	foeiq
+fɵɪ 5	feoiq
+faʊ 5	faauq
+fɐʊ 5	fauq
+fiʊ 5	fiuq
+fɛʊ 5	feuq
+fuʊ 5	fuuq
+foʊ 5	fouq
+fyʊ 5	fvuq
+fœʊ 5	foeuq
+fɵʊ 5	feouq
+fam 5	faamq
+fɐm 5	famq
+fim 5	fimq
+fɛm 5	femq
+fum 5	fumq
+fɔm 5	fomq
+fym 5	fvmq
+fœm 5	foemq
+fɵm 5	feomq
+fan 5	faanq
+fɐn 5	fanq
+fin 5	finq
+fɛn 5	fenq
+fun 5	funq
+fɔn 5	fonq
+fyn 5	fvnq
+fœn 5	foenq
+fɵn 5	feonq
+faŋ 5	faangq
+fɐŋ 5	fangq
+fɪŋ 5	fingq
+fɛŋ 5	fengq
+fʊŋ 5	fungq
+fɔŋ 5	fongq
+fyŋ 5	fvngq
+fœŋ 5	foengq
+fɵŋ 5	feongq
+fap ̚ 5	faapq
+fɐp ̚ 5	fapq
+fip ̚ 5	fipq
+fɛp ̚ 5	fepq
+fup ̚ 5	fupq
+fɔp ̚ 5	fopq
+fyp ̚ 5	fvpq
+fœp ̚ 5	foepq
+fɵp ̚ 5	feopq
+fat ̚ 5	faatq
+fɐt ̚ 5	fatq
+fit ̚ 5	fitq
+fɛt ̚ 5	fetq
+fut ̚ 5	futq
+fɔt ̚ 5	fotq
+fyt ̚ 5	fvtq
+fœt ̚ 5	foetq
+fɵt ̚ 5	feotq
+fak ̚ 5	faakq
+fɐk ̚ 5	fakq
+fɪk ̚ 5	fikq
+fɛk ̚ 5	fekq
+fʊk ̚ 5	fukq
+fɔk ̚ 5	fokq
+fyk ̚ 5	fvkq
+fœk ̚ 5	foekq
+fɵk ̚ 5	feokq
+ta 5	daaq
+tɐ 5	daq
+ti 5	diq
+tɛ 5	deq
+tu 5	duq
+tɔ 5	doq
+ty 5	dvq
+tœ 5	doeq
+tɵ 5	deoq
+taɪ 5	daaiq
+tɐɪ 5	daiq
+tiɪ 5	diiq
+teɪ 5	deiq
+tuɪ 5	duiq
+tɔɪ 5	doiq
+tyɪ 5	dviq
+tœɪ 5	doeiq
+tɵɪ 5	deoiq
+taʊ 5	daauq
+tɐʊ 5	dauq
+tiʊ 5	diuq
+tɛʊ 5	deuq
+tuʊ 5	duuq
+toʊ 5	douq
+tyʊ 5	dvuq
+tœʊ 5	doeuq
+tɵʊ 5	deouq
+tam 5	daamq
+tɐm 5	damq
+tim 5	dimq
+tɛm 5	demq
+tum 5	dumq
+tɔm 5	domq
+tym 5	dvmq
+tœm 5	doemq
+tɵm 5	deomq
+tan 5	daanq
+tɐn 5	danq
+tin 5	dinq
+tɛn 5	denq
+tun 5	dunq
+tɔn 5	donq
+tyn 5	dvnq
+tœn 5	doenq
+tɵn 5	deonq
+taŋ 5	daangq
+tɐŋ 5	dangq
+tɪŋ 5	dingq
+tɛŋ 5	dengq
+tʊŋ 5	dungq
+tɔŋ 5	dongq
+tyŋ 5	dvngq
+tœŋ 5	doengq
+tɵŋ 5	deongq
+tap ̚ 5	daapq
+tɐp ̚ 5	dapq
+tip ̚ 5	dipq
+tɛp ̚ 5	depq
+tup ̚ 5	dupq
+tɔp ̚ 5	dopq
+typ ̚ 5	dvpq
+tœp ̚ 5	doepq
+tɵp ̚ 5	deopq
+tat ̚ 5	daatq
+tɐt ̚ 5	datq
+tit ̚ 5	ditq
+tɛt ̚ 5	detq
+tut ̚ 5	dutq
+tɔt ̚ 5	dotq
+tyt ̚ 5	dvtq
+tœt ̚ 5	doetq
+tɵt ̚ 5	deotq
+tak ̚ 5	daakq
+tɐk ̚ 5	dakq
+tɪk ̚ 5	dikq
+tɛk ̚ 5	dekq
+tʊk ̚ 5	dukq
+tɔk ̚ 5	dokq
+tyk ̚ 5	dvkq
+tœk ̚ 5	doekq
+tɵk ̚ 5	deokq
+tʰa 5	taaq
+tʰɐ 5	taq
+tʰi 5	tiq
+tʰɛ 5	teq
+tʰu 5	tuq
+tʰɔ 5	toq
+tʰy 5	tvq
+tʰœ 5	toeq
+tʰɵ 5	teoq
+tʰaɪ 5	taaiq
+tʰɐɪ 5	taiq
+tʰiɪ 5	tiiq
+tʰeɪ 5	teiq
+tʰuɪ 5	tuiq
+tʰɔɪ 5	toiq
+tʰyɪ 5	tviq
+tʰœɪ 5	toeiq
+tʰɵɪ 5	teoiq
+tʰaʊ 5	taauq
+tʰɐʊ 5	tauq
+tʰiʊ 5	tiuq
+tʰɛʊ 5	teuq
+tʰuʊ 5	tuuq
+tʰoʊ 5	touq
+tʰyʊ 5	tvuq
+tʰœʊ 5	toeuq
+tʰɵʊ 5	teouq
+tʰam 5	taamq
+tʰɐm 5	tamq
+tʰim 5	timq
+tʰɛm 5	temq
+tʰum 5	tumq
+tʰɔm 5	tomq
+tʰym 5	tvmq
+tʰœm 5	toemq
+tʰɵm 5	teomq
+tʰan 5	taanq
+tʰɐn 5	tanq
+tʰin 5	tinq
+tʰɛn 5	tenq
+tʰun 5	tunq
+tʰɔn 5	tonq
+tʰyn 5	tvnq
+tʰœn 5	toenq
+tʰɵn 5	teonq
+tʰaŋ 5	taangq
+tʰɐŋ 5	tangq
+tʰɪŋ 5	tingq
+tʰɛŋ 5	tengq
+tʰʊŋ 5	tungq
+tʰɔŋ 5	tongq
+tʰyŋ 5	tvngq
+tʰœŋ 5	toengq
+tʰɵŋ 5	teongq
+tʰap ̚ 5	taapq
+tʰɐp ̚ 5	tapq
+tʰip ̚ 5	tipq
+tʰɛp ̚ 5	tepq
+tʰup ̚ 5	tupq
+tʰɔp ̚ 5	topq
+tʰyp ̚ 5	tvpq
+tʰœp ̚ 5	toepq
+tʰɵp ̚ 5	teopq
+tʰat ̚ 5	taatq
+tʰɐt ̚ 5	tatq
+tʰit ̚ 5	titq
+tʰɛt ̚ 5	tetq
+tʰut ̚ 5	tutq
+tʰɔt ̚ 5	totq
+tʰyt ̚ 5	tvtq
+tʰœt ̚ 5	toetq
+tʰɵt ̚ 5	teotq
+tʰak ̚ 5	taakq
+tʰɐk ̚ 5	takq
+tʰɪk ̚ 5	tikq
+tʰɛk ̚ 5	tekq
+tʰʊk ̚ 5	tukq
+tʰɔk ̚ 5	tokq
+tʰyk ̚ 5	tvkq
+tʰœk ̚ 5	toekq
+tʰɵk ̚ 5	teokq
+na 5	naaq
+nɐ 5	naq
+ni 5	niq
+nɛ 5	neq
+nu 5	nuq
+nɔ 5	noq
+ny 5	nvq
+nœ 5	noeq
+nɵ 5	neoq
+naɪ 5	naaiq
+nɐɪ 5	naiq
+niɪ 5	niiq
+neɪ 5	neiq
+nuɪ 5	nuiq
+nɔɪ 5	noiq
+nyɪ 5	nviq
+nœɪ 5	noeiq
+nɵɪ 5	neoiq
+naʊ 5	naauq
+nɐʊ 5	nauq
+niʊ 5	niuq
+nɛʊ 5	neuq
+nuʊ 5	nuuq
+noʊ 5	nouq
+nyʊ 5	nvuq
+nœʊ 5	noeuq
+nɵʊ 5	neouq
+nam 5	naamq
+nɐm 5	namq
+nim 5	nimq
+nɛm 5	nemq
+num 5	numq
+nɔm 5	nomq
+nym 5	nvmq
+nœm 5	noemq
+nɵm 5	neomq
+nan 5	naanq
+nɐn 5	nanq
+nin 5	ninq
+nɛn 5	nenq
+nun 5	nunq
+nɔn 5	nonq
+nyn 5	nvnq
+nœn 5	noenq
+nɵn 5	neonq
+naŋ 5	naangq
+nɐŋ 5	nangq
+nɪŋ 5	ningq
+nɛŋ 5	nengq
+nʊŋ 5	nungq
+nɔŋ 5	nongq
+nyŋ 5	nvngq
+nœŋ 5	noengq
+nɵŋ 5	neongq
+nap ̚ 5	naapq
+nɐp ̚ 5	napq
+nip ̚ 5	nipq
+nɛp ̚ 5	nepq
+nup ̚ 5	nupq
+nɔp ̚ 5	nopq
+nyp ̚ 5	nvpq
+nœp ̚ 5	noepq
+nɵp ̚ 5	neopq
+nat ̚ 5	naatq
+nɐt ̚ 5	natq
+nit ̚ 5	nitq
+nɛt ̚ 5	netq
+nut ̚ 5	nutq
+nɔt ̚ 5	notq
+nyt ̚ 5	nvtq
+nœt ̚ 5	noetq
+nɵt ̚ 5	neotq
+nak ̚ 5	naakq
+nɐk ̚ 5	nakq
+nɪk ̚ 5	nikq
+nɛk ̚ 5	nekq
+nʊk ̚ 5	nukq
+nɔk ̚ 5	nokq
+nyk ̚ 5	nvkq
+nœk ̚ 5	noekq
+nɵk ̚ 5	neokq
+la 5	laaq
+lɐ 5	laq
+li 5	liq
+lɛ 5	leq
+lu 5	luq
+lɔ 5	loq
+ly 5	lvq
+lœ 5	loeq
+lɵ 5	leoq
+laɪ 5	laaiq
+lɐɪ 5	laiq
+liɪ 5	liiq
+leɪ 5	leiq
+luɪ 5	luiq
+lɔɪ 5	loiq
+lyɪ 5	lviq
+lœɪ 5	loeiq
+lɵɪ 5	leoiq
+laʊ 5	laauq
+lɐʊ 5	lauq
+liʊ 5	liuq
+lɛʊ 5	leuq
+luʊ 5	luuq
+loʊ 5	louq
+lyʊ 5	lvuq
+lœʊ 5	loeuq
+lɵʊ 5	leouq
+lam 5	laamq
+lɐm 5	lamq
+lim 5	limq
+lɛm 5	lemq
+lum 5	lumq
+lɔm 5	lomq
+lym 5	lvmq
+lœm 5	loemq
+lɵm 5	leomq
+lan 5	laanq
+lɐn 5	lanq
+lin 5	linq
+lɛn 5	lenq
+lun 5	lunq
+lɔn 5	lonq
+lyn 5	lvnq
+lœn 5	loenq
+lɵn 5	leonq
+laŋ 5	laangq
+lɐŋ 5	langq
+lɪŋ 5	lingq
+lɛŋ 5	lengq
+lʊŋ 5	lungq
+lɔŋ 5	longq
+lyŋ 5	lvngq
+lœŋ 5	loengq
+lɵŋ 5	leongq
+lap ̚ 5	laapq
+lɐp ̚ 5	lapq
+lip ̚ 5	lipq
+lɛp ̚ 5	lepq
+lup ̚ 5	lupq
+lɔp ̚ 5	lopq
+lyp ̚ 5	lvpq
+lœp ̚ 5	loepq
+lɵp ̚ 5	leopq
+lat ̚ 5	laatq
+lɐt ̚ 5	latq
+lit ̚ 5	litq
+lɛt ̚ 5	letq
+lut ̚ 5	lutq
+lɔt ̚ 5	lotq
+lyt ̚ 5	lvtq
+lœt ̚ 5	loetq
+lɵt ̚ 5	leotq
+lak ̚ 5	laakq
+lɐk ̚ 5	lakq
+lɪk ̚ 5	likq
+lɛk ̚ 5	lekq
+lʊk ̚ 5	lukq
+lɔk ̚ 5	lokq
+lyk ̚ 5	lvkq
+lœk ̚ 5	loekq
+lɵk ̚ 5	leokq
+ka 5	gaaq
+kɐ 5	gaq
+ki 5	giq
+kɛ 5	geq
+ku 5	guq
+kɔ 5	goq
+ky 5	gvq
+kœ 5	goeq
+kɵ 5	geoq
+kaɪ 5	gaaiq
+kɐɪ 5	gaiq
+kiɪ 5	giiq
+keɪ 5	geiq
+kuɪ 5	guiq
+kɔɪ 5	goiq
+kyɪ 5	gviq
+kœɪ 5	goeiq
+kɵɪ 5	geoiq
+kaʊ 5	gaauq
+kɐʊ 5	gauq
+kiʊ 5	giuq
+kɛʊ 5	geuq
+kuʊ 5	guuq
+koʊ 5	gouq
+kyʊ 5	gvuq
+kœʊ 5	goeuq
+kɵʊ 5	geouq
+kam 5	gaamq
+kɐm 5	gamq
+kim 5	gimq
+kɛm 5	gemq
+kum 5	gumq
+kɔm 5	gomq
+kym 5	gvmq
+kœm 5	goemq
+kɵm 5	geomq
+kan 5	gaanq
+kɐn 5	ganq
+kin 5	ginq
+kɛn 5	genq
+kun 5	gunq
+kɔn 5	gonq
+kyn 5	gvnq
+kœn 5	goenq
+kɵn 5	geonq
+kaŋ 5	gaangq
+kɐŋ 5	gangq
+kɪŋ 5	gingq
+kɛŋ 5	gengq
+kʊŋ 5	gungq
+kɔŋ 5	gongq
+kyŋ 5	gvngq
+kœŋ 5	goengq
+kɵŋ 5	geongq
+kap ̚ 5	gaapq
+kɐp ̚ 5	gapq
+kip ̚ 5	gipq
+kɛp ̚ 5	gepq
+kup ̚ 5	gupq
+kɔp ̚ 5	gopq
+kyp ̚ 5	gvpq
+kœp ̚ 5	goepq
+kɵp ̚ 5	geopq
+kat ̚ 5	gaatq
+kɐt ̚ 5	gatq
+kit ̚ 5	gitq
+kɛt ̚ 5	getq
+kut ̚ 5	gutq
+kɔt ̚ 5	gotq
+kyt ̚ 5	gvtq
+kœt ̚ 5	goetq
+kɵt ̚ 5	geotq
+kak ̚ 5	gaakq
+kɐk ̚ 5	gakq
+kɪk ̚ 5	gikq
+kɛk ̚ 5	gekq
+kʊk ̚ 5	gukq
+kɔk ̚ 5	gokq
+kyk ̚ 5	gvkq
+kœk ̚ 5	goekq
+kɵk ̚ 5	geokq
+kʰa 5	kaaq
+kʰɐ 5	kaq
+kʰi 5	kiq
+kʰɛ 5	keq
+kʰu 5	kuq
+kʰɔ 5	koq
+kʰy 5	kvq
+kʰœ 5	koeq
+kʰɵ 5	keoq
+kʰaɪ 5	kaaiq
+kʰɐɪ 5	kaiq
+kʰiɪ 5	kiiq
+kʰeɪ 5	keiq
+kʰuɪ 5	kuiq
+kʰɔɪ 5	koiq
+kʰyɪ 5	kviq
+kʰœɪ 5	koeiq
+kʰɵɪ 5	keoiq
+kʰaʊ 5	kaauq
+kʰɐʊ 5	kauq
+kʰiʊ 5	kiuq
+kʰɛʊ 5	keuq
+kʰuʊ 5	kuuq
+kʰoʊ 5	kouq
+kʰyʊ 5	kvuq
+kʰœʊ 5	koeuq
+kʰɵʊ 5	keouq
+kʰam 5	kaamq
+kʰɐm 5	kamq
+kʰim 5	kimq
+kʰɛm 5	kemq
+kʰum 5	kumq
+kʰɔm 5	komq
+kʰym 5	kvmq
+kʰœm 5	koemq
+kʰɵm 5	keomq
+kʰan 5	kaanq
+kʰɐn 5	kanq
+kʰin 5	kinq
+kʰɛn 5	kenq
+kʰun 5	kunq
+kʰɔn 5	konq
+kʰyn 5	kvnq
+kʰœn 5	koenq
+kʰɵn 5	keonq
+kʰaŋ 5	kaangq
+kʰɐŋ 5	kangq
+kʰɪŋ 5	kingq
+kʰɛŋ 5	kengq
+kʰʊŋ 5	kungq
+kʰɔŋ 5	kongq
+kʰyŋ 5	kvngq
+kʰœŋ 5	koengq
+kʰɵŋ 5	keongq
+kʰap ̚ 5	kaapq
+kʰɐp ̚ 5	kapq
+kʰip ̚ 5	kipq
+kʰɛp ̚ 5	kepq
+kʰup ̚ 5	kupq
+kʰɔp ̚ 5	kopq
+kʰyp ̚ 5	kvpq
+kʰœp ̚ 5	koepq
+kʰɵp ̚ 5	keopq
+kʰat ̚ 5	kaatq
+kʰɐt ̚ 5	katq
+kʰit ̚ 5	kitq
+kʰɛt ̚ 5	ketq
+kʰut ̚ 5	kutq
+kʰɔt ̚ 5	kotq
+kʰyt ̚ 5	kvtq
+kʰœt ̚ 5	koetq
+kʰɵt ̚ 5	keotq
+kʰak ̚ 5	kaakq
+kʰɐk ̚ 5	kakq
+kʰɪk ̚ 5	kikq
+kʰɛk ̚ 5	kekq
+kʰʊk ̚ 5	kukq
+kʰɔk ̚ 5	kokq
+kʰyk ̚ 5	kvkq
+kʰœk ̚ 5	koekq
+kʰɵk ̚ 5	keokq
+ŋa 5	ngaaq
+ŋɐ 5	ngaq
+ŋi 5	ngiq
+ŋɛ 5	ngeq
+ŋu 5	nguq
+ŋɔ 5	ngoq
+ŋy 5	ngvq
+ŋœ 5	ngoeq
+ŋɵ 5	ngeoq
+ŋaɪ 5	ngaaiq
+ŋɐɪ 5	ngaiq
+ŋiɪ 5	ngiiq
+ŋeɪ 5	ngeiq
+ŋuɪ 5	nguiq
+ŋɔɪ 5	ngoiq
+ŋyɪ 5	ngviq
+ŋœɪ 5	ngoeiq
+ŋɵɪ 5	ngeoiq
+ŋaʊ 5	ngaauq
+ŋɐʊ 5	ngauq
+ŋiʊ 5	ngiuq
+ŋɛʊ 5	ngeuq
+ŋuʊ 5	nguuq
+ŋoʊ 5	ngouq
+ŋyʊ 5	ngvuq
+ŋœʊ 5	ngoeuq
+ŋɵʊ 5	ngeouq
+ŋam 5	ngaamq
+ŋɐm 5	ngamq
+ŋim 5	ngimq
+ŋɛm 5	ngemq
+ŋum 5	ngumq
+ŋɔm 5	ngomq
+ŋym 5	ngvmq
+ŋœm 5	ngoemq
+ŋɵm 5	ngeomq
+ŋan 5	ngaanq
+ŋɐn 5	nganq
+ŋin 5	nginq
+ŋɛn 5	ngenq
+ŋun 5	ngunq
+ŋɔn 5	ngonq
+ŋyn 5	ngvnq
+ŋœn 5	ngoenq
+ŋɵn 5	ngeonq
+ŋaŋ 5	ngaangq
+ŋɐŋ 5	ngangq
+ŋɪŋ 5	ngingq
+ŋɛŋ 5	ngengq
+ŋʊŋ 5	ngungq
+ŋɔŋ 5	ngongq
+ŋyŋ 5	ngvngq
+ŋœŋ 5	ngoengq
+ŋɵŋ 5	ngeongq
+ŋap ̚ 5	ngaapq
+ŋɐp ̚ 5	ngapq
+ŋip ̚ 5	ngipq
+ŋɛp ̚ 5	ngepq
+ŋup ̚ 5	ngupq
+ŋɔp ̚ 5	ngopq
+ŋyp ̚ 5	ngvpq
+ŋœp ̚ 5	ngoepq
+ŋɵp ̚ 5	ngeopq
+ŋat ̚ 5	ngaatq
+ŋɐt ̚ 5	ngatq
+ŋit ̚ 5	ngitq
+ŋɛt ̚ 5	ngetq
+ŋut ̚ 5	ngutq
+ŋɔt ̚ 5	ngotq
+ŋyt ̚ 5	ngvtq
+ŋœt ̚ 5	ngoetq
+ŋɵt ̚ 5	ngeotq
+ŋak ̚ 5	ngaakq
+ŋɐk ̚ 5	ngakq
+ŋɪk ̚ 5	ngikq
+ŋɛk ̚ 5	ngekq
+ŋʊk ̚ 5	ngukq
+ŋɔk ̚ 5	ngokq
+ŋyk ̚ 5	ngvkq
+ŋœk ̚ 5	ngoekq
+ŋɵk ̚ 5	ngeokq
+ha 5	haaq
+hɐ 5	haq
+hi 5	hiq
+hɛ 5	heq
+hu 5	huq
+hɔ 5	hoq
+hy 5	hvq
+hœ 5	hoeq
+hɵ 5	heoq
+haɪ 5	haaiq
+hɐɪ 5	haiq
+hiɪ 5	hiiq
+heɪ 5	heiq
+huɪ 5	huiq
+hɔɪ 5	hoiq
+hyɪ 5	hviq
+hœɪ 5	hoeiq
+hɵɪ 5	heoiq
+haʊ 5	haauq
+hɐʊ 5	hauq
+hiʊ 5	hiuq
+hɛʊ 5	heuq
+huʊ 5	huuq
+hoʊ 5	houq
+hyʊ 5	hvuq
+hœʊ 5	hoeuq
+hɵʊ 5	heouq
+ham 5	haamq
+hɐm 5	hamq
+him 5	himq
+hɛm 5	hemq
+hum 5	humq
+hɔm 5	homq
+hym 5	hvmq
+hœm 5	hoemq
+hɵm 5	heomq
+han 5	haanq
+hɐn 5	hanq
+hin 5	hinq
+hɛn 5	henq
+hun 5	hunq
+hɔn 5	honq
+hyn 5	hvnq
+hœn 5	hoenq
+hɵn 5	heonq
+haŋ 5	haangq
+hɐŋ 5	hangq
+hɪŋ 5	hingq
+hɛŋ 5	hengq
+hʊŋ 5	hungq
+hɔŋ 5	hongq
+hyŋ 5	hvngq
+hœŋ 5	hoengq
+hɵŋ 5	heongq
+hap ̚ 5	haapq
+hɐp ̚ 5	hapq
+hip ̚ 5	hipq
+hɛp ̚ 5	hepq
+hup ̚ 5	hupq
+hɔp ̚ 5	hopq
+hyp ̚ 5	hvpq
+hœp ̚ 5	hoepq
+hɵp ̚ 5	heopq
+hat ̚ 5	haatq
+hɐt ̚ 5	hatq
+hit ̚ 5	hitq
+hɛt ̚ 5	hetq
+hut ̚ 5	hutq
+hɔt ̚ 5	hotq
+hyt ̚ 5	hvtq
+hœt ̚ 5	hoetq
+hɵt ̚ 5	heotq
+hak ̚ 5	haakq
+hɐk ̚ 5	hakq
+hɪk ̚ 5	hikq
+hɛk ̚ 5	hekq
+hʊk ̚ 5	hukq
+hɔk ̚ 5	hokq
+hyk ̚ 5	hvkq
+hœk ̚ 5	hoekq
+hɵk ̚ 5	heokq
+kʷa 5	gwaaq
+kʷɐ 5	gwaq
+kʷi 5	gwiq
+kʷɛ 5	gweq
+kʷu 5	gwuq
+kʷɔ 5	gwoq
+kʷy 5	gwvq
+kʷœ 5	gwoeq
+kʷɵ 5	gweoq
+kʷaɪ 5	gwaaiq
+kʷɐɪ 5	gwaiq
+kʷiɪ 5	gwiiq
+kʷeɪ 5	gweiq
+kʷuɪ 5	gwuiq
+kʷɔɪ 5	gwoiq
+kʷyɪ 5	gwviq
+kʷœɪ 5	gwoeiq
+kʷɵɪ 5	gweoiq
+kʷaʊ 5	gwaauq
+kʷɐʊ 5	gwauq
+kʷiʊ 5	gwiuq
+kʷɛʊ 5	gweuq
+kʷuʊ 5	gwuuq
+kʷoʊ 5	gwouq
+kʷyʊ 5	gwvuq
+kʷœʊ 5	gwoeuq
+kʷɵʊ 5	gweouq
+kʷam 5	gwaamq
+kʷɐm 5	gwamq
+kʷim 5	gwimq
+kʷɛm 5	gwemq
+kʷum 5	gwumq
+kʷɔm 5	gwomq
+kʷym 5	gwvmq
+kʷœm 5	gwoemq
+kʷɵm 5	gweomq
+kʷan 5	gwaanq
+kʷɐn 5	gwanq
+kʷin 5	gwinq
+kʷɛn 5	gwenq
+kʷun 5	gwunq
+kʷɔn 5	gwonq
+kʷyn 5	gwvnq
+kʷœn 5	gwoenq
+kʷɵn 5	gweonq
+kʷaŋ 5	gwaangq
+kʷɐŋ 5	gwangq
+kʷɪŋ 5	gwingq
+kʷɛŋ 5	gwengq
+kʷʊŋ 5	gwungq
+kʷɔŋ 5	gwongq
+kʷyŋ 5	gwvngq
+kʷœŋ 5	gwoengq
+kʷɵŋ 5	gweongq
+kʷap ̚ 5	gwaapq
+kʷɐp ̚ 5	gwapq
+kʷip ̚ 5	gwipq
+kʷɛp ̚ 5	gwepq
+kʷup ̚ 5	gwupq
+kʷɔp ̚ 5	gwopq
+kʷyp ̚ 5	gwvpq
+kʷœp ̚ 5	gwoepq
+kʷɵp ̚ 5	gweopq
+kʷat ̚ 5	gwaatq
+kʷɐt ̚ 5	gwatq
+kʷit ̚ 5	gwitq
+kʷɛt ̚ 5	gwetq
+kʷut ̚ 5	gwutq
+kʷɔt ̚ 5	gwotq
+kʷyt ̚ 5	gwvtq
+kʷœt ̚ 5	gwoetq
+kʷɵt ̚ 5	gweotq
+kʷak ̚ 5	gwaakq
+kʷɐk ̚ 5	gwakq
+kʷɪk ̚ 5	gwikq
+kʷɛk ̚ 5	gwekq
+kʷʊk ̚ 5	gwukq
+kʷɔk ̚ 5	gwokq
+kʷyk ̚ 5	gwvkq
+kʷœk ̚ 5	gwoekq
+kʷɵk ̚ 5	gweokq
+kʷʰa 5	kwaaq
+kʷʰɐ 5	kwaq
+kʷʰi 5	kwiq
+kʷʰɛ 5	kweq
+kʷʰu 5	kwuq
+kʷʰɔ 5	kwoq
+kʷʰy 5	kwvq
+kʷʰœ 5	kwoeq
+kʷʰɵ 5	kweoq
+kʷʰaɪ 5	kwaaiq
+kʷʰɐɪ 5	kwaiq
+kʷʰiɪ 5	kwiiq
+kʷʰeɪ 5	kweiq
+kʷʰuɪ 5	kwuiq
+kʷʰɔɪ 5	kwoiq
+kʷʰyɪ 5	kwviq
+kʷʰœɪ 5	kwoeiq
+kʷʰɵɪ 5	kweoiq
+kʷʰaʊ 5	kwaauq
+kʷʰɐʊ 5	kwauq
+kʷʰiʊ 5	kwiuq
+kʷʰɛʊ 5	kweuq
+kʷʰuʊ 5	kwuuq
+kʷʰoʊ 5	kwouq
+kʷʰyʊ 5	kwvuq
+kʷʰœʊ 5	kwoeuq
+kʷʰɵʊ 5	kweouq
+kʷʰam 5	kwaamq
+kʷʰɐm 5	kwamq
+kʷʰim 5	kwimq
+kʷʰɛm 5	kwemq
+kʷʰum 5	kwumq
+kʷʰɔm 5	kwomq
+kʷʰym 5	kwvmq
+kʷʰœm 5	kwoemq
+kʷʰɵm 5	kweomq
+kʷʰan 5	kwaanq
+kʷʰɐn 5	kwanq
+kʷʰin 5	kwinq
+kʷʰɛn 5	kwenq
+kʷʰun 5	kwunq
+kʷʰɔn 5	kwonq
+kʷʰyn 5	kwvnq
+kʷʰœn 5	kwoenq
+kʷʰɵn 5	kweonq
+kʷʰaŋ 5	kwaangq
+kʷʰɐŋ 5	kwangq
+kʷʰɪŋ 5	kwingq
+kʷʰɛŋ 5	kwengq
+kʷʰʊŋ 5	kwungq
+kʷʰɔŋ 5	kwongq
+kʷʰyŋ 5	kwvngq
+kʷʰœŋ 5	kwoengq
+kʷʰɵŋ 5	kweongq
+kʷʰap ̚ 5	kwaapq
+kʷʰɐp ̚ 5	kwapq
+kʷʰip ̚ 5	kwipq
+kʷʰɛp ̚ 5	kwepq
+kʷʰup ̚ 5	kwupq
+kʷʰɔp ̚ 5	kwopq
+kʷʰyp ̚ 5	kwvpq
+kʷʰœp ̚ 5	kwoepq
+kʷʰɵp ̚ 5	kweopq
+kʷʰat ̚ 5	kwaatq
+kʷʰɐt ̚ 5	kwatq
+kʷʰit ̚ 5	kwitq
+kʷʰɛt ̚ 5	kwetq
+kʷʰut ̚ 5	kwutq
+kʷʰɔt ̚ 5	kwotq
+kʷʰyt ̚ 5	kwvtq
+kʷʰœt ̚ 5	kwoetq
+kʷʰɵt ̚ 5	kweotq
+kʷʰak ̚ 5	kwaakq
+kʷʰɐk ̚ 5	kwakq
+kʷʰɪk ̚ 5	kwikq
+kʷʰɛk ̚ 5	kwekq
+kʷʰʊk ̚ 5	kwukq
+kʷʰɔk ̚ 5	kwokq
+kʷʰyk ̚ 5	kwvkq
+kʷʰœk ̚ 5	kwoekq
+kʷʰɵk ̚ 5	kweokq
+wa 5	waaq
+wɐ 5	waq
+wi 5	wiq
+wɛ 5	weq
+wu 5	wuq
+wɔ 5	woq
+wy 5	wvq
+wœ 5	woeq
+wɵ 5	weoq
+waɪ 5	waaiq
+wɐɪ 5	waiq
+wiɪ 5	wiiq
+weɪ 5	weiq
+wuɪ 5	wuiq
+wɔɪ 5	woiq
+wyɪ 5	wviq
+wœɪ 5	woeiq
+wɵɪ 5	weoiq
+waʊ 5	waauq
+wɐʊ 5	wauq
+wiʊ 5	wiuq
+wɛʊ 5	weuq
+wuʊ 5	wuuq
+woʊ 5	wouq
+wyʊ 5	wvuq
+wœʊ 5	woeuq
+wɵʊ 5	weouq
+wam 5	waamq
+wɐm 5	wamq
+wim 5	wimq
+wɛm 5	wemq
+wum 5	wumq
+wɔm 5	womq
+wym 5	wvmq
+wœm 5	woemq
+wɵm 5	weomq
+wan 5	waanq
+wɐn 5	wanq
+win 5	winq
+wɛn 5	wenq
+wun 5	wunq
+wɔn 5	wonq
+wyn 5	wvnq
+wœn 5	woenq
+wɵn 5	weonq
+waŋ 5	waangq
+wɐŋ 5	wangq
+wɪŋ 5	wingq
+wɛŋ 5	wengq
+wʊŋ 5	wungq
+wɔŋ 5	wongq
+wyŋ 5	wvngq
+wœŋ 5	woengq
+wɵŋ 5	weongq
+wap ̚ 5	waapq
+wɐp ̚ 5	wapq
+wip ̚ 5	wipq
+wɛp ̚ 5	wepq
+wup ̚ 5	wupq
+wɔp ̚ 5	wopq
+wyp ̚ 5	wvpq
+wœp ̚ 5	woepq
+wɵp ̚ 5	weopq
+wat ̚ 5	waatq
+wɐt ̚ 5	watq
+wit ̚ 5	witq
+wɛt ̚ 5	wetq
+wut ̚ 5	wutq
+wɔt ̚ 5	wotq
+wyt ̚ 5	wvtq
+wœt ̚ 5	woetq
+wɵt ̚ 5	weotq
+wak ̚ 5	waakq
+wɐk ̚ 5	wakq
+wɪk ̚ 5	wikq
+wɛk ̚ 5	wekq
+wʊk ̚ 5	wukq
+wɔk ̚ 5	wokq
+wyk ̚ 5	wvkq
+wœk ̚ 5	woekq
+wɵk ̚ 5	weokq
+t͡sa 5	zaaq
+t͡sɐ 5	zaq
+t͡si 5	ziq
+t͡sɛ 5	zeq
+t͡su 5	zuq
+t͡sɔ 5	zoq
+t͡sy 5	zvq
+t͡sœ 5	zoeq
+t͡sɵ 5	zeoq
+t͡saɪ 5	zaaiq
+t͡sɐɪ 5	zaiq
+t͡siɪ 5	ziiq
+t͡seɪ 5	zeiq
+t͡suɪ 5	zuiq
+t͡sɔɪ 5	zoiq
+t͡syɪ 5	zviq
+t͡sœɪ 5	zoeiq
+t͡sɵɪ 5	zeoiq
+t͡saʊ 5	zaauq
+t͡sɐʊ 5	zauq
+t͡siʊ 5	ziuq
+t͡sɛʊ 5	zeuq
+t͡suʊ 5	zuuq
+t͡soʊ 5	zouq
+t͡syʊ 5	zvuq
+t͡sœʊ 5	zoeuq
+t͡sɵʊ 5	zeouq
+t͡sam 5	zaamq
+t͡sɐm 5	zamq
+t͡sim 5	zimq
+t͡sɛm 5	zemq
+t͡sum 5	zumq
+t͡sɔm 5	zomq
+t͡sym 5	zvmq
+t͡sœm 5	zoemq
+t͡sɵm 5	zeomq
+t͡san 5	zaanq
+t͡sɐn 5	zanq
+t͡sin 5	zinq
+t͡sɛn 5	zenq
+t͡sun 5	zunq
+t͡sɔn 5	zonq
+t͡syn 5	zvnq
+t͡sœn 5	zoenq
+t͡sɵn 5	zeonq
+t͡saŋ 5	zaangq
+t͡sɐŋ 5	zangq
+t͡sɪŋ 5	zingq
+t͡sɛŋ 5	zengq
+t͡sʊŋ 5	zungq
+t͡sɔŋ 5	zongq
+t͡syŋ 5	zvngq
+t͡sœŋ 5	zoengq
+t͡sɵŋ 5	zeongq
+t͡sap ̚ 5	zaapq
+t͡sɐp ̚ 5	zapq
+t͡sip ̚ 5	zipq
+t͡sɛp ̚ 5	zepq
+t͡sup ̚ 5	zupq
+t͡sɔp ̚ 5	zopq
+t͡syp ̚ 5	zvpq
+t͡sœp ̚ 5	zoepq
+t͡sɵp ̚ 5	zeopq
+t͡sat ̚ 5	zaatq
+t͡sɐt ̚ 5	zatq
+t͡sit ̚ 5	zitq
+t͡sɛt ̚ 5	zetq
+t͡sut ̚ 5	zutq
+t͡sɔt ̚ 5	zotq
+t͡syt ̚ 5	zvtq
+t͡sœt ̚ 5	zoetq
+t͡sɵt ̚ 5	zeotq
+t͡sak ̚ 5	zaakq
+t͡sɐk ̚ 5	zakq
+t͡sɪk ̚ 5	zikq
+t͡sɛk ̚ 5	zekq
+t͡sʊk ̚ 5	zukq
+t͡sɔk ̚ 5	zokq
+t͡syk ̚ 5	zvkq
+t͡sœk ̚ 5	zoekq
+t͡sɵk ̚ 5	zeokq
+t͡sʰa 5	caaq
+t͡sʰɐ 5	caq
+t͡sʰi 5	ciq
+t͡sʰɛ 5	ceq
+t͡sʰu 5	cuq
+t͡sʰɔ 5	coq
+t͡sʰy 5	cvq
+t͡sʰœ 5	coeq
+t͡sʰɵ 5	ceoq
+t͡sʰaɪ 5	caaiq
+t͡sʰɐɪ 5	caiq
+t͡sʰiɪ 5	ciiq
+t͡sʰeɪ 5	ceiq
+t͡sʰuɪ 5	cuiq
+t͡sʰɔɪ 5	coiq
+t͡sʰyɪ 5	cviq
+t͡sʰœɪ 5	coeiq
+t͡sʰɵɪ 5	ceoiq
+t͡sʰaʊ 5	caauq
+t͡sʰɐʊ 5	cauq
+t͡sʰiʊ 5	ciuq
+t͡sʰɛʊ 5	ceuq
+t͡sʰuʊ 5	cuuq
+t͡sʰoʊ 5	couq
+t͡sʰyʊ 5	cvuq
+t͡sʰœʊ 5	coeuq
+t͡sʰɵʊ 5	ceouq
+t͡sʰam 5	caamq
+t͡sʰɐm 5	camq
+t͡sʰim 5	cimq
+t͡sʰɛm 5	cemq
+t͡sʰum 5	cumq
+t͡sʰɔm 5	comq
+t͡sʰym 5	cvmq
+t͡sʰœm 5	coemq
+t͡sʰɵm 5	ceomq
+t͡sʰan 5	caanq
+t͡sʰɐn 5	canq
+t͡sʰin 5	cinq
+t͡sʰɛn 5	cenq
+t͡sʰun 5	cunq
+t͡sʰɔn 5	conq
+t͡sʰyn 5	cvnq
+t͡sʰœn 5	coenq
+t͡sʰɵn 5	ceonq
+t͡sʰaŋ 5	caangq
+t͡sʰɐŋ 5	cangq
+t͡sʰɪŋ 5	cingq
+t͡sʰɛŋ 5	cengq
+t͡sʰʊŋ 5	cungq
+t͡sʰɔŋ 5	congq
+t͡sʰyŋ 5	cvngq
+t͡sʰœŋ 5	coengq
+t͡sʰɵŋ 5	ceongq
+t͡sʰap ̚ 5	caapq
+t͡sʰɐp ̚ 5	capq
+t͡sʰip ̚ 5	cipq
+t͡sʰɛp ̚ 5	cepq
+t͡sʰup ̚ 5	cupq
+t͡sʰɔp ̚ 5	copq
+t͡sʰyp ̚ 5	cvpq
+t͡sʰœp ̚ 5	coepq
+t͡sʰɵp ̚ 5	ceopq
+t͡sʰat ̚ 5	caatq
+t͡sʰɐt ̚ 5	catq
+t͡sʰit ̚ 5	citq
+t͡sʰɛt ̚ 5	cetq
+t͡sʰut ̚ 5	cutq
+t͡sʰɔt ̚ 5	cotq
+t͡sʰyt ̚ 5	cvtq
+t͡sʰœt ̚ 5	coetq
+t͡sʰɵt ̚ 5	ceotq
+t͡sʰak ̚ 5	caakq
+t͡sʰɐk ̚ 5	cakq
+t͡sʰɪk ̚ 5	cikq
+t͡sʰɛk ̚ 5	cekq
+t͡sʰʊk ̚ 5	cukq
+t͡sʰɔk ̚ 5	cokq
+t͡sʰyk ̚ 5	cvkq
+t͡sʰœk ̚ 5	coekq
+t͡sʰɵk ̚ 5	ceokq
+sa 5	saaq
+sɐ 5	saq
+si 5	siq
+sɛ 5	seq
+su 5	suq
+sɔ 5	soq
+sy 5	svq
+sœ 5	soeq
+sɵ 5	seoq
+saɪ 5	saaiq
+sɐɪ 5	saiq
+siɪ 5	siiq
+seɪ 5	seiq
+suɪ 5	suiq
+sɔɪ 5	soiq
+syɪ 5	sviq
+sœɪ 5	soeiq
+sɵɪ 5	seoiq
+saʊ 5	saauq
+sɐʊ 5	sauq
+siʊ 5	siuq
+sɛʊ 5	seuq
+suʊ 5	suuq
+soʊ 5	souq
+syʊ 5	svuq
+sœʊ 5	soeuq
+sɵʊ 5	seouq
+sam 5	saamq
+sɐm 5	samq
+sim 5	simq
+sɛm 5	semq
+sum 5	sumq
+sɔm 5	somq
+sym 5	svmq
+sœm 5	soemq
+sɵm 5	seomq
+san 5	saanq
+sɐn 5	sanq
+sin 5	sinq
+sɛn 5	senq
+sun 5	sunq
+sɔn 5	sonq
+syn 5	svnq
+sœn 5	soenq
+sɵn 5	seonq
+saŋ 5	saangq
+sɐŋ 5	sangq
+sɪŋ 5	singq
+sɛŋ 5	sengq
+sʊŋ 5	sungq
+sɔŋ 5	songq
+syŋ 5	svngq
+sœŋ 5	soengq
+sɵŋ 5	seongq
+sap ̚ 5	saapq
+sɐp ̚ 5	sapq
+sip ̚ 5	sipq
+sɛp ̚ 5	sepq
+sup ̚ 5	supq
+sɔp ̚ 5	sopq
+syp ̚ 5	svpq
+sœp ̚ 5	soepq
+sɵp ̚ 5	seopq
+sat ̚ 5	saatq
+sɐt ̚ 5	satq
+sit ̚ 5	sitq
+sɛt ̚ 5	setq
+sut ̚ 5	sutq
+sɔt ̚ 5	sotq
+syt ̚ 5	svtq
+sœt ̚ 5	soetq
+sɵt ̚ 5	seotq
+sak ̚ 5	saakq
+sɐk ̚ 5	sakq
+sɪk ̚ 5	sikq
+sɛk ̚ 5	sekq
+sʊk ̚ 5	sukq
+sɔk ̚ 5	sokq
+syk ̚ 5	svkq
+sœk ̚ 5	soekq
+sɵk ̚ 5	seokq
+ja 5	yaaq
+jɐ 5	yaq
+ji 5	yiq
+jɛ 5	yeq
+ju 5	yuq
+jɔ 5	yoq
+jy 5	yvq
+jœ 5	yoeq
+jɵ 5	yeoq
+jaɪ 5	yaaiq
+jɐɪ 5	yaiq
+jiɪ 5	yiiq
+jeɪ 5	yeiq
+juɪ 5	yuiq
+jɔɪ 5	yoiq
+jyɪ 5	yviq
+jœɪ 5	yoeiq
+jɵɪ 5	yeoiq
+jaʊ 5	yaauq
+jɐʊ 5	yauq
+jiʊ 5	yiuq
+jɛʊ 5	yeuq
+juʊ 5	yuuq
+joʊ 5	youq
+jyʊ 5	yvuq
+jœʊ 5	yoeuq
+jɵʊ 5	yeouq
+jam 5	yaamq
+jɐm 5	yamq
+jim 5	yimq
+jɛm 5	yemq
+jum 5	yumq
+jɔm 5	yomq
+jym 5	yvmq
+jœm 5	yoemq
+jɵm 5	yeomq
+jan 5	yaanq
+jɐn 5	yanq
+jin 5	yinq
+jɛn 5	yenq
+jun 5	yunq
+jɔn 5	yonq
+jyn 5	yvnq
+jœn 5	yoenq
+jɵn 5	yeonq
+jaŋ 5	yaangq
+jɐŋ 5	yangq
+jɪŋ 5	yingq
+jɛŋ 5	yengq
+jʊŋ 5	yungq
+jɔŋ 5	yongq
+jyŋ 5	yvngq
+jœŋ 5	yoengq
+jɵŋ 5	yeongq
+jap ̚ 5	yaapq
+jɐp ̚ 5	yapq
+jip ̚ 5	yipq
+jɛp ̚ 5	yepq
+jup ̚ 5	yupq
+jɔp ̚ 5	yopq
+jyp ̚ 5	yvpq
+jœp ̚ 5	yoepq
+jɵp ̚ 5	yeopq
+jat ̚ 5	yaatq
+jɐt ̚ 5	yatq
+jit ̚ 5	yitq
+jɛt ̚ 5	yetq
+jut ̚ 5	yutq
+jɔt ̚ 5	yotq
+jyt ̚ 5	yvtq
+jœt ̚ 5	yoetq
+jɵt ̚ 5	yeotq
+jak ̚ 5	yaakq
+jɐk ̚ 5	yakq
+jɪk ̚ 5	yikq
+jɛk ̚ 5	yekq
+jʊk ̚ 5	yukq
+jɔk ̚ 5	yokq
+jyk ̚ 5	yvkq
+jœk ̚ 5	yoekq
+jɵk ̚ 5	yeokq
+m 5	mq
+hm 5	hmq
+ŋ 5	ngq
+hŋ 5	hngq
+s 5	sq
+a 6	aah
+ɐ 6	ah
+i 6	ih
+ɛ 6	eh
+u 6	uh
+ɔ 6	oh
+y 6	vh
+œ 6	oeh
+ɵ 6	eoh
+aɪ 6	aaih
+ɐɪ 6	aih
+iɪ 6	iih
+eɪ 6	eih
+uɪ 6	uih
+ɔɪ 6	oih
+yɪ 6	vih
+œɪ 6	oeih
+ɵɪ 6	eoih
+aʊ 6	aauh
+ɐʊ 6	auh
+iʊ 6	iuh
+ɛʊ 6	euh
+uʊ 6	uuh
+oʊ 6	ouh
+yʊ 6	vuh
+œʊ 6	oeuh
+ɵʊ 6	eouh
+am 6	aamh
+ɐm 6	amh
+im 6	imh
+ɛm 6	emh
+um 6	umh
+ɔm 6	omh
+ym 6	vmh
+œm 6	oemh
+ɵm 6	eomh
+an 6	aanh
+ɐn 6	anh
+in 6	inh
+ɛn 6	enh
+un 6	unh
+ɔn 6	onh
+yn 6	vnh
+œn 6	oenh
+ɵn 6	eonh
+aŋ 6	aangh
+ɐŋ 6	angh
+ɪŋ 6	ingh
+ɛŋ 6	engh
+ʊŋ 6	ungh
+ɔŋ 6	ongh
+yŋ 6	vngh
+œŋ 6	oengh
+ɵŋ 6	eongh
+ap ̚ 6	aaph
+ɐp ̚ 6	aph
+ip ̚ 6	iph
+ɛp ̚ 6	eph
+up ̚ 6	uph
+ɔp ̚ 6	oph
+yp ̚ 6	vph
+œp ̚ 6	oeph
+ɵp ̚ 6	eoph
+at ̚ 6	aath
+ɐt ̚ 6	ath
+it ̚ 6	ith
+ɛt ̚ 6	eth
+ut ̚ 6	uth
+ɔt ̚ 6	oth
+yt ̚ 6	vth
+œt ̚ 6	oeth
+ɵt ̚ 6	eoth
+ak ̚ 6	aakh
+ɐk ̚ 6	akh
+ɪk ̚ 6	ikh
+ɛk ̚ 6	ekh
+ʊk ̚ 6	ukh
+ɔk ̚ 6	okh
+yk ̚ 6	vkh
+œk ̚ 6	oekh
+ɵk ̚ 6	eokh
+pa 6	baah
+pɐ 6	bah
+pi 6	bih
+pɛ 6	beh
+pu 6	buh
+pɔ 6	boh
+py 6	bvh
+pœ 6	boeh
+pɵ 6	beoh
+paɪ 6	baaih
+pɐɪ 6	baih
+piɪ 6	biih
+peɪ 6	beih
+puɪ 6	buih
+pɔɪ 6	boih
+pyɪ 6	bvih
+pœɪ 6	boeih
+pɵɪ 6	beoih
+paʊ 6	baauh
+pɐʊ 6	bauh
+piʊ 6	biuh
+pɛʊ 6	beuh
+puʊ 6	buuh
+poʊ 6	bouh
+pyʊ 6	bvuh
+pœʊ 6	boeuh
+pɵʊ 6	beouh
+pam 6	baamh
+pɐm 6	bamh
+pim 6	bimh
+pɛm 6	bemh
+pum 6	bumh
+pɔm 6	bomh
+pym 6	bvmh
+pœm 6	boemh
+pɵm 6	beomh
+pan 6	baanh
+pɐn 6	banh
+pin 6	binh
+pɛn 6	benh
+pun 6	bunh
+pɔn 6	bonh
+pyn 6	bvnh
+pœn 6	boenh
+pɵn 6	beonh
+paŋ 6	baangh
+pɐŋ 6	bangh
+pɪŋ 6	bingh
+pɛŋ 6	bengh
+pʊŋ 6	bungh
+pɔŋ 6	bongh
+pyŋ 6	bvngh
+pœŋ 6	boengh
+pɵŋ 6	beongh
+pap ̚ 6	baaph
+pɐp ̚ 6	baph
+pip ̚ 6	biph
+pɛp ̚ 6	beph
+pup ̚ 6	buph
+pɔp ̚ 6	boph
+pyp ̚ 6	bvph
+pœp ̚ 6	boeph
+pɵp ̚ 6	beoph
+pat ̚ 6	baath
+pɐt ̚ 6	bath
+pit ̚ 6	bith
+pɛt ̚ 6	beth
+put ̚ 6	buth
+pɔt ̚ 6	both
+pyt ̚ 6	bvth
+pœt ̚ 6	boeth
+pɵt ̚ 6	beoth
+pak ̚ 6	baakh
+pɐk ̚ 6	bakh
+pɪk ̚ 6	bikh
+pɛk ̚ 6	bekh
+pʊk ̚ 6	bukh
+pɔk ̚ 6	bokh
+pyk ̚ 6	bvkh
+pœk ̚ 6	boekh
+pɵk ̚ 6	beokh
+pʰa 6	paah
+pʰɐ 6	pah
+pʰi 6	pih
+pʰɛ 6	peh
+pʰu 6	puh
+pʰɔ 6	poh
+pʰy 6	pvh
+pʰœ 6	poeh
+pʰɵ 6	peoh
+pʰaɪ 6	paaih
+pʰɐɪ 6	paih
+pʰiɪ 6	piih
+pʰeɪ 6	peih
+pʰuɪ 6	puih
+pʰɔɪ 6	poih
+pʰyɪ 6	pvih
+pʰœɪ 6	poeih
+pʰɵɪ 6	peoih
+pʰaʊ 6	paauh
+pʰɐʊ 6	pauh
+pʰiʊ 6	piuh
+pʰɛʊ 6	peuh
+pʰuʊ 6	puuh
+pʰoʊ 6	pouh
+pʰyʊ 6	pvuh
+pʰœʊ 6	poeuh
+pʰɵʊ 6	peouh
+pʰam 6	paamh
+pʰɐm 6	pamh
+pʰim 6	pimh
+pʰɛm 6	pemh
+pʰum 6	pumh
+pʰɔm 6	pomh
+pʰym 6	pvmh
+pʰœm 6	poemh
+pʰɵm 6	peomh
+pʰan 6	paanh
+pʰɐn 6	panh
+pʰin 6	pinh
+pʰɛn 6	penh
+pʰun 6	punh
+pʰɔn 6	ponh
+pʰyn 6	pvnh
+pʰœn 6	poenh
+pʰɵn 6	peonh
+pʰaŋ 6	paangh
+pʰɐŋ 6	pangh
+pʰɪŋ 6	pingh
+pʰɛŋ 6	pengh
+pʰʊŋ 6	pungh
+pʰɔŋ 6	pongh
+pʰyŋ 6	pvngh
+pʰœŋ 6	poengh
+pʰɵŋ 6	peongh
+pʰap ̚ 6	paaph
+pʰɐp ̚ 6	paph
+pʰip ̚ 6	piph
+pʰɛp ̚ 6	peph
+pʰup ̚ 6	puph
+pʰɔp ̚ 6	poph
+pʰyp ̚ 6	pvph
+pʰœp ̚ 6	poeph
+pʰɵp ̚ 6	peoph
+pʰat ̚ 6	paath
+pʰɐt ̚ 6	path
+pʰit ̚ 6	pith
+pʰɛt ̚ 6	peth
+pʰut ̚ 6	puth
+pʰɔt ̚ 6	poth
+pʰyt ̚ 6	pvth
+pʰœt ̚ 6	poeth
+pʰɵt ̚ 6	peoth
+pʰak ̚ 6	paakh
+pʰɐk ̚ 6	pakh
+pʰɪk ̚ 6	pikh
+pʰɛk ̚ 6	pekh
+pʰʊk ̚ 6	pukh
+pʰɔk ̚ 6	pokh
+pʰyk ̚ 6	pvkh
+pʰœk ̚ 6	poekh
+pʰɵk ̚ 6	peokh
+ma 6	maah
+mɐ 6	mah
+mi 6	mih
+mɛ 6	meh
+mu 6	muh
+mɔ 6	moh
+my 6	mvh
+mœ 6	moeh
+mɵ 6	meoh
+maɪ 6	maaih
+mɐɪ 6	maih
+miɪ 6	miih
+meɪ 6	meih
+muɪ 6	muih
+mɔɪ 6	moih
+myɪ 6	mvih
+mœɪ 6	moeih
+mɵɪ 6	meoih
+maʊ 6	maauh
+mɐʊ 6	mauh
+miʊ 6	miuh
+mɛʊ 6	meuh
+muʊ 6	muuh
+moʊ 6	mouh
+myʊ 6	mvuh
+mœʊ 6	moeuh
+mɵʊ 6	meouh
+mam 6	maamh
+mɐm 6	mamh
+mim 6	mimh
+mɛm 6	memh
+mum 6	mumh
+mɔm 6	momh
+mym 6	mvmh
+mœm 6	moemh
+mɵm 6	meomh
+man 6	maanh
+mɐn 6	manh
+min 6	minh
+mɛn 6	menh
+mun 6	munh
+mɔn 6	monh
+myn 6	mvnh
+mœn 6	moenh
+mɵn 6	meonh
+maŋ 6	maangh
+mɐŋ 6	mangh
+mɪŋ 6	mingh
+mɛŋ 6	mengh
+mʊŋ 6	mungh
+mɔŋ 6	mongh
+myŋ 6	mvngh
+mœŋ 6	moengh
+mɵŋ 6	meongh
+map ̚ 6	maaph
+mɐp ̚ 6	maph
+mip ̚ 6	miph
+mɛp ̚ 6	meph
+mup ̚ 6	muph
+mɔp ̚ 6	moph
+myp ̚ 6	mvph
+mœp ̚ 6	moeph
+mɵp ̚ 6	meoph
+mat ̚ 6	maath
+mɐt ̚ 6	math
+mit ̚ 6	mith
+mɛt ̚ 6	meth
+mut ̚ 6	muth
+mɔt ̚ 6	moth
+myt ̚ 6	mvth
+mœt ̚ 6	moeth
+mɵt ̚ 6	meoth
+mak ̚ 6	maakh
+mɐk ̚ 6	makh
+mɪk ̚ 6	mikh
+mɛk ̚ 6	mekh
+mʊk ̚ 6	mukh
+mɔk ̚ 6	mokh
+myk ̚ 6	mvkh
+mœk ̚ 6	moekh
+mɵk ̚ 6	meokh
+fa 6	faah
+fɐ 6	fah
+fi 6	fih
+fɛ 6	feh
+fu 6	fuh
+fɔ 6	foh
+fy 6	fvh
+fœ 6	foeh
+fɵ 6	feoh
+faɪ 6	faaih
+fɐɪ 6	faih
+fiɪ 6	fiih
+feɪ 6	feih
+fuɪ 6	fuih
+fɔɪ 6	foih
+fyɪ 6	fvih
+fœɪ 6	foeih
+fɵɪ 6	feoih
+faʊ 6	faauh
+fɐʊ 6	fauh
+fiʊ 6	fiuh
+fɛʊ 6	feuh
+fuʊ 6	fuuh
+foʊ 6	fouh
+fyʊ 6	fvuh
+fœʊ 6	foeuh
+fɵʊ 6	feouh
+fam 6	faamh
+fɐm 6	famh
+fim 6	fimh
+fɛm 6	femh
+fum 6	fumh
+fɔm 6	fomh
+fym 6	fvmh
+fœm 6	foemh
+fɵm 6	feomh
+fan 6	faanh
+fɐn 6	fanh
+fin 6	finh
+fɛn 6	fenh
+fun 6	funh
+fɔn 6	fonh
+fyn 6	fvnh
+fœn 6	foenh
+fɵn 6	feonh
+faŋ 6	faangh
+fɐŋ 6	fangh
+fɪŋ 6	fingh
+fɛŋ 6	fengh
+fʊŋ 6	fungh
+fɔŋ 6	fongh
+fyŋ 6	fvngh
+fœŋ 6	foengh
+fɵŋ 6	feongh
+fap ̚ 6	faaph
+fɐp ̚ 6	faph
+fip ̚ 6	fiph
+fɛp ̚ 6	feph
+fup ̚ 6	fuph
+fɔp ̚ 6	foph
+fyp ̚ 6	fvph
+fœp ̚ 6	foeph
+fɵp ̚ 6	feoph
+fat ̚ 6	faath
+fɐt ̚ 6	fath
+fit ̚ 6	fith
+fɛt ̚ 6	feth
+fut ̚ 6	futh
+fɔt ̚ 6	foth
+fyt ̚ 6	fvth
+fœt ̚ 6	foeth
+fɵt ̚ 6	feoth
+fak ̚ 6	faakh
+fɐk ̚ 6	fakh
+fɪk ̚ 6	fikh
+fɛk ̚ 6	fekh
+fʊk ̚ 6	fukh
+fɔk ̚ 6	fokh
+fyk ̚ 6	fvkh
+fœk ̚ 6	foekh
+fɵk ̚ 6	feokh
+ta 6	daah
+tɐ 6	dah
+ti 6	dih
+tɛ 6	deh
+tu 6	duh
+tɔ 6	doh
+ty 6	dvh
+tœ 6	doeh
+tɵ 6	deoh
+taɪ 6	daaih
+tɐɪ 6	daih
+tiɪ 6	diih
+teɪ 6	deih
+tuɪ 6	duih
+tɔɪ 6	doih
+tyɪ 6	dvih
+tœɪ 6	doeih
+tɵɪ 6	deoih
+taʊ 6	daauh
+tɐʊ 6	dauh
+tiʊ 6	diuh
+tɛʊ 6	deuh
+tuʊ 6	duuh
+toʊ 6	douh
+tyʊ 6	dvuh
+tœʊ 6	doeuh
+tɵʊ 6	deouh
+tam 6	daamh
+tɐm 6	damh
+tim 6	dimh
+tɛm 6	demh
+tum 6	dumh
+tɔm 6	domh
+tym 6	dvmh
+tœm 6	doemh
+tɵm 6	deomh
+tan 6	daanh
+tɐn 6	danh
+tin 6	dinh
+tɛn 6	denh
+tun 6	dunh
+tɔn 6	donh
+tyn 6	dvnh
+tœn 6	doenh
+tɵn 6	deonh
+taŋ 6	daangh
+tɐŋ 6	dangh
+tɪŋ 6	dingh
+tɛŋ 6	dengh
+tʊŋ 6	dungh
+tɔŋ 6	dongh
+tyŋ 6	dvngh
+tœŋ 6	doengh
+tɵŋ 6	deongh
+tap ̚ 6	daaph
+tɐp ̚ 6	daph
+tip ̚ 6	diph
+tɛp ̚ 6	deph
+tup ̚ 6	duph
+tɔp ̚ 6	doph
+typ ̚ 6	dvph
+tœp ̚ 6	doeph
+tɵp ̚ 6	deoph
+tat ̚ 6	daath
+tɐt ̚ 6	dath
+tit ̚ 6	dith
+tɛt ̚ 6	deth
+tut ̚ 6	duth
+tɔt ̚ 6	doth
+tyt ̚ 6	dvth
+tœt ̚ 6	doeth
+tɵt ̚ 6	deoth
+tak ̚ 6	daakh
+tɐk ̚ 6	dakh
+tɪk ̚ 6	dikh
+tɛk ̚ 6	dekh
+tʊk ̚ 6	dukh
+tɔk ̚ 6	dokh
+tyk ̚ 6	dvkh
+tœk ̚ 6	doekh
+tɵk ̚ 6	deokh
+tʰa 6	taah
+tʰɐ 6	tah
+tʰi 6	tih
+tʰɛ 6	teh
+tʰu 6	tuh
+tʰɔ 6	toh
+tʰy 6	tvh
+tʰœ 6	toeh
+tʰɵ 6	teoh
+tʰaɪ 6	taaih
+tʰɐɪ 6	taih
+tʰiɪ 6	tiih
+tʰeɪ 6	teih
+tʰuɪ 6	tuih
+tʰɔɪ 6	toih
+tʰyɪ 6	tvih
+tʰœɪ 6	toeih
+tʰɵɪ 6	teoih
+tʰaʊ 6	taauh
+tʰɐʊ 6	tauh
+tʰiʊ 6	tiuh
+tʰɛʊ 6	teuh
+tʰuʊ 6	tuuh
+tʰoʊ 6	touh
+tʰyʊ 6	tvuh
+tʰœʊ 6	toeuh
+tʰɵʊ 6	teouh
+tʰam 6	taamh
+tʰɐm 6	tamh
+tʰim 6	timh
+tʰɛm 6	temh
+tʰum 6	tumh
+tʰɔm 6	tomh
+tʰym 6	tvmh
+tʰœm 6	toemh
+tʰɵm 6	teomh
+tʰan 6	taanh
+tʰɐn 6	tanh
+tʰin 6	tinh
+tʰɛn 6	tenh
+tʰun 6	tunh
+tʰɔn 6	tonh
+tʰyn 6	tvnh
+tʰœn 6	toenh
+tʰɵn 6	teonh
+tʰaŋ 6	taangh
+tʰɐŋ 6	tangh
+tʰɪŋ 6	tingh
+tʰɛŋ 6	tengh
+tʰʊŋ 6	tungh
+tʰɔŋ 6	tongh
+tʰyŋ 6	tvngh
+tʰœŋ 6	toengh
+tʰɵŋ 6	teongh
+tʰap ̚ 6	taaph
+tʰɐp ̚ 6	taph
+tʰip ̚ 6	tiph
+tʰɛp ̚ 6	teph
+tʰup ̚ 6	tuph
+tʰɔp ̚ 6	toph
+tʰyp ̚ 6	tvph
+tʰœp ̚ 6	toeph
+tʰɵp ̚ 6	teoph
+tʰat ̚ 6	taath
+tʰɐt ̚ 6	tath
+tʰit ̚ 6	tith
+tʰɛt ̚ 6	teth
+tʰut ̚ 6	tuth
+tʰɔt ̚ 6	toth
+tʰyt ̚ 6	tvth
+tʰœt ̚ 6	toeth
+tʰɵt ̚ 6	teoth
+tʰak ̚ 6	taakh
+tʰɐk ̚ 6	takh
+tʰɪk ̚ 6	tikh
+tʰɛk ̚ 6	tekh
+tʰʊk ̚ 6	tukh
+tʰɔk ̚ 6	tokh
+tʰyk ̚ 6	tvkh
+tʰœk ̚ 6	toekh
+tʰɵk ̚ 6	teokh
+na 6	naah
+nɐ 6	nah
+ni 6	nih
+nɛ 6	neh
+nu 6	nuh
+nɔ 6	noh
+ny 6	nvh
+nœ 6	noeh
+nɵ 6	neoh
+naɪ 6	naaih
+nɐɪ 6	naih
+niɪ 6	niih
+neɪ 6	neih
+nuɪ 6	nuih
+nɔɪ 6	noih
+nyɪ 6	nvih
+nœɪ 6	noeih
+nɵɪ 6	neoih
+naʊ 6	naauh
+nɐʊ 6	nauh
+niʊ 6	niuh
+nɛʊ 6	neuh
+nuʊ 6	nuuh
+noʊ 6	nouh
+nyʊ 6	nvuh
+nœʊ 6	noeuh
+nɵʊ 6	neouh
+nam 6	naamh
+nɐm 6	namh
+nim 6	nimh
+nɛm 6	nemh
+num 6	numh
+nɔm 6	nomh
+nym 6	nvmh
+nœm 6	noemh
+nɵm 6	neomh
+nan 6	naanh
+nɐn 6	nanh
+nin 6	ninh
+nɛn 6	nenh
+nun 6	nunh
+nɔn 6	nonh
+nyn 6	nvnh
+nœn 6	noenh
+nɵn 6	neonh
+naŋ 6	naangh
+nɐŋ 6	nangh
+nɪŋ 6	ningh
+nɛŋ 6	nengh
+nʊŋ 6	nungh
+nɔŋ 6	nongh
+nyŋ 6	nvngh
+nœŋ 6	noengh
+nɵŋ 6	neongh
+nap ̚ 6	naaph
+nɐp ̚ 6	naph
+nip ̚ 6	niph
+nɛp ̚ 6	neph
+nup ̚ 6	nuph
+nɔp ̚ 6	noph
+nyp ̚ 6	nvph
+nœp ̚ 6	noeph
+nɵp ̚ 6	neoph
+nat ̚ 6	naath
+nɐt ̚ 6	nath
+nit ̚ 6	nith
+nɛt ̚ 6	neth
+nut ̚ 6	nuth
+nɔt ̚ 6	noth
+nyt ̚ 6	nvth
+nœt ̚ 6	noeth
+nɵt ̚ 6	neoth
+nak ̚ 6	naakh
+nɐk ̚ 6	nakh
+nɪk ̚ 6	nikh
+nɛk ̚ 6	nekh
+nʊk ̚ 6	nukh
+nɔk ̚ 6	nokh
+nyk ̚ 6	nvkh
+nœk ̚ 6	noekh
+nɵk ̚ 6	neokh
+la 6	laah
+lɐ 6	lah
+li 6	lih
+lɛ 6	leh
+lu 6	luh
+lɔ 6	loh
+ly 6	lvh
+lœ 6	loeh
+lɵ 6	leoh
+laɪ 6	laaih
+lɐɪ 6	laih
+liɪ 6	liih
+leɪ 6	leih
+luɪ 6	luih
+lɔɪ 6	loih
+lyɪ 6	lvih
+lœɪ 6	loeih
+lɵɪ 6	leoih
+laʊ 6	laauh
+lɐʊ 6	lauh
+liʊ 6	liuh
+lɛʊ 6	leuh
+luʊ 6	luuh
+loʊ 6	louh
+lyʊ 6	lvuh
+lœʊ 6	loeuh
+lɵʊ 6	leouh
+lam 6	laamh
+lɐm 6	lamh
+lim 6	limh
+lɛm 6	lemh
+lum 6	lumh
+lɔm 6	lomh
+lym 6	lvmh
+lœm 6	loemh
+lɵm 6	leomh
+lan 6	laanh
+lɐn 6	lanh
+lin 6	linh
+lɛn 6	lenh
+lun 6	lunh
+lɔn 6	lonh
+lyn 6	lvnh
+lœn 6	loenh
+lɵn 6	leonh
+laŋ 6	laangh
+lɐŋ 6	langh
+lɪŋ 6	lingh
+lɛŋ 6	lengh
+lʊŋ 6	lungh
+lɔŋ 6	longh
+lyŋ 6	lvngh
+lœŋ 6	loengh
+lɵŋ 6	leongh
+lap ̚ 6	laaph
+lɐp ̚ 6	laph
+lip ̚ 6	liph
+lɛp ̚ 6	leph
+lup ̚ 6	luph
+lɔp ̚ 6	loph
+lyp ̚ 6	lvph
+lœp ̚ 6	loeph
+lɵp ̚ 6	leoph
+lat ̚ 6	laath
+lɐt ̚ 6	lath
+lit ̚ 6	lith
+lɛt ̚ 6	leth
+lut ̚ 6	luth
+lɔt ̚ 6	loth
+lyt ̚ 6	lvth
+lœt ̚ 6	loeth
+lɵt ̚ 6	leoth
+lak ̚ 6	laakh
+lɐk ̚ 6	lakh
+lɪk ̚ 6	likh
+lɛk ̚ 6	lekh
+lʊk ̚ 6	lukh
+lɔk ̚ 6	lokh
+lyk ̚ 6	lvkh
+lœk ̚ 6	loekh
+lɵk ̚ 6	leokh
+ka 6	gaah
+kɐ 6	gah
+ki 6	gih
+kɛ 6	geh
+ku 6	guh
+kɔ 6	goh
+ky 6	gvh
+kœ 6	goeh
+kɵ 6	geoh
+kaɪ 6	gaaih
+kɐɪ 6	gaih
+kiɪ 6	giih
+keɪ 6	geih
+kuɪ 6	guih
+kɔɪ 6	goih
+kyɪ 6	gvih
+kœɪ 6	goeih
+kɵɪ 6	geoih
+kaʊ 6	gaauh
+kɐʊ 6	gauh
+kiʊ 6	giuh
+kɛʊ 6	geuh
+kuʊ 6	guuh
+koʊ 6	gouh
+kyʊ 6	gvuh
+kœʊ 6	goeuh
+kɵʊ 6	geouh
+kam 6	gaamh
+kɐm 6	gamh
+kim 6	gimh
+kɛm 6	gemh
+kum 6	gumh
+kɔm 6	gomh
+kym 6	gvmh
+kœm 6	goemh
+kɵm 6	geomh
+kan 6	gaanh
+kɐn 6	ganh
+kin 6	ginh
+kɛn 6	genh
+kun 6	gunh
+kɔn 6	gonh
+kyn 6	gvnh
+kœn 6	goenh
+kɵn 6	geonh
+kaŋ 6	gaangh
+kɐŋ 6	gangh
+kɪŋ 6	gingh
+kɛŋ 6	gengh
+kʊŋ 6	gungh
+kɔŋ 6	gongh
+kyŋ 6	gvngh
+kœŋ 6	goengh
+kɵŋ 6	geongh
+kap ̚ 6	gaaph
+kɐp ̚ 6	gaph
+kip ̚ 6	giph
+kɛp ̚ 6	geph
+kup ̚ 6	guph
+kɔp ̚ 6	goph
+kyp ̚ 6	gvph
+kœp ̚ 6	goeph
+kɵp ̚ 6	geoph
+kat ̚ 6	gaath
+kɐt ̚ 6	gath
+kit ̚ 6	gith
+kɛt ̚ 6	geth
+kut ̚ 6	guth
+kɔt ̚ 6	goth
+kyt ̚ 6	gvth
+kœt ̚ 6	goeth
+kɵt ̚ 6	geoth
+kak ̚ 6	gaakh
+kɐk ̚ 6	gakh
+kɪk ̚ 6	gikh
+kɛk ̚ 6	gekh
+kʊk ̚ 6	gukh
+kɔk ̚ 6	gokh
+kyk ̚ 6	gvkh
+kœk ̚ 6	goekh
+kɵk ̚ 6	geokh
+kʰa 6	kaah
+kʰɐ 6	kah
+kʰi 6	kih
+kʰɛ 6	keh
+kʰu 6	kuh
+kʰɔ 6	koh
+kʰy 6	kvh
+kʰœ 6	koeh
+kʰɵ 6	keoh
+kʰaɪ 6	kaaih
+kʰɐɪ 6	kaih
+kʰiɪ 6	kiih
+kʰeɪ 6	keih
+kʰuɪ 6	kuih
+kʰɔɪ 6	koih
+kʰyɪ 6	kvih
+kʰœɪ 6	koeih
+kʰɵɪ 6	keoih
+kʰaʊ 6	kaauh
+kʰɐʊ 6	kauh
+kʰiʊ 6	kiuh
+kʰɛʊ 6	keuh
+kʰuʊ 6	kuuh
+kʰoʊ 6	kouh
+kʰyʊ 6	kvuh
+kʰœʊ 6	koeuh
+kʰɵʊ 6	keouh
+kʰam 6	kaamh
+kʰɐm 6	kamh
+kʰim 6	kimh
+kʰɛm 6	kemh
+kʰum 6	kumh
+kʰɔm 6	komh
+kʰym 6	kvmh
+kʰœm 6	koemh
+kʰɵm 6	keomh
+kʰan 6	kaanh
+kʰɐn 6	kanh
+kʰin 6	kinh
+kʰɛn 6	kenh
+kʰun 6	kunh
+kʰɔn 6	konh
+kʰyn 6	kvnh
+kʰœn 6	koenh
+kʰɵn 6	keonh
+kʰaŋ 6	kaangh
+kʰɐŋ 6	kangh
+kʰɪŋ 6	kingh
+kʰɛŋ 6	kengh
+kʰʊŋ 6	kungh
+kʰɔŋ 6	kongh
+kʰyŋ 6	kvngh
+kʰœŋ 6	koengh
+kʰɵŋ 6	keongh
+kʰap ̚ 6	kaaph
+kʰɐp ̚ 6	kaph
+kʰip ̚ 6	kiph
+kʰɛp ̚ 6	keph
+kʰup ̚ 6	kuph
+kʰɔp ̚ 6	koph
+kʰyp ̚ 6	kvph
+kʰœp ̚ 6	koeph
+kʰɵp ̚ 6	keoph
+kʰat ̚ 6	kaath
+kʰɐt ̚ 6	kath
+kʰit ̚ 6	kith
+kʰɛt ̚ 6	keth
+kʰut ̚ 6	kuth
+kʰɔt ̚ 6	koth
+kʰyt ̚ 6	kvth
+kʰœt ̚ 6	koeth
+kʰɵt ̚ 6	keoth
+kʰak ̚ 6	kaakh
+kʰɐk ̚ 6	kakh
+kʰɪk ̚ 6	kikh
+kʰɛk ̚ 6	kekh
+kʰʊk ̚ 6	kukh
+kʰɔk ̚ 6	kokh
+kʰyk ̚ 6	kvkh
+kʰœk ̚ 6	koekh
+kʰɵk ̚ 6	keokh
+ŋa 6	ngaah
+ŋɐ 6	ngah
+ŋi 6	ngih
+ŋɛ 6	ngeh
+ŋu 6	nguh
+ŋɔ 6	ngoh
+ŋy 6	ngvh
+ŋœ 6	ngoeh
+ŋɵ 6	ngeoh
+ŋaɪ 6	ngaaih
+ŋɐɪ 6	ngaih
+ŋiɪ 6	ngiih
+ŋeɪ 6	ngeih
+ŋuɪ 6	nguih
+ŋɔɪ 6	ngoih
+ŋyɪ 6	ngvih
+ŋœɪ 6	ngoeih
+ŋɵɪ 6	ngeoih
+ŋaʊ 6	ngaauh
+ŋɐʊ 6	ngauh
+ŋiʊ 6	ngiuh
+ŋɛʊ 6	ngeuh
+ŋuʊ 6	nguuh
+ŋoʊ 6	ngouh
+ŋyʊ 6	ngvuh
+ŋœʊ 6	ngoeuh
+ŋɵʊ 6	ngeouh
+ŋam 6	ngaamh
+ŋɐm 6	ngamh
+ŋim 6	ngimh
+ŋɛm 6	ngemh
+ŋum 6	ngumh
+ŋɔm 6	ngomh
+ŋym 6	ngvmh
+ŋœm 6	ngoemh
+ŋɵm 6	ngeomh
+ŋan 6	ngaanh
+ŋɐn 6	nganh
+ŋin 6	nginh
+ŋɛn 6	ngenh
+ŋun 6	ngunh
+ŋɔn 6	ngonh
+ŋyn 6	ngvnh
+ŋœn 6	ngoenh
+ŋɵn 6	ngeonh
+ŋaŋ 6	ngaangh
+ŋɐŋ 6	ngangh
+ŋɪŋ 6	ngingh
+ŋɛŋ 6	ngengh
+ŋʊŋ 6	ngungh
+ŋɔŋ 6	ngongh
+ŋyŋ 6	ngvngh
+ŋœŋ 6	ngoengh
+ŋɵŋ 6	ngeongh
+ŋap ̚ 6	ngaaph
+ŋɐp ̚ 6	ngaph
+ŋip ̚ 6	ngiph
+ŋɛp ̚ 6	ngeph
+ŋup ̚ 6	nguph
+ŋɔp ̚ 6	ngoph
+ŋyp ̚ 6	ngvph
+ŋœp ̚ 6	ngoeph
+ŋɵp ̚ 6	ngeoph
+ŋat ̚ 6	ngaath
+ŋɐt ̚ 6	ngath
+ŋit ̚ 6	ngith
+ŋɛt ̚ 6	ngeth
+ŋut ̚ 6	nguth
+ŋɔt ̚ 6	ngoth
+ŋyt ̚ 6	ngvth
+ŋœt ̚ 6	ngoeth
+ŋɵt ̚ 6	ngeoth
+ŋak ̚ 6	ngaakh
+ŋɐk ̚ 6	ngakh
+ŋɪk ̚ 6	ngikh
+ŋɛk ̚ 6	ngekh
+ŋʊk ̚ 6	ngukh
+ŋɔk ̚ 6	ngokh
+ŋyk ̚ 6	ngvkh
+ŋœk ̚ 6	ngoekh
+ŋɵk ̚ 6	ngeokh
+ha 6	haah
+hɐ 6	hah
+hi 6	hih
+hɛ 6	heh
+hu 6	huh
+hɔ 6	hoh
+hy 6	hvh
+hœ 6	hoeh
+hɵ 6	heoh
+haɪ 6	haaih
+hɐɪ 6	haih
+hiɪ 6	hiih
+heɪ 6	heih
+huɪ 6	huih
+hɔɪ 6	hoih
+hyɪ 6	hvih
+hœɪ 6	hoeih
+hɵɪ 6	heoih
+haʊ 6	haauh
+hɐʊ 6	hauh
+hiʊ 6	hiuh
+hɛʊ 6	heuh
+huʊ 6	huuh
+hoʊ 6	houh
+hyʊ 6	hvuh
+hœʊ 6	hoeuh
+hɵʊ 6	heouh
+ham 6	haamh
+hɐm 6	hamh
+him 6	himh
+hɛm 6	hemh
+hum 6	humh
+hɔm 6	homh
+hym 6	hvmh
+hœm 6	hoemh
+hɵm 6	heomh
+han 6	haanh
+hɐn 6	hanh
+hin 6	hinh
+hɛn 6	henh
+hun 6	hunh
+hɔn 6	honh
+hyn 6	hvnh
+hœn 6	hoenh
+hɵn 6	heonh
+haŋ 6	haangh
+hɐŋ 6	hangh
+hɪŋ 6	hingh
+hɛŋ 6	hengh
+hʊŋ 6	hungh
+hɔŋ 6	hongh
+hyŋ 6	hvngh
+hœŋ 6	hoengh
+hɵŋ 6	heongh
+hap ̚ 6	haaph
+hɐp ̚ 6	haph
+hip ̚ 6	hiph
+hɛp ̚ 6	heph
+hup ̚ 6	huph
+hɔp ̚ 6	hoph
+hyp ̚ 6	hvph
+hœp ̚ 6	hoeph
+hɵp ̚ 6	heoph
+hat ̚ 6	haath
+hɐt ̚ 6	hath
+hit ̚ 6	hith
+hɛt ̚ 6	heth
+hut ̚ 6	huth
+hɔt ̚ 6	hoth
+hyt ̚ 6	hvth
+hœt ̚ 6	hoeth
+hɵt ̚ 6	heoth
+hak ̚ 6	haakh
+hɐk ̚ 6	hakh
+hɪk ̚ 6	hikh
+hɛk ̚ 6	hekh
+hʊk ̚ 6	hukh
+hɔk ̚ 6	hokh
+hyk ̚ 6	hvkh
+hœk ̚ 6	hoekh
+hɵk ̚ 6	heokh
+kʷa 6	gwaah
+kʷɐ 6	gwah
+kʷi 6	gwih
+kʷɛ 6	gweh
+kʷu 6	gwuh
+kʷɔ 6	gwoh
+kʷy 6	gwvh
+kʷœ 6	gwoeh
+kʷɵ 6	gweoh
+kʷaɪ 6	gwaaih
+kʷɐɪ 6	gwaih
+kʷiɪ 6	gwiih
+kʷeɪ 6	gweih
+kʷuɪ 6	gwuih
+kʷɔɪ 6	gwoih
+kʷyɪ 6	gwvih
+kʷœɪ 6	gwoeih
+kʷɵɪ 6	gweoih
+kʷaʊ 6	gwaauh
+kʷɐʊ 6	gwauh
+kʷiʊ 6	gwiuh
+kʷɛʊ 6	gweuh
+kʷuʊ 6	gwuuh
+kʷoʊ 6	gwouh
+kʷyʊ 6	gwvuh
+kʷœʊ 6	gwoeuh
+kʷɵʊ 6	gweouh
+kʷam 6	gwaamh
+kʷɐm 6	gwamh
+kʷim 6	gwimh
+kʷɛm 6	gwemh
+kʷum 6	gwumh
+kʷɔm 6	gwomh
+kʷym 6	gwvmh
+kʷœm 6	gwoemh
+kʷɵm 6	gweomh
+kʷan 6	gwaanh
+kʷɐn 6	gwanh
+kʷin 6	gwinh
+kʷɛn 6	gwenh
+kʷun 6	gwunh
+kʷɔn 6	gwonh
+kʷyn 6	gwvnh
+kʷœn 6	gwoenh
+kʷɵn 6	gweonh
+kʷaŋ 6	gwaangh
+kʷɐŋ 6	gwangh
+kʷɪŋ 6	gwingh
+kʷɛŋ 6	gwengh
+kʷʊŋ 6	gwungh
+kʷɔŋ 6	gwongh
+kʷyŋ 6	gwvngh
+kʷœŋ 6	gwoengh
+kʷɵŋ 6	gweongh
+kʷap ̚ 6	gwaaph
+kʷɐp ̚ 6	gwaph
+kʷip ̚ 6	gwiph
+kʷɛp ̚ 6	gweph
+kʷup ̚ 6	gwuph
+kʷɔp ̚ 6	gwoph
+kʷyp ̚ 6	gwvph
+kʷœp ̚ 6	gwoeph
+kʷɵp ̚ 6	gweoph
+kʷat ̚ 6	gwaath
+kʷɐt ̚ 6	gwath
+kʷit ̚ 6	gwith
+kʷɛt ̚ 6	gweth
+kʷut ̚ 6	gwuth
+kʷɔt ̚ 6	gwoth
+kʷyt ̚ 6	gwvth
+kʷœt ̚ 6	gwoeth
+kʷɵt ̚ 6	gweoth
+kʷak ̚ 6	gwaakh
+kʷɐk ̚ 6	gwakh
+kʷɪk ̚ 6	gwikh
+kʷɛk ̚ 6	gwekh
+kʷʊk ̚ 6	gwukh
+kʷɔk ̚ 6	gwokh
+kʷyk ̚ 6	gwvkh
+kʷœk ̚ 6	gwoekh
+kʷɵk ̚ 6	gweokh
+kʷʰa 6	kwaah
+kʷʰɐ 6	kwah
+kʷʰi 6	kwih
+kʷʰɛ 6	kweh
+kʷʰu 6	kwuh
+kʷʰɔ 6	kwoh
+kʷʰy 6	kwvh
+kʷʰœ 6	kwoeh
+kʷʰɵ 6	kweoh
+kʷʰaɪ 6	kwaaih
+kʷʰɐɪ 6	kwaih
+kʷʰiɪ 6	kwiih
+kʷʰeɪ 6	kweih
+kʷʰuɪ 6	kwuih
+kʷʰɔɪ 6	kwoih
+kʷʰyɪ 6	kwvih
+kʷʰœɪ 6	kwoeih
+kʷʰɵɪ 6	kweoih
+kʷʰaʊ 6	kwaauh
+kʷʰɐʊ 6	kwauh
+kʷʰiʊ 6	kwiuh
+kʷʰɛʊ 6	kweuh
+kʷʰuʊ 6	kwuuh
+kʷʰoʊ 6	kwouh
+kʷʰyʊ 6	kwvuh
+kʷʰœʊ 6	kwoeuh
+kʷʰɵʊ 6	kweouh
+kʷʰam 6	kwaamh
+kʷʰɐm 6	kwamh
+kʷʰim 6	kwimh
+kʷʰɛm 6	kwemh
+kʷʰum 6	kwumh
+kʷʰɔm 6	kwomh
+kʷʰym 6	kwvmh
+kʷʰœm 6	kwoemh
+kʷʰɵm 6	kweomh
+kʷʰan 6	kwaanh
+kʷʰɐn 6	kwanh
+kʷʰin 6	kwinh
+kʷʰɛn 6	kwenh
+kʷʰun 6	kwunh
+kʷʰɔn 6	kwonh
+kʷʰyn 6	kwvnh
+kʷʰœn 6	kwoenh
+kʷʰɵn 6	kweonh
+kʷʰaŋ 6	kwaangh
+kʷʰɐŋ 6	kwangh
+kʷʰɪŋ 6	kwingh
+kʷʰɛŋ 6	kwengh
+kʷʰʊŋ 6	kwungh
+kʷʰɔŋ 6	kwongh
+kʷʰyŋ 6	kwvngh
+kʷʰœŋ 6	kwoengh
+kʷʰɵŋ 6	kweongh
+kʷʰap ̚ 6	kwaaph
+kʷʰɐp ̚ 6	kwaph
+kʷʰip ̚ 6	kwiph
+kʷʰɛp ̚ 6	kweph
+kʷʰup ̚ 6	kwuph
+kʷʰɔp ̚ 6	kwoph
+kʷʰyp ̚ 6	kwvph
+kʷʰœp ̚ 6	kwoeph
+kʷʰɵp ̚ 6	kweoph
+kʷʰat ̚ 6	kwaath
+kʷʰɐt ̚ 6	kwath
+kʷʰit ̚ 6	kwith
+kʷʰɛt ̚ 6	kweth
+kʷʰut ̚ 6	kwuth
+kʷʰɔt ̚ 6	kwoth
+kʷʰyt ̚ 6	kwvth
+kʷʰœt ̚ 6	kwoeth
+kʷʰɵt ̚ 6	kweoth
+kʷʰak ̚ 6	kwaakh
+kʷʰɐk ̚ 6	kwakh
+kʷʰɪk ̚ 6	kwikh
+kʷʰɛk ̚ 6	kwekh
+kʷʰʊk ̚ 6	kwukh
+kʷʰɔk ̚ 6	kwokh
+kʷʰyk ̚ 6	kwvkh
+kʷʰœk ̚ 6	kwoekh
+kʷʰɵk ̚ 6	kweokh
+wa 6	waah
+wɐ 6	wah
+wi 6	wih
+wɛ 6	weh
+wu 6	wuh
+wɔ 6	woh
+wy 6	wvh
+wœ 6	woeh
+wɵ 6	weoh
+waɪ 6	waaih
+wɐɪ 6	waih
+wiɪ 6	wiih
+weɪ 6	weih
+wuɪ 6	wuih
+wɔɪ 6	woih
+wyɪ 6	wvih
+wœɪ 6	woeih
+wɵɪ 6	weoih
+waʊ 6	waauh
+wɐʊ 6	wauh
+wiʊ 6	wiuh
+wɛʊ 6	weuh
+wuʊ 6	wuuh
+woʊ 6	wouh
+wyʊ 6	wvuh
+wœʊ 6	woeuh
+wɵʊ 6	weouh
+wam 6	waamh
+wɐm 6	wamh
+wim 6	wimh
+wɛm 6	wemh
+wum 6	wumh
+wɔm 6	womh
+wym 6	wvmh
+wœm 6	woemh
+wɵm 6	weomh
+wan 6	waanh
+wɐn 6	wanh
+win 6	winh
+wɛn 6	wenh
+wun 6	wunh
+wɔn 6	wonh
+wyn 6	wvnh
+wœn 6	woenh
+wɵn 6	weonh
+waŋ 6	waangh
+wɐŋ 6	wangh
+wɪŋ 6	wingh
+wɛŋ 6	wengh
+wʊŋ 6	wungh
+wɔŋ 6	wongh
+wyŋ 6	wvngh
+wœŋ 6	woengh
+wɵŋ 6	weongh
+wap ̚ 6	waaph
+wɐp ̚ 6	waph
+wip ̚ 6	wiph
+wɛp ̚ 6	weph
+wup ̚ 6	wuph
+wɔp ̚ 6	woph
+wyp ̚ 6	wvph
+wœp ̚ 6	woeph
+wɵp ̚ 6	weoph
+wat ̚ 6	waath
+wɐt ̚ 6	wath
+wit ̚ 6	with
+wɛt ̚ 6	weth
+wut ̚ 6	wuth
+wɔt ̚ 6	woth
+wyt ̚ 6	wvth
+wœt ̚ 6	woeth
+wɵt ̚ 6	weoth
+wak ̚ 6	waakh
+wɐk ̚ 6	wakh
+wɪk ̚ 6	wikh
+wɛk ̚ 6	wekh
+wʊk ̚ 6	wukh
+wɔk ̚ 6	wokh
+wyk ̚ 6	wvkh
+wœk ̚ 6	woekh
+wɵk ̚ 6	weokh
+t͡sa 6	zaah
+t͡sɐ 6	zah
+t͡si 6	zih
+t͡sɛ 6	zeh
+t͡su 6	zuh
+t͡sɔ 6	zoh
+t͡sy 6	zvh
+t͡sœ 6	zoeh
+t͡sɵ 6	zeoh
+t͡saɪ 6	zaaih
+t͡sɐɪ 6	zaih
+t͡siɪ 6	ziih
+t͡seɪ 6	zeih
+t͡suɪ 6	zuih
+t͡sɔɪ 6	zoih
+t͡syɪ 6	zvih
+t͡sœɪ 6	zoeih
+t͡sɵɪ 6	zeoih
+t͡saʊ 6	zaauh
+t͡sɐʊ 6	zauh
+t͡siʊ 6	ziuh
+t͡sɛʊ 6	zeuh
+t͡suʊ 6	zuuh
+t͡soʊ 6	zouh
+t͡syʊ 6	zvuh
+t͡sœʊ 6	zoeuh
+t͡sɵʊ 6	zeouh
+t͡sam 6	zaamh
+t͡sɐm 6	zamh
+t͡sim 6	zimh
+t͡sɛm 6	zemh
+t͡sum 6	zumh
+t͡sɔm 6	zomh
+t͡sym 6	zvmh
+t͡sœm 6	zoemh
+t͡sɵm 6	zeomh
+t͡san 6	zaanh
+t͡sɐn 6	zanh
+t͡sin 6	zinh
+t͡sɛn 6	zenh
+t͡sun 6	zunh
+t͡sɔn 6	zonh
+t͡syn 6	zvnh
+t͡sœn 6	zoenh
+t͡sɵn 6	zeonh
+t͡saŋ 6	zaangh
+t͡sɐŋ 6	zangh
+t͡sɪŋ 6	zingh
+t͡sɛŋ 6	zengh
+t͡sʊŋ 6	zungh
+t͡sɔŋ 6	zongh
+t͡syŋ 6	zvngh
+t͡sœŋ 6	zoengh
+t͡sɵŋ 6	zeongh
+t͡sap ̚ 6	zaaph
+t͡sɐp ̚ 6	zaph
+t͡sip ̚ 6	ziph
+t͡sɛp ̚ 6	zeph
+t͡sup ̚ 6	zuph
+t͡sɔp ̚ 6	zoph
+t͡syp ̚ 6	zvph
+t͡sœp ̚ 6	zoeph
+t͡sɵp ̚ 6	zeoph
+t͡sat ̚ 6	zaath
+t͡sɐt ̚ 6	zath
+t͡sit ̚ 6	zith
+t͡sɛt ̚ 6	zeth
+t͡sut ̚ 6	zuth
+t͡sɔt ̚ 6	zoth
+t͡syt ̚ 6	zvth
+t͡sœt ̚ 6	zoeth
+t͡sɵt ̚ 6	zeoth
+t͡sak ̚ 6	zaakh
+t͡sɐk ̚ 6	zakh
+t͡sɪk ̚ 6	zikh
+t͡sɛk ̚ 6	zekh
+t͡sʊk ̚ 6	zukh
+t͡sɔk ̚ 6	zokh
+t͡syk ̚ 6	zvkh
+t͡sœk ̚ 6	zoekh
+t͡sɵk ̚ 6	zeokh
+t͡sʰa 6	caah
+t͡sʰɐ 6	cah
+t͡sʰi 6	cih
+t͡sʰɛ 6	ceh
+t͡sʰu 6	cuh
+t͡sʰɔ 6	coh
+t͡sʰy 6	cvh
+t͡sʰœ 6	coeh
+t͡sʰɵ 6	ceoh
+t͡sʰaɪ 6	caaih
+t͡sʰɐɪ 6	caih
+t͡sʰiɪ 6	ciih
+t͡sʰeɪ 6	ceih
+t͡sʰuɪ 6	cuih
+t͡sʰɔɪ 6	coih
+t͡sʰyɪ 6	cvih
+t͡sʰœɪ 6	coeih
+t͡sʰɵɪ 6	ceoih
+t͡sʰaʊ 6	caauh
+t͡sʰɐʊ 6	cauh
+t͡sʰiʊ 6	ciuh
+t͡sʰɛʊ 6	ceuh
+t͡sʰuʊ 6	cuuh
+t͡sʰoʊ 6	couh
+t͡sʰyʊ 6	cvuh
+t͡sʰœʊ 6	coeuh
+t͡sʰɵʊ 6	ceouh
+t͡sʰam 6	caamh
+t͡sʰɐm 6	camh
+t͡sʰim 6	cimh
+t͡sʰɛm 6	cemh
+t͡sʰum 6	cumh
+t͡sʰɔm 6	comh
+t͡sʰym 6	cvmh
+t͡sʰœm 6	coemh
+t͡sʰɵm 6	ceomh
+t͡sʰan 6	caanh
+t͡sʰɐn 6	canh
+t͡sʰin 6	cinh
+t͡sʰɛn 6	cenh
+t͡sʰun 6	cunh
+t͡sʰɔn 6	conh
+t͡sʰyn 6	cvnh
+t͡sʰœn 6	coenh
+t͡sʰɵn 6	ceonh
+t͡sʰaŋ 6	caangh
+t͡sʰɐŋ 6	cangh
+t͡sʰɪŋ 6	cingh
+t͡sʰɛŋ 6	cengh
+t͡sʰʊŋ 6	cungh
+t͡sʰɔŋ 6	congh
+t͡sʰyŋ 6	cvngh
+t͡sʰœŋ 6	coengh
+t͡sʰɵŋ 6	ceongh
+t͡sʰap ̚ 6	caaph
+t͡sʰɐp ̚ 6	caph
+t͡sʰip ̚ 6	ciph
+t͡sʰɛp ̚ 6	ceph
+t͡sʰup ̚ 6	cuph
+t͡sʰɔp ̚ 6	coph
+t͡sʰyp ̚ 6	cvph
+t͡sʰœp ̚ 6	coeph
+t͡sʰɵp ̚ 6	ceoph
+t͡sʰat ̚ 6	caath
+t͡sʰɐt ̚ 6	cath
+t͡sʰit ̚ 6	cith
+t͡sʰɛt ̚ 6	ceth
+t͡sʰut ̚ 6	cuth
+t͡sʰɔt ̚ 6	coth
+t͡sʰyt ̚ 6	cvth
+t͡sʰœt ̚ 6	coeth
+t͡sʰɵt ̚ 6	ceoth
+t͡sʰak ̚ 6	caakh
+t͡sʰɐk ̚ 6	cakh
+t͡sʰɪk ̚ 6	cikh
+t͡sʰɛk ̚ 6	cekh
+t͡sʰʊk ̚ 6	cukh
+t͡sʰɔk ̚ 6	cokh
+t͡sʰyk ̚ 6	cvkh
+t͡sʰœk ̚ 6	coekh
+t͡sʰɵk ̚ 6	ceokh
+sa 6	saah
+sɐ 6	sah
+si 6	sih
+sɛ 6	seh
+su 6	suh
+sɔ 6	soh
+sy 6	svh
+sœ 6	soeh
+sɵ 6	seoh
+saɪ 6	saaih
+sɐɪ 6	saih
+siɪ 6	siih
+seɪ 6	seih
+suɪ 6	suih
+sɔɪ 6	soih
+syɪ 6	svih
+sœɪ 6	soeih
+sɵɪ 6	seoih
+saʊ 6	saauh
+sɐʊ 6	sauh
+siʊ 6	siuh
+sɛʊ 6	seuh
+suʊ 6	suuh
+soʊ 6	souh
+syʊ 6	svuh
+sœʊ 6	soeuh
+sɵʊ 6	seouh
+sam 6	saamh
+sɐm 6	samh
+sim 6	simh
+sɛm 6	semh
+sum 6	sumh
+sɔm 6	somh
+sym 6	svmh
+sœm 6	soemh
+sɵm 6	seomh
+san 6	saanh
+sɐn 6	sanh
+sin 6	sinh
+sɛn 6	senh
+sun 6	sunh
+sɔn 6	sonh
+syn 6	svnh
+sœn 6	soenh
+sɵn 6	seonh
+saŋ 6	saangh
+sɐŋ 6	sangh
+sɪŋ 6	singh
+sɛŋ 6	sengh
+sʊŋ 6	sungh
+sɔŋ 6	songh
+syŋ 6	svngh
+sœŋ 6	soengh
+sɵŋ 6	seongh
+sap ̚ 6	saaph
+sɐp ̚ 6	saph
+sip ̚ 6	siph
+sɛp ̚ 6	seph
+sup ̚ 6	suph
+sɔp ̚ 6	soph
+syp ̚ 6	svph
+sœp ̚ 6	soeph
+sɵp ̚ 6	seoph
+sat ̚ 6	saath
+sɐt ̚ 6	sath
+sit ̚ 6	sith
+sɛt ̚ 6	seth
+sut ̚ 6	suth
+sɔt ̚ 6	soth
+syt ̚ 6	svth
+sœt ̚ 6	soeth
+sɵt ̚ 6	seoth
+sak ̚ 6	saakh
+sɐk ̚ 6	sakh
+sɪk ̚ 6	sikh
+sɛk ̚ 6	sekh
+sʊk ̚ 6	sukh
+sɔk ̚ 6	sokh
+syk ̚ 6	svkh
+sœk ̚ 6	soekh
+sɵk ̚ 6	seokh
+ja 6	yaah
+jɐ 6	yah
+ji 6	yih
+jɛ 6	yeh
+ju 6	yuh
+jɔ 6	yoh
+jy 6	yvh
+jœ 6	yoeh
+jɵ 6	yeoh
+jaɪ 6	yaaih
+jɐɪ 6	yaih
+jiɪ 6	yiih
+jeɪ 6	yeih
+juɪ 6	yuih
+jɔɪ 6	yoih
+jyɪ 6	yvih
+jœɪ 6	yoeih
+jɵɪ 6	yeoih
+jaʊ 6	yaauh
+jɐʊ 6	yauh
+jiʊ 6	yiuh
+jɛʊ 6	yeuh
+juʊ 6	yuuh
+joʊ 6	youh
+jyʊ 6	yvuh
+jœʊ 6	yoeuh
+jɵʊ 6	yeouh
+jam 6	yaamh
+jɐm 6	yamh
+jim 6	yimh
+jɛm 6	yemh
+jum 6	yumh
+jɔm 6	yomh
+jym 6	yvmh
+jœm 6	yoemh
+jɵm 6	yeomh
+jan 6	yaanh
+jɐn 6	yanh
+jin 6	yinh
+jɛn 6	yenh
+jun 6	yunh
+jɔn 6	yonh
+jyn 6	yvnh
+jœn 6	yoenh
+jɵn 6	yeonh
+jaŋ 6	yaangh
+jɐŋ 6	yangh
+jɪŋ 6	yingh
+jɛŋ 6	yengh
+jʊŋ 6	yungh
+jɔŋ 6	yongh
+jyŋ 6	yvngh
+jœŋ 6	yoengh
+jɵŋ 6	yeongh
+jap ̚ 6	yaaph
+jɐp ̚ 6	yaph
+jip ̚ 6	yiph
+jɛp ̚ 6	yeph
+jup ̚ 6	yuph
+jɔp ̚ 6	yoph
+jyp ̚ 6	yvph
+jœp ̚ 6	yoeph
+jɵp ̚ 6	yeoph
+jat ̚ 6	yaath
+jɐt ̚ 6	yath
+jit ̚ 6	yith
+jɛt ̚ 6	yeth
+jut ̚ 6	yuth
+jɔt ̚ 6	yoth
+jyt ̚ 6	yvth
+jœt ̚ 6	yoeth
+jɵt ̚ 6	yeoth
+jak ̚ 6	yaakh
+jɐk ̚ 6	yakh
+jɪk ̚ 6	yikh
+jɛk ̚ 6	yekh
+jʊk ̚ 6	yukh
+jɔk ̚ 6	yokh
+jyk ̚ 6	yvkh
+jœk ̚ 6	yoekh
+jɵk ̚ 6	yeokh
+m 6	mh
+hm 6	hmh
+ŋ 6	ngh
+hŋ 6	hngh
+pʰ	p
+p	b
+tʰ	t
+t	d
+kʰ	k
+k	g
+h	h
+f	f
+s	s
+m	m
+n	n
+ŋ	ng
+l	l
+j	y
+t͡sʰ	c
+t͡s	z
+kʷʰ	kw
+kʷ	gw
+w	w
+p ̚	p
+t ̚	t
+k ̚	k
