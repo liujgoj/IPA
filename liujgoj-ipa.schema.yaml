@@ -81,7 +81,7 @@ engine:
     - simplifier
     - simplifier@emoji_suggestion
     - uniquifier
-    - reverse_lookup_filter@jyut6ping3_reverse_lookup
+    - reverse_lookup_filter@liujgoj_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
